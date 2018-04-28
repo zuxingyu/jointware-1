@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>com.github.isdream</groupId>
+		<artifactId>jointware</artifactId>
+		<version>2.0.0</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>jointware-modules</artifactId>
+	<packaging>pom</packaging>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jointware.version>2.0.0</jointware.version>
+		<snakeyaml.version>1.19</snakeyaml.version>
+		<fabric8.version>3.1.10</fabric8.version>
+		<junit.version>4.12</junit.version>
+		<fastjson.version>1.2.45</fastjson.version>
+		<aliyun.core.version>3.6.0</aliyun.core.version>
+		<aliyun.ecs.version>4.6.7</aliyun.ecs.version>
+	</properties>
+	<modules>
+		<module>jointware-kubernetes</module>
+		<module>jointware-openshift</module>
+		<module>jointware-aliyun-ecs</module>
+	</modules>
+	<dependencyManagement>
+		<dependencies>
+			<!-- ******************************************************** -->
+			<!-- This platform -->
+			<!-- ******************************************************** -->
+
+			<!-- https://mvnrepository.com/artifact/com.github.isdream/jointware-core -->
+			<dependency>
+				<groupId>com.github.isdream</groupId>
+				<artifactId>jointware-core</artifactId>
+				<version>${jointware.version}</version>
+			</dependency>
+
+			<!-- ******************************************************** -->
+			<!-- Container-based platform -->
+			<!-- ******************************************************** -->
+
+			<!-- https://mvnrepository.com/artifact/io.fabric8/kubernetes-client -->
+			<dependency>
+				<groupId>io.fabric8</groupId>
+				<artifactId>kubernetes-client</artifactId>
+				<version>${fabric8.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.fabric8/openshift-client -->
+			<dependency>
+				<groupId>io.fabric8</groupId>
+				<artifactId>openshift-client</artifactId>
+				<version>${fabric8.version}</version>
+			</dependency>
+
+			<!-- ******************************************************** -->
+			<!-- VM-based platform -->
+			<!-- ******************************************************** -->
+			
+			<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
+			<dependency>
+				<groupId>com.aliyun</groupId>
+				<artifactId>aliyun-java-sdk-core</artifactId>
+				<version>${aliyun.core.version}</version>
+			</dependency>
+			
+			<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
+			<dependency>
+				<groupId>com.aliyun</groupId>
+				<artifactId>aliyun-java-sdk-ecs</artifactId>
+				<version>${aliyun.ecs.version}</version>
+			</dependency>
+			
+			
+			<!-- ******************************************************** -->
+			<!-- Utils -->
+			<!-- ******************************************************** -->
+			
+			<!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
+			<dependency>
+				<groupId>org.yaml</groupId>
+				<artifactId>snakeyaml</artifactId>
+				<version>${snakeyaml.version}</version>
+			</dependency>
+			
+			<!-- ******************************************************** -->
+			<!-- Tests -->
+			<!-- ******************************************************** -->
+			<!-- https://mvnrepository.com/artifact/junit/junit -->
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>${junit.version}</version>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>

@@ -1,0 +1,71 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: xyj-dm
+  namespace: default
+  labels:
+    app: xyj-dm
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: xyj-dm
+  template:
+    metadata:
+      name: xyj-dm
+      labels:
+        app: xyj-dm
+    spec:
+      nodeSelector:
+        xyj-dm: node1_node2 
+      containers:
+      - image: dcr.io:5000/busybox:latest
+        name: xyj-dm
+        resources:
+          requests:
+            cpu: 0.2
+            memory: 256Mi
+          limits:
+            cpu: 0.5
+            memory: 512Mi
+        livenessProbe: 
+          httpGet: 
+            path: / 
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 180
+          timeoutSeconds: 5 
+          periodSeconds: 15 
+          successThreshold: 1
+          failureThreshold: 1
+        readinessProbe:
+          httpGet: 
+            path: / 
+            port: 80 
+            scheme: HTTP
+          initialDelaySeconds: 180 
+          timeoutSeconds: 5 
+          periodSeconds: 15 
+        volumeMounts: 
+        - name: volume 
+          mountPath: /opt
+          subPath: mysql
+        command:
+          - sleep
+          - "3600"
+        env:
+        - name: JAVA_HOME
+          value: "/opt"
+        - name: TOMCAT_HOME
+          value: "/usr"
+        ports:
+        - containerPort: 8080
+          name: tomcat
+          protocol: TCP
+        - containerPort: 80
+          name: httpd
+          protocol: TCP
+        imagePullPolicy: IfNotPresent
+      volumes: 
+        - name: volume 
+          emptyDir: {}

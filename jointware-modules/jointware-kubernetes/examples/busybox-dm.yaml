@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: busybox-dm
+  namespace: wuheng
+  labels:
+    app: busybox-dm
+spec:
+  replicas: 2
+  template:
+    metadata:
+      name: busybox-dm
+      labels:
+        app: busybox-dm
+    spec:
+      containers:
+      - image: dcr.io:5000/busybox:latest
+        command:
+          - sleep
+          - "3600"
+        imagePullPolicy: IfNotPresent
+        name: busybox-dm

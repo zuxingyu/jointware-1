@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: busybox-job
+spec:
+  template:
+    metadata:
+      name: busybox-job
+    spec:
+      containers:
+      - name: busybox-job
+        image: dcr.io:5000/busybox:latest
+        command:
+          - sleep
+          - "3600000"
+      restartPolicy: Never

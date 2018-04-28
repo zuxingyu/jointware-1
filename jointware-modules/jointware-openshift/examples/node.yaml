@@ -1,0 +1,13 @@
+apiVersion: v1beta3
+kind: Node
+metadata:
+  name: 10.5.39.42
+  resource:
+    capacity:
+      cpu: 1000
+      memory: 1021888
+  labels:
+    environment: production
+    name: node1
+    role: web
+

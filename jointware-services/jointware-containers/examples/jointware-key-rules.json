@@ -1,0 +1,56 @@
+{
+	"workloads": {
+		"main": {
+			"name": "setMetadata-setName",
+			"namespace": "setMetadata-setNamespace",
+			"labels": "setMetadata-setLabels",
+			"replica": "setSpec-setReplicas",
+			"volumes": "setSpec-setTemplate-setSpec-setVolumes",
+			"instances": "setSpec-setTemplate-setSpec-setContainers",
+			"nodeSelector": "setSpec-setSelector-setMatchLabels",
+			"instanceLabels": "setSpec-setTemplate-setMetadata-setLabels",
+			"instanceName": "setSpec-setTemplate-setMetadata-setName"
+		},
+		"instance": {
+			"name": "setName",
+			"image": "setImage",
+			"args": "setArgs",
+			"command": "setCommand",
+			"envs": "setEnv",
+			"ports": "setPorts",
+			"volumeMounts": "setVolumeMounts"
+		},
+		"env": {
+			"value": "setValue",
+			"key": "setName"
+		},
+		"port": {
+			"protocol": "setProtocol",
+			"port": "setContainerPort",
+			"name": "setName"
+		},
+		"volumeMount": {
+			"mountPath": "setMountPath",
+			"name": "setName"
+		},
+		"limitsResources": {
+			"amount": "setAmount"
+		},
+		"requestsResources": {
+			"amount": "setAmount"
+		},
+		"volume-hostPath": {
+			"name": "setName",
+			"path": "setHostPath-setPath"
+		},
+		"livenessProbe-httpGet": {
+			"delaySeconds": "setLivenessProbe-setInitialDelaySeconds",
+			"path": "setLivenessProbe-setHttpGet-setPath",
+			"scheme": "setLivenessProbe-setHttpGet-setScheme",
+			"failureThreshold": "setLivenessProbe-setFailureThreshold",
+			"port": "setLivenessProbe-setHttpGet-setPort-setIntVal",
+			"timeoutSeconds": "setLivenessProbe-setTimeoutSeconds",
+			"successThreshold": "setLivenessProbe-setSuccessThreshold"
+		}
+	}
+}

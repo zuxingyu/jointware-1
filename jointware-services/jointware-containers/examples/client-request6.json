@@ -1,0 +1,85 @@
+{
+	"target": {
+		"masterIp": "118.190.46.58",
+		"masterPort": "9888",
+		"masterType": "http",
+		"configType": "releaseFullApplicationConfig",
+		"triggerType": "createOpenshiftDeployment",
+		"platformType": "kubernetes",
+		"kind": "Deployment"
+	},
+	"main": {
+		"labels": {
+			"projectId": 42,
+			"versionName": "ver1",
+			"versionType": "Deployment"
+		},
+		"name": "ksy-01",
+		"namespace": "xyj",
+		"replica": 1,
+		"instances": ["jointwareRef1-instance"],
+		"volumes": ["jointwareRef1-volume","jointwareRef2-volume"],
+		"nodeSelector":{
+			"ksy-01":"node1_node2"
+		}
+	},
+	"jointwareRef1-instance": {
+		"name": "this.app.container",
+		"image": "dcr.io:5000/busybox:latest",
+		"envs": ["jointwareRef-env"],
+		"ports": ["jointwareRef-port"],
+		"resources": ["jointwareRef-resource"],
+		"volumeMounts": ["jointwareRef1-volumeMount","jointwareRef2-volumeMount"],
+		"probes": ["jointwareRef-probe"]
+	},
+	"jointwareRef-env": [{
+		"key": "Local",
+		"value": "/user"
+	},
+	{
+		"key": "Home",
+		"value": "/home"
+	}],
+	"jointwareRef-port": [{
+		"name": "port1",
+		"port": "8080",
+		"protocol": "TCP"
+	}],
+	"jointwareRef-resource": {
+		"minCpu": "400m",
+		"maxCpu": "800m",
+		"minMem": "256Mi",
+		"maxMem": "512Mi"
+	},
+	"jointwareRef1-volumeMount": {
+		"name": "v1520492083654",
+		"type": "logPath",
+		"mountPath": "/local/host"
+	},
+	"jointwareRef2-volumeMount":{
+		"name": "v1520492083590",
+		"type": "logPath",
+		"mountPath": "/user/data"
+	},
+	"jointwareRef-probe": {
+		"type": "livenessProbe",
+		"requestType": "httpGet",
+		"delaySeconds": "10",
+		"scheme": "HTTP",
+		"port": "8080",
+		"path": "/",
+		"successThreshold": "1",
+		"failureThreshold": "1",
+		"timeoutSeconds": "20"
+	},
+	"jointwareRef1-volume":{
+		"name": "v1520492083654",
+		"volumeType": "hostPath",
+		"path": "/local/host"
+	},
+	"jointwareRef2-volume":{
+		"name": "v1520492083590",
+		"volumeType": "hostPath",
+		"path": "/user/data"
+	}
+}

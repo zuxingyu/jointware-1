@@ -1,0 +1,3 @@
+{
+	"kubernetes": "com.github.isdream.jointware.containers.clients.KubernetesClient"
+}

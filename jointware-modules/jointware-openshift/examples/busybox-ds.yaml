@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: DaemonSet
+metadata:
+  name: busybox-ds
+  labels:
+    app: busybox-ds
+spec:
+  template:
+    metadata:
+      labels:
+        app: busybox-ds
+    spec:
+      containers:
+      - name: busybox-ds
+        image: dcr.io:5000/busybox:latest

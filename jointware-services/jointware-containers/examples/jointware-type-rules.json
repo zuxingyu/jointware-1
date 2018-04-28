@@ -1,0 +1,11 @@
+{
+	"workloads": {
+		"instance" : "io.fabric8.kubernetes.api.model.Container",
+		"env" : "io.fabric8.kubernetes.api.model.EnvVar",
+		"port" : "io.fabric8.kubernetes.api.model.ContainerPort",
+		"volume" : "io.fabric8.kubernetes.api.model.Volume",
+		"volumeMount" : "io.fabric8.kubernetes.api.model.VolumeMount",
+		"resource-limites" : "io.fabric8.kubernetes.api.model.Quantity",
+		"resource-requests" : "io.fabric8.kubernetes.api.model.Quantity"
+	}
+}
