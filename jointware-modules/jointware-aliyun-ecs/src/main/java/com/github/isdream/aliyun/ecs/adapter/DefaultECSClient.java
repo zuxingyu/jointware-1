@@ -1,7 +1,7 @@
 /**
  * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.isdream.aliyunecs.adapter;
+package com.github.isdream.aliyun.ecs.adapter;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.github.isdream.jointware.core.utils.PackageUtil;

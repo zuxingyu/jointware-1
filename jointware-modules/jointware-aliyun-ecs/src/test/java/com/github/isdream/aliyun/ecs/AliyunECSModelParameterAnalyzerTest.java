@@ -1,4 +1,4 @@
-package com.github.isdream.aliyunecs;
+package com.github.isdream.aliyun.ecs;
 
 import com.aliyuncs.ecs.model.v20140526.CreateNatGatewayRequest;
 import com.aliyuncs.ecs.model.v20140526.UnassociateEipAddressRequest;
@@ -6,6 +6,7 @@ import com.aliyuncs.http.FormatType;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.http.ProtocolType;
 import com.aliyuncs.regions.ProductDomain;
+import com.github.isdream.aliyun.ecs.AliyunECSModelParameterAnalyzer;
 import com.github.isdream.jointware.core.helpers.ParametersHelper;
 import junit.framework.TestCase;
 

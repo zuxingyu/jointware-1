@@ -1,5 +1,7 @@
-package com.github.isdream.aliyunecs;
+package com.github.isdream.aliyun.ecs;
 
+import com.github.isdream.aliyun.ecs.AliyunECSKindAnalyzer;
+import com.github.isdream.aliyun.ecs.AliyunECSKindModelAnalyzer;
 import com.github.isdream.jointware.core.helpers.ModelsHelper;
 import junit.framework.TestCase;
 import org.junit.Assert;

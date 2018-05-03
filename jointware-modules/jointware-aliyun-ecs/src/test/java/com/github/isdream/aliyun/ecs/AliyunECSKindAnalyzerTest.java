@@ -1,8 +1,9 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.isdream.aliyunecs;
+package com.github.isdream.aliyun.ecs;
 
+import com.github.isdream.aliyun.ecs.AliyunECSKindAnalyzer;
 import com.github.isdream.jointware.core.helpers.FeaturesHelper;
 import junit.framework.TestCase;
 

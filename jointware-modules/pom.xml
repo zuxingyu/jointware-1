@@ -75,7 +75,13 @@
 				<version>${aliyun.ecs.version}</version>
 			</dependency>
 			
-			
+			<!-- https://mvnrepository.com/artifact/org.pacesys/openstack4j -->
+			<dependency>
+				<groupId>org.pacesys</groupId>
+				<artifactId>openstack4j</artifactId>
+				<version>3.1.0</version>
+			</dependency>
+
 			<!-- ******************************************************** -->
 			<!-- Utils -->
 			<!-- ******************************************************** -->

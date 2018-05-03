@@ -1,12 +1,12 @@
 /**
  * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.isdream.aliyunecs;
+package com.github.isdream.aliyun.ecs;
 
 import java.lang.reflect.Method;
 
 import com.aliyuncs.RpcAcsRequest;
-import com.github.isdream.aliyunecs.adapter.DefaultECSClient;
+import com.github.isdream.aliyun.ecs.adapter.DefaultECSClient;
 import com.github.isdream.jointware.core.KindAnalyzer;
 
 /**

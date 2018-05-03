@@ -1,4 +1,4 @@
-package com.github.isdream.aliyunecs;
+package com.github.isdream.aliyun.ecs;
 
 import com.github.isdream.jointware.core.ModelGenerator;
 import com.github.isdream.jointware.core.ModelParameterAnalyzer;
