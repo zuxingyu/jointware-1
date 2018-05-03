@@ -11,18 +11,17 @@ import com.tencentcloudapi.cvm.v20170312.CvmClient;
 
 /**
  * @author wuheng{@otcaix.iscas.ac.cn}
- * 2018年3月30日
+ * 2018年5月3日
  *
  */
 
 public class TencentCVMKindAnalyzer extends KindAnalyzer {
 
-	public final static String POSTFIX = "Request";
 	
 	@Override
 	protected boolean isKind(Method method) {
 		try {
-			if (method.getReturnType().getSimpleName().endsWith(POSTFIX)
+			if (method.getParameterCount() == 1
 					&& method.getReturnType().newInstance() instanceof AbstractModel) {
 				return true;
 			}
@@ -39,13 +38,7 @@ public class TencentCVMKindAnalyzer extends KindAnalyzer {
 
 	@Override
 	protected String toKind(Method method) {
-		String simpleName = method.getReturnType().getSimpleName();
-		return simpleName.substring(0, simpleName.length() - POSTFIX.length());
-	}
-
-	@Override
-	protected String toDesc(String parent, Method method) {
-		return null;
+		return method.getName();
 	}
 
 	@Override

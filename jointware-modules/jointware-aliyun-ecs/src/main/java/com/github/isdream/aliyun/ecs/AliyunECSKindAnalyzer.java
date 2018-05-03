@@ -11,7 +11,7 @@ import com.github.isdream.jointware.core.KindAnalyzer;
 
 /**
  * @author wuheng{@otcaix.iscas.ac.cn}
- * 2018年3月30日
+ * 2018年5月3日
  *
  */
 
