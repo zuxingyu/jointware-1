@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<parent>
@@ -20,11 +21,13 @@
 		<fastjson.version>1.2.45</fastjson.version>
 		<aliyun.core.version>3.6.0</aliyun.core.version>
 		<aliyun.ecs.version>4.6.7</aliyun.ecs.version>
+		<tencent.cvm.version>3.0.1</tencent.cvm.version>
 	</properties>
 	<modules>
 		<module>jointware-kubernetes</module>
 		<module>jointware-openshift</module>
 		<module>jointware-aliyun-ecs</module>
+		<module>jointware-tencent-cvm</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
@@ -60,21 +63,28 @@
 			<!-- ******************************************************** -->
 			<!-- VM-based platform -->
 			<!-- ******************************************************** -->
-			
+
 			<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
 			<dependency>
 				<groupId>com.aliyun</groupId>
 				<artifactId>aliyun-java-sdk-core</artifactId>
 				<version>${aliyun.core.version}</version>
 			</dependency>
-			
+
 			<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
 			<dependency>
 				<groupId>com.aliyun</groupId>
 				<artifactId>aliyun-java-sdk-ecs</artifactId>
 				<version>${aliyun.ecs.version}</version>
 			</dependency>
-			
+
+			<!-- https://mvnrepository.com/artifact/com.tencentcloudapi/tencentcloud-sdk-java -->
+			<dependency>
+				<groupId>com.tencentcloudapi</groupId>
+				<artifactId>tencentcloud-sdk-java</artifactId>
+				<version>${tencent.cvm.version}</version>
+			</dependency>
+
 			<!-- https://mvnrepository.com/artifact/org.pacesys/openstack4j -->
 			<dependency>
 				<groupId>org.pacesys</groupId>
@@ -85,14 +95,14 @@
 			<!-- ******************************************************** -->
 			<!-- Utils -->
 			<!-- ******************************************************** -->
-			
+
 			<!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
 			<dependency>
 				<groupId>org.yaml</groupId>
 				<artifactId>snakeyaml</artifactId>
 				<version>${snakeyaml.version}</version>
 			</dependency>
-			
+
 			<!-- ******************************************************** -->
 			<!-- Tests -->
 			<!-- ******************************************************** -->
