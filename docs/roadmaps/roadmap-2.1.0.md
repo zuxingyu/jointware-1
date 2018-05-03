@@ -18,4 +18,4 @@ We are planning on a 1-month release cycle. Our current estimated dates:
 #### VM
 
 - Support Aliyun-ecs
-- Support Huawei-ecs
+- Support Tencent-cvm
