@@ -56,7 +56,7 @@ We love [contributions](docs/contributing.md) and you are very welcome to help.
 
 ### Roadmaps
 
-* [roadmap 2.0.0](docs/roadmaps/roadmap-2.0.0.md)
+* [~~roadmap 2.0.0~~ ](docs/roadmaps/roadmap-2.0.0.md) 
 * [roadmap 2.1.0](docs/roadmaps/roadmap-2.1.0.md)
 
 
