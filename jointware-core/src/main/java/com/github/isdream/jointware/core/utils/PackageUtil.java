@@ -1,4 +1,6 @@
-
+/**
+ * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
+ */
 package com.github.isdream.jointware.core.utils;
 
 import java.io.File;

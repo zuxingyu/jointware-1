@@ -5,7 +5,8 @@ package com.github.isdream.aliyunecs;
 
 import java.lang.reflect.Method;
 
-import com.aliyuncs.DefaultAcsClient;
+import com.aliyuncs.RpcAcsRequest;
+import com.github.isdream.aliyunecs.adapter.DefaultECSClient;
 import com.github.isdream.jointware.core.KindAnalyzer;
 
 /**
@@ -15,25 +16,20 @@ import com.github.isdream.jointware.core.KindAnalyzer;
  */
 
 public class AliyunECSKindAnalyzer extends KindAnalyzer {
-	private static final String PACKAGE_NAME="com.aliyuncs.ecs.model.v20140526";
 
-	AliyunECSKindAnalyzer(){
-		super(PACKAGE_NAME);
-	}
-
+	public final static String POSTFIX = "Request";
+	
 	@Override
 	protected boolean isKind(Method method) {
-
-		if (method.getParameterCount()== 1) {
-			System.out.print(method.getName() + ":");
-			System.out.println(method.getParameterTypes()[0].getName());
+		try {
+			if (method.getReturnType().getSimpleName().endsWith(POSTFIX)
+					&& method.getReturnType().newInstance() instanceof RpcAcsRequest) {
+				return true;
+			}
+		} catch (Exception e) {
+			// ignore here
 		}
 		return false;
-	}
-
-	@Override
-	protected boolean isKind(String classname) {
-		return !classname.contains("$") && !classname.contains("Response");
 	}
 
 	@Override
@@ -43,7 +39,8 @@ public class AliyunECSKindAnalyzer extends KindAnalyzer {
 
 	@Override
 	protected String toKind(Method method) {
-		return null;
+		String simpleName = method.getReturnType().getSimpleName();
+		return simpleName.substring(0, simpleName.length() - POSTFIX.length());
 	}
 
 	@Override
@@ -53,7 +50,7 @@ public class AliyunECSKindAnalyzer extends KindAnalyzer {
 
 	@Override
 	public String getClient() {
-		return DefaultAcsClient.class.getName();
+		return DefaultECSClient.class.getName();
 	}
 
 	public static void main(String[] args) {

@@ -14,13 +14,9 @@ import com.github.isdream.jointware.core.KindAnalyzer;
  */
 public class DefaultKindAnalyzer extends KindAnalyzer {
 
+	
 	@Override
 	protected boolean isKind(Method method) {
-		return false;
-	}
-
-	@Override
-	protected boolean isKind(String classname) {
 		return false;
 	}
 

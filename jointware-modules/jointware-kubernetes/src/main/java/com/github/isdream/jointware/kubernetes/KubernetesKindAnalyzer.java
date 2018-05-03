@@ -9,7 +9,6 @@ import java.util.Map;
 
 import com.github.isdream.jointware.core.KindAnalyzer;
 import com.github.isdream.jointware.core.utils.ObjectUtils;
-import com.github.isdream.jointware.core.utils.StringUtils;
 
 import io.fabric8.kubernetes.client.DefaultKubernetesClient;
 import io.fabric8.kubernetes.client.dsl.MixedOperation;
@@ -64,11 +63,6 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 						&& (!method.isAnnotationPresent(Deprecated.class)));
 	}
 
-	@Override
-	protected boolean isKind(String classname) {
-		return false;
-	}
-
 	/**
 	 * 对于fabric8的DefaultKubernetesClient而言，如果返回值是以GroupDSL结尾的， 则说明它是一种kind的类型. <br>
 	 * <br>
@@ -96,15 +90,6 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 						: name.substring(0, name.length() - 1);
 	}
 
-	/**
-	 * 如果传入的名字name不存在，返回null
-	 * 
-	 */
-	@Override
-	protected String toDesc(String parent, Method method) {
-		return StringUtils.isNull(method.getName()) ? null : 
-				(StringUtils.isNull(parent) ? method.getName() : parent + "-" + method.getName());
-	}
 
 	@Override
 	public String getClient() {

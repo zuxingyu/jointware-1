@@ -5,7 +5,6 @@ package com.github.isdream.aliyunecs;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
-import com.aliyuncs.ecs.model.v20140526.CreateDiskRequest;
 import com.aliyuncs.ecs.model.v20140526.DescribeInstancesRequest;
 import com.aliyuncs.ecs.model.v20140526.DescribeInstancesResponse.Instance;
 import com.aliyuncs.ecs.model.v20140526.DescribeZonesRequest;

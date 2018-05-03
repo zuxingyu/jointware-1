@@ -5,12 +5,10 @@ package com.github.isdream.jointware.core;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import com.github.isdream.jointware.core.impl.DefaultClient;
-import com.github.isdream.jointware.core.utils.PackageUtil;
 import com.github.isdream.jointware.core.utils.StringUtils;
 
 
@@ -37,25 +35,20 @@ public abstract class KindAnalyzer {
 	protected final Map<String, String> kinds = new HashMap<String, String>();
 
 	/**
-	 *
+	 * default description
 	 */
 	protected final static String DEFAULT_DESC = "";
 
 	/**
-	 *
+	 * analyseKinds 
 	 */
 	public KindAnalyzer() {
 		analyseKinds(getClient(), DEFAULT_DESC);
 	}
 	
-	public KindAnalyzer(String packagename) {
-		analyseKinds(packagename);
-	}
 	/**
-	 * 分析出客户端(KubernetesClient，OpenShiftClient)的所有kind的类型
-	 *
-	 * @param classname 类名
-	 * @param parentDesc 父节点
+	 * @param classname  class 
+	 * @param parentDesc parent node
 	 */
 	protected void analyseKinds(String classname, String parentDesc) {
 		Class<?> clazz = loadClass(classname);
@@ -70,22 +63,6 @@ public abstract class KindAnalyzer {
 			}
 		}
 	}
-	/**
-	 * 分析出客户端(AliyunECS)的所有kind的类型
-	 * 寻找包名下所有不包含"$"字符的类名，并将有Resquest的后缀去掉。
-	 * @param packagename 包名
-	 */
-	protected void analyseKinds(String packagename) {
-
-		List<String> classnames= PackageUtil.getClassName(packagename);
-		for (String classname : classnames) {
-			if (isKind(classname)) {
-				kinds.put(StringUtils.splitByUpperCaseAndGetKind(classname),StringUtils.splitByUpperCaseAndGetKind(classname));
-			}
-		}
-
-	}
-
 
 	/**
 	 * 获取指定客户端(KubernetesClient，OpenShiftClient)的所有的kind的类型
@@ -121,6 +98,16 @@ public abstract class KindAnalyzer {
 			return DefaultClient.class;
 		}
 	}
+	
+	/**
+	 * @param parent 父节点是什么
+	 * @param method 方法名
+	 * @return 描述
+	 */
+	protected String toDesc(String parent, Method method) {
+		return StringUtils.isNull(method.getName()) ? null : 
+			(StringUtils.isNull(parent) ? method.getName() : parent + "-" + method.getName());
+	}
 
 	/************************************************************************************
 	 *
@@ -137,12 +124,6 @@ public abstract class KindAnalyzer {
 
 	/**
 	 *
-	 * @param classname 类名
-	 * @return 类名对应的kind
-	 */
-	protected abstract boolean isKind(String classname);
-	/**
-	 *
 	 * @param method 方法名
 	 * @return 是不是kindGroup
 	 */
@@ -153,14 +134,6 @@ public abstract class KindAnalyzer {
 	 * @return 转换为kind的类型
 	 */
 	protected abstract String toKind(Method method);
-
-	/**
-	 * @param parent 父节点是什么
-	 * @param method 方法名
-	 * @return 描述
-	 */
-	protected abstract String toDesc(String parent, Method method);
-
 
 	/**
 	 * @return the client for the specified cloud
