@@ -34,7 +34,7 @@ jointware
 
   **_1. Kubernetes_**
   
-    * [Kubernetes features and models](docs/containers/kubernetes/kind-model.md) 
+    * [Kubernetes features and models](docs/containers/Kkubernetes/kind-model.md) 
     * [kubernetes parameters with key-value style](docs/containers/Kubernetes/model-parameters-kv.md)
     * [kubernetes parameters with nested style](docs/containers/Kubernetes/model-parameters-nested.md)
     * [kubernetes parameters with json style](docs/containers/Kubernetes/model-parameters-json.md)
