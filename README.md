@@ -50,14 +50,14 @@ jointware
 
    **_1. AliyunECS_**
   
-    * [AliyunECS features and models](docs/containers/AliyunECS/kind-model.md) 
+    * [AliyunECS features and models](docs/VMs/AliyunECS/kind-model.md) 
     * [AliyunECS parameters with key-value style](docs/VMs/AliyunECS/model-parameters-kv.md)
     * [AliyunECS parameters with nested style](docs/VMs/AliyunECS/model-parameters-nested.md)
     * [AliyunECS parameters with json style](docs/VMs/AliyunECS/model-parameters-json.md)
 
    **_2. TencentCVM_**
   
-    * [TencentCVM features and models](docs/containers/TencentCVM/kind-model.md) 
+    * [TencentCVM features and models](docs/VMs/TencentCVM/kind-model.md) 
     * [TencentCVM parameters with key-value style](docs/VMs/TencentCVM/model-parameters-kv.md)
     * [TencentCVM parameters with nested style](docs/VMs/TencentCVM/model-parameters-nested.md)
     * [TencentCVM parameters with json style](docs/VMs/TencentCVM/model-parameters-json.md)
