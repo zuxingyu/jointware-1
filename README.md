@@ -30,21 +30,32 @@ jointware
   **_1. Kubernetes_**
   
     * [Kubernetes features and models](docs/containers/kubernetes/kind-model.md) 
-    * [kubernetes parameters with key-value style](docs/containers/kubernetes/model-parameters-kv.md)
-    * [kubernetes parameters with nested style](docs/containers/kubernetes/model-parameters-nested.md)
-    * [kubernetes parameters with json style](docs/containers/kubernetes/model-parameters-json.md)
+    * [kubernetes parameters with key-value style](docs/containers/Kubernetes/model-parameters-kv.md)
+    * [kubernetes parameters with nested style](docs/containers/Kubernetes/model-parameters-nested.md)
+    * [kubernetes parameters with json style](docs/containers/Kubernetes/model-parameters-json.md)
   
   **_2. OpenShift_**
   
-    * [OpenShift features and models](docs/containers/openshift/kind-model.md) 
-  
-  **_2. AliyunECS_**
+    * [OpenShift features and models](docs/containers/OpenShift/kind-model.md) 
+    * [OpenShift parameters with key-value style](docs/containers/OpenShift/model-parameters-kv.md)
+    * [OpenShift parameters with nested style](docs/containers/OpenShift/model-parameters-nested.md)
+    * [OpenShift parameters with json style](docs/containers/OpenShift/model-parameters-json.md)
+ 
+- #### **_VMs_**
+
+   **_1. AliyunECS_**
   
     * [AliyunECS features and models](docs/containers/AliyunECS/kind-model.md) 
-    * [AliyunECS parameters with key-value style](docs/containers/AliyunECS/model-parameters-kv.md)
-    * [AliyunECS parameters with nested style](docs/containers/AliyunECS/model-parameters-nested.md)
-    * [AliyunECS parameters with json style](docs/containers/AliyunECS/model-parameters-json.md)
+    * [AliyunECS parameters with key-value style](docs/VMs/AliyunECS/model-parameters-kv.md)
+    * [AliyunECS parameters with nested style](docs/VMs/AliyunECS/model-parameters-nested.md)
+    * [AliyunECS parameters with json style](docs/VMs/AliyunECS/model-parameters-json.md)
 
+   **_2. TencentCVM_**
+  
+    * [TencentCVM features and models](docs/containers/TencentCVM/kind-model.md) 
+    * [TencentCVM parameters with key-value style](docs/VMs/TencentCVM/model-parameters-kv.md)
+    * [TencentCVM parameters with nested style](docs/VMs/TencentCVM/model-parameters-nested.md)
+    * [TencentCVM parameters with json style](docs/VMs/TencentCVM/model-parameters-json.md)
 
 ### Building the code
 
