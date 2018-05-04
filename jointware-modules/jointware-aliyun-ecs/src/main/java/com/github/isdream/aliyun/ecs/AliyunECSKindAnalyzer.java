@@ -53,8 +53,4 @@ public class AliyunECSKindAnalyzer extends KindAnalyzer {
 		return DefaultECSClient.class.getName();
 	}
 
-	public static void main(String[] args) {
-		AliyunECSKindAnalyzer aa = new AliyunECSKindAnalyzer();
-		System.out.println(aa.getKinds());
-	}
 }

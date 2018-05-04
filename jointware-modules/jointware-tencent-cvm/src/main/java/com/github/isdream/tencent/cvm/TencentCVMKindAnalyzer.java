@@ -16,7 +16,6 @@ import com.tencentcloudapi.cvm.v20170312.CvmClient;
  */
 
 public class TencentCVMKindAnalyzer extends KindAnalyzer {
-
 	
 	@Override
 	protected boolean isKind(Method method) {
