@@ -7,7 +7,8 @@ import com.github.isdream.jointware.core.KindAnalyzer;
 import com.github.isdream.jointware.core.KindModelAnalyzer;
 
 /**
- * @author wuheng{@otcaix.iscas.ac.cn} 2018年5月4日
+ * @author wuheng{@otcaix.iscas.ac.cn} 
+ * 2018年5月4日
  *
  */
 public class AliyunECSKindModelAnalyzer extends KindModelAnalyzer {

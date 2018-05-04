@@ -44,9 +44,5 @@ public class TencentCVMKindAnalyzer extends KindAnalyzer {
 	public String getClient() {
 		return CvmClient.class.getName();
 	}
-
-	public static void main(String[] args) {
-		TencentCVMKindAnalyzer aa = new TencentCVMKindAnalyzer();
-		System.out.println(aa.getKinds());
-	}
+	
 }
