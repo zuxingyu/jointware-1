@@ -1,241 +1,241 @@
-## AliyunECS features:
+## AliyunECS models:
 
 ```
-- ModifySnapshotAttribute
-- JoinSecurityGroup
-- DescribeSnapshots
-- ModifyBandwidthPackageSpec
-- ModifyInstanceVncPasswd
-- CreateNatGateway
-- AttachDisk
-- ReInitDisk
-- CreateHaVip
-- ModifyAutoSnapshotPolicy
-- AssociateEipAddress
-- RevokeSecurityGroupEgress
-- DescribeEipAddresses
-- ActivateRouterInterface
-- DescribeSpotPriceHistory
-- TerminateVirtualBorderRouter
-- StopInstance
-- DescribeInstanceHistoryEvents
-- DeletePhysicalConnection
-- RevokeSecurityGroup
-- CheckAutoSnapshotPolicy
-- DescribeTaskAttribute
-- CreateAutoSnapshotPolicy
-- ReActivateInstances
-- DescribeForwardTableEntries
-- DescribeInstances
-- DescribeSecurityGroupReferences
-- DeleteRouterInterface
-- DetachInstanceRamRole
-- AllocatePublicIpAddress
-- AttachVolume
-- DescribeEipMonitorData
-- DescribeDisksFullStatus
-- CancelAutoSnapshotPolicy
-- DeleteNetworkInterface
-- ModifyInstanceSpec
-- DeleteSnapshot
-- DeleteKeyPairs
-- AuthorizeSecurityGroup
-- DescribeSnapshotMonitorData
-- DeleteSecurityGroup
-- ConnectRouterInterface
-- AddIpRange
-- CancelTask
-- ModifyPhysicalConnectionAttribute
-- ModifyCommand
-- ModifyVSwitchAttribute
-- ModifyInstanceAttribute
-- DeleteHaVip
-- DescribeSecurityGroups
-- ResizeDisk
-- ResizeVolume
-- CreateRouteEntry
-- AttachKeyPair
-- DescribeInvocations
-- CreateRouterInterface
-- ModifyVolumeAttribute
-- CheckDiskEnableAutoSnapshotValidation
-- RunInstances
-- StopInvocation
-- ModifyInstanceNetworkSpec
-- ModifyDiskAttribute
-- CreateVSwitch
-- ModifyEipAddressAttribute
-- DescribeBandwidthLimitation
-- RemoveTags
-- ModifySecurityGroupAttribute
-- ModifyInstanceAutoReleaseTime
-- DeleteNatGateway
-- DescribeZones
-- DeactivateRouterInterface
-- DescribeAvailableResource
-- DescribeAccessPoints
-- CreateCommand
-- DescribeInstancesFullStatus
-- ReleaseEipAddress
-- DetachClassicLinkVpc
-- DescribeVSwitches
-- ModifyRouterInterfaceSpec
-- ExportImage
-- DescribeVpcs
-- DescribeDiskMonitorData
-- ModifyDeploymentSetAttribute
-- ModifyRouterInterfaceAttribute
-- DescribeVirtualBorderRoutersForPhysicalConnection
-- StartInstance
-- CreateDisk
-- DescribeInstanceTypes
-- DescribeSnapshotPackage
-- ReInitVolume
-- RebootInstance
-- InvokeCommand
-- BindIpRange
-- ModifyUserBusinessBehavior
-- DeleteForwardEntry
-- DescribeHpcClusters
-- CancelAgreement
-- ModifyInstanceChargeType
-- ModifyInstanceAutoRenewAttribute
-- DescribeVirtualBorderRouters
-- ModifyHpcClusterAttribute
-- DescribeLimitation
-- DescribePrice
-- DeleteDeploymentSet
-- DescribeDeploymentSetTopology
-- ModifyInstanceVpcAttribute
-- CancelUserEvent
-- AddTags
-- CreateHpcCluster
-- DescribeUserBusinessBehavior
-- DescribeCommands
-- DeleteImage
-- DescribeDisks
-- DeleteVpc
-- DeleteCommand
-- DescribeImageSupportInstanceTypes
-- ReplaceSystemDisk
-- DeleteVSwitch
-- ModifyImageShareGroupPermission
-- DescribeInstanceVncUrl
-- RecoverVirtualBorderRouter
-- DescribeResourceByTags
-- DescribeClusters
-- DeleteBandwidthPackage
-- DescribeTags
-- DescribeImages
-- AuthorizeSecurityGroupEgress
-- SignAgreement
-- ImportImage
-- ModifyForwardEntry
-- RenewInstance
-- CopyImage
-- CreateVpc
-- DescribeInstanceMonitorData
-- UnassociateEipAddress
-- CreateSnapshot
-- ModifyVirtualBorderRouterAttribute
-- DetachKeyPair
-- DescribeTasks
-- DescribeRenewalPrice
-- LeaveSecurityGroup
-- DescribeInstanceVncPasswd
-- DescribeInstanceAutoRenewAttribute
-- ModifySecurityGroupRule
-- DescribeResourcesModification
-- ImportKeyPair
-- DescribeNewProjectEipMonitorData
-- UnbindIpRange
-- DeleteRecycleBin
-- DescribeInstanceRamRole
-- CreateImage
-- DescribeHaVips
-- DescribeInstanceAttribute
-- DetachDisk
-- ModifyImageAttribute
-- AddBandwidthPackageIps
-- DescribeInstanceStatus
-- DescribeNatGateways
-- DeleteHpcCluster
-- ResetDisk
-- ModifyDiskChargeType
-- DescribeVolumes
-- ModifyIntranetBandwidthKb
-- DescribeBandwidthPackages
-- ApplyAutoSnapshotPolicy
-- DescribeSnapshotLinks
-- CreateSecurityGroup
-- DescribeEventDetail
-- DescribeInvocationResults
-- DescribeRecommendInstanceType
-- DescribeTagKeys
-- CreateVolume
-- DeleteInstance
-- DescribeIntranetAttributeKb
-- ModifyVpcAttribute
-- RemoveBandwidthPackageIps
-- DescribeSnapshotsUsage
-- DeleteAutoSnapshotPolicy
-- ModifySecurityGroupEgressRule
-- CreateInstance
-- EnablePhysicalConnection
-- DescribeInstanceTypeFamilies
-- RollbackVolume
-- DeleteVolume
-- DescribeRouterInterfaces
-- CreateForwardEntry
-- EipNotifyPaid
-- ReleasePublicIpAddress
-- CreateVirtualBorderRouter
-- EipFillParams
-- ModifyPrepayInstanceSpec
-- EipFillProduct
-- DescribeRouteTables
-- DescribeUserData
-- ModifyAutoSnapshotPolicyEx
-- JoinResourceGroup
-- CreatePhysicalConnection
-- ModifyUserEventAttribute
-- DescribeKeyPairs
-- ModifySecurityGroupPolicy
-- AssociateHaVip
-- ConvertNatPublicIpToEip
-- DeleteRouteEntry
-- DeleteVirtualBorderRouter
-- DescribeInstancePhysicalAttribute
-- TerminatePhysicalConnection
-- AttachNetworkInterface
-- ModifyImageSharePermission
-- DescribeSecurityGroupAttribute
-- DescribeAutoSnapshotPolicyEx
-- DescribeImageSharePermission
-- CancelCopyImage
-- CreateDeploymentSet
-- DescribeRegions
-- DescribeClassicLinkInstances
-- DescribePhysicalConnections
-- DescribeAutoSnapshotPolicy
-- CreateUserEvent
-- DescribeRecycleBin
-- CreateNetworkInterface
-- DetachVolume
-- DescribeIpRanges
-- CancelPhysicalConnection
-- DescribeVRouters
-- DescribeNetworkInterfaces
-- DetachNetworkInterface
-- ModifyNetworkInterfaceAttribute
-- DescribeEvents
-- AllocateEipAddress
-- DeleteDisk
-- UnassociateHaVip
-- ModifyHaVipAttribute
-- CreateKeyPair
-- DescribeDeploymentSets
-- AttachClassicLinkVpc
-- AttachInstanceRamRole
-- ModifyVRouterAttribute
+- ModifySnapshotAttribute = com.aliyuncs.ecs.model.v20140526.ModifySnapshotAttributeRequest
+- JoinSecurityGroup = com.aliyuncs.ecs.model.v20140526.JoinSecurityGroupRequest
+- DescribeSnapshots = com.aliyuncs.ecs.model.v20140526.DescribeSnapshotsRequest
+- ModifyBandwidthPackageSpec = com.aliyuncs.ecs.model.v20140526.ModifyBandwidthPackageSpecRequest
+- ModifyInstanceVncPasswd = com.aliyuncs.ecs.model.v20140526.ModifyInstanceVncPasswdRequest
+- CreateNatGateway = com.aliyuncs.ecs.model.v20140526.CreateNatGatewayRequest
+- AttachDisk = com.aliyuncs.ecs.model.v20140526.AttachDiskRequest
+- ReInitDisk = com.aliyuncs.ecs.model.v20140526.ReInitDiskRequest
+- CreateHaVip = com.aliyuncs.ecs.model.v20140526.CreateHaVipRequest
+- ModifyAutoSnapshotPolicy = com.aliyuncs.ecs.model.v20140526.ModifyAutoSnapshotPolicyRequest
+- AssociateEipAddress = com.aliyuncs.ecs.model.v20140526.AssociateEipAddressRequest
+- RevokeSecurityGroupEgress = com.aliyuncs.ecs.model.v20140526.RevokeSecurityGroupEgressRequest
+- DescribeEipAddresses = com.aliyuncs.ecs.model.v20140526.DescribeEipAddressesRequest
+- ActivateRouterInterface = com.aliyuncs.ecs.model.v20140526.ActivateRouterInterfaceRequest
+- DescribeSpotPriceHistory = com.aliyuncs.ecs.model.v20140526.DescribeSpotPriceHistoryRequest
+- TerminateVirtualBorderRouter = com.aliyuncs.ecs.model.v20140526.TerminateVirtualBorderRouterRequest
+- StopInstance = com.aliyuncs.ecs.model.v20140526.StopInstanceRequest
+- DescribeInstanceHistoryEvents = com.aliyuncs.ecs.model.v20140526.DescribeInstanceHistoryEventsRequest
+- DeletePhysicalConnection = com.aliyuncs.ecs.model.v20140526.DeletePhysicalConnectionRequest
+- CheckAutoSnapshotPolicy = com.aliyuncs.ecs.model.v20140526.CheckAutoSnapshotPolicyRequest
+- RevokeSecurityGroup = com.aliyuncs.ecs.model.v20140526.RevokeSecurityGroupRequest
+- DescribeTaskAttribute = com.aliyuncs.ecs.model.v20140526.DescribeTaskAttributeRequest
+- CreateAutoSnapshotPolicy = com.aliyuncs.ecs.model.v20140526.CreateAutoSnapshotPolicyRequest
+- ReActivateInstances = com.aliyuncs.ecs.model.v20140526.ReActivateInstancesRequest
+- DescribeForwardTableEntries = com.aliyuncs.ecs.model.v20140526.DescribeForwardTableEntriesRequest
+- DescribeInstances = com.aliyuncs.ecs.model.v20140526.DescribeInstancesRequest
+- DescribeSecurityGroupReferences = com.aliyuncs.ecs.model.v20140526.DescribeSecurityGroupReferencesRequest
+- DeleteRouterInterface = com.aliyuncs.ecs.model.v20140526.DeleteRouterInterfaceRequest
+- DetachInstanceRamRole = com.aliyuncs.ecs.model.v20140526.DetachInstanceRamRoleRequest
+- AllocatePublicIpAddress = com.aliyuncs.ecs.model.v20140526.AllocatePublicIpAddressRequest
+- AttachVolume = com.aliyuncs.ecs.model.v20140526.AttachVolumeRequest
+- DescribeEipMonitorData = com.aliyuncs.ecs.model.v20140526.DescribeEipMonitorDataRequest
+- DescribeDisksFullStatus = com.aliyuncs.ecs.model.v20140526.DescribeDisksFullStatusRequest
+- CancelAutoSnapshotPolicy = com.aliyuncs.ecs.model.v20140526.CancelAutoSnapshotPolicyRequest
+- DeleteNetworkInterface = com.aliyuncs.ecs.model.v20140526.DeleteNetworkInterfaceRequest
+- ModifyInstanceSpec = com.aliyuncs.ecs.model.v20140526.ModifyInstanceSpecRequest
+- DeleteSnapshot = com.aliyuncs.ecs.model.v20140526.DeleteSnapshotRequest
+- DeleteKeyPairs = com.aliyuncs.ecs.model.v20140526.DeleteKeyPairsRequest
+- AuthorizeSecurityGroup = com.aliyuncs.ecs.model.v20140526.AuthorizeSecurityGroupRequest
+- DeleteSecurityGroup = com.aliyuncs.ecs.model.v20140526.DeleteSecurityGroupRequest
+- DescribeSnapshotMonitorData = com.aliyuncs.ecs.model.v20140526.DescribeSnapshotMonitorDataRequest
+- ConnectRouterInterface = com.aliyuncs.ecs.model.v20140526.ConnectRouterInterfaceRequest
+- AddIpRange = com.aliyuncs.ecs.model.v20140526.AddIpRangeRequest
+- CancelTask = com.aliyuncs.ecs.model.v20140526.CancelTaskRequest
+- ModifyPhysicalConnectionAttribute = com.aliyuncs.ecs.model.v20140526.ModifyPhysicalConnectionAttributeRequest
+- ModifyCommand = com.aliyuncs.ecs.model.v20140526.ModifyCommandRequest
+- ModifyVSwitchAttribute = com.aliyuncs.ecs.model.v20140526.ModifyVSwitchAttributeRequest
+- ModifyInstanceAttribute = com.aliyuncs.ecs.model.v20140526.ModifyInstanceAttributeRequest
+- DeleteHaVip = com.aliyuncs.ecs.model.v20140526.DeleteHaVipRequest
+- DescribeSecurityGroups = com.aliyuncs.ecs.model.v20140526.DescribeSecurityGroupsRequest
+- ResizeVolume = com.aliyuncs.ecs.model.v20140526.ResizeVolumeRequest
+- ResizeDisk = com.aliyuncs.ecs.model.v20140526.ResizeDiskRequest
+- CreateRouteEntry = com.aliyuncs.ecs.model.v20140526.CreateRouteEntryRequest
+- AttachKeyPair = com.aliyuncs.ecs.model.v20140526.AttachKeyPairRequest
+- DescribeInvocations = com.aliyuncs.ecs.model.v20140526.DescribeInvocationsRequest
+- CreateRouterInterface = com.aliyuncs.ecs.model.v20140526.CreateRouterInterfaceRequest
+- ModifyVolumeAttribute = com.aliyuncs.ecs.model.v20140526.ModifyVolumeAttributeRequest
+- CheckDiskEnableAutoSnapshotValidation = com.aliyuncs.ecs.model.v20140526.CheckDiskEnableAutoSnapshotValidationRequest
+- RunInstances = com.aliyuncs.ecs.model.v20140526.RunInstancesRequest
+- StopInvocation = com.aliyuncs.ecs.model.v20140526.StopInvocationRequest
+- ModifyInstanceNetworkSpec = com.aliyuncs.ecs.model.v20140526.ModifyInstanceNetworkSpecRequest
+- ModifyDiskAttribute = com.aliyuncs.ecs.model.v20140526.ModifyDiskAttributeRequest
+- CreateVSwitch = com.aliyuncs.ecs.model.v20140526.CreateVSwitchRequest
+- ModifyEipAddressAttribute = com.aliyuncs.ecs.model.v20140526.ModifyEipAddressAttributeRequest
+- DescribeBandwidthLimitation = com.aliyuncs.ecs.model.v20140526.DescribeBandwidthLimitationRequest
+- RemoveTags = com.aliyuncs.ecs.model.v20140526.RemoveTagsRequest
+- ModifySecurityGroupAttribute = com.aliyuncs.ecs.model.v20140526.ModifySecurityGroupAttributeRequest
+- ModifyInstanceAutoReleaseTime = com.aliyuncs.ecs.model.v20140526.ModifyInstanceAutoReleaseTimeRequest
+- DeleteNatGateway = com.aliyuncs.ecs.model.v20140526.DeleteNatGatewayRequest
+- DescribeZones = com.aliyuncs.ecs.model.v20140526.DescribeZonesRequest
+- DeactivateRouterInterface = com.aliyuncs.ecs.model.v20140526.DeactivateRouterInterfaceRequest
+- DescribeAvailableResource = com.aliyuncs.ecs.model.v20140526.DescribeAvailableResourceRequest
+- DescribeAccessPoints = com.aliyuncs.ecs.model.v20140526.DescribeAccessPointsRequest
+- CreateCommand = com.aliyuncs.ecs.model.v20140526.CreateCommandRequest
+- DescribeInstancesFullStatus = com.aliyuncs.ecs.model.v20140526.DescribeInstancesFullStatusRequest
+- ReleaseEipAddress = com.aliyuncs.ecs.model.v20140526.ReleaseEipAddressRequest
+- DetachClassicLinkVpc = com.aliyuncs.ecs.model.v20140526.DetachClassicLinkVpcRequest
+- DescribeVSwitches = com.aliyuncs.ecs.model.v20140526.DescribeVSwitchesRequest
+- ExportImage = com.aliyuncs.ecs.model.v20140526.ExportImageRequest
+- ModifyRouterInterfaceSpec = com.aliyuncs.ecs.model.v20140526.ModifyRouterInterfaceSpecRequest
+- DescribeVpcs = com.aliyuncs.ecs.model.v20140526.DescribeVpcsRequest
+- DescribeDiskMonitorData = com.aliyuncs.ecs.model.v20140526.DescribeDiskMonitorDataRequest
+- ModifyDeploymentSetAttribute = com.aliyuncs.ecs.model.v20140526.ModifyDeploymentSetAttributeRequest
+- ModifyRouterInterfaceAttribute = com.aliyuncs.ecs.model.v20140526.ModifyRouterInterfaceAttributeRequest
+- DescribeVirtualBorderRoutersForPhysicalConnection = com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersForPhysicalConnectionRequest
+- StartInstance = com.aliyuncs.ecs.model.v20140526.StartInstanceRequest
+- CreateDisk = com.aliyuncs.ecs.model.v20140526.CreateDiskRequest
+- DescribeInstanceTypes = com.aliyuncs.ecs.model.v20140526.DescribeInstanceTypesRequest
+- DescribeSnapshotPackage = com.aliyuncs.ecs.model.v20140526.DescribeSnapshotPackageRequest
+- ReInitVolume = com.aliyuncs.ecs.model.v20140526.ReInitVolumeRequest
+- RebootInstance = com.aliyuncs.ecs.model.v20140526.RebootInstanceRequest
+- InvokeCommand = com.aliyuncs.ecs.model.v20140526.InvokeCommandRequest
+- BindIpRange = com.aliyuncs.ecs.model.v20140526.BindIpRangeRequest
+- ModifyUserBusinessBehavior = com.aliyuncs.ecs.model.v20140526.ModifyUserBusinessBehaviorRequest
+- DeleteForwardEntry = com.aliyuncs.ecs.model.v20140526.DeleteForwardEntryRequest
+- DescribeHpcClusters = com.aliyuncs.ecs.model.v20140526.DescribeHpcClustersRequest
+- CancelAgreement = com.aliyuncs.ecs.model.v20140526.CancelAgreementRequest
+- ModifyInstanceChargeType = com.aliyuncs.ecs.model.v20140526.ModifyInstanceChargeTypeRequest
+- ModifyInstanceAutoRenewAttribute = com.aliyuncs.ecs.model.v20140526.ModifyInstanceAutoRenewAttributeRequest
+- DescribeVirtualBorderRouters = com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersRequest
+- ModifyHpcClusterAttribute = com.aliyuncs.ecs.model.v20140526.ModifyHpcClusterAttributeRequest
+- DescribeLimitation = com.aliyuncs.ecs.model.v20140526.DescribeLimitationRequest
+- DescribePrice = com.aliyuncs.ecs.model.v20140526.DescribePriceRequest
+- DeleteDeploymentSet = com.aliyuncs.ecs.model.v20140526.DeleteDeploymentSetRequest
+- DescribeDeploymentSetTopology = com.aliyuncs.ecs.model.v20140526.DescribeDeploymentSetTopologyRequest
+- ModifyInstanceVpcAttribute = com.aliyuncs.ecs.model.v20140526.ModifyInstanceVpcAttributeRequest
+- AddTags = com.aliyuncs.ecs.model.v20140526.AddTagsRequest
+- CancelUserEvent = com.aliyuncs.ecs.model.v20140526.CancelUserEventRequest
+- CreateHpcCluster = com.aliyuncs.ecs.model.v20140526.CreateHpcClusterRequest
+- DescribeUserBusinessBehavior = com.aliyuncs.ecs.model.v20140526.DescribeUserBusinessBehaviorRequest
+- DescribeCommands = com.aliyuncs.ecs.model.v20140526.DescribeCommandsRequest
+- DeleteImage = com.aliyuncs.ecs.model.v20140526.DeleteImageRequest
+- DescribeDisks = com.aliyuncs.ecs.model.v20140526.DescribeDisksRequest
+- DeleteVpc = com.aliyuncs.ecs.model.v20140526.DeleteVpcRequest
+- DeleteCommand = com.aliyuncs.ecs.model.v20140526.DeleteCommandRequest
+- DescribeImageSupportInstanceTypes = com.aliyuncs.ecs.model.v20140526.DescribeImageSupportInstanceTypesRequest
+- ReplaceSystemDisk = com.aliyuncs.ecs.model.v20140526.ReplaceSystemDiskRequest
+- DeleteVSwitch = com.aliyuncs.ecs.model.v20140526.DeleteVSwitchRequest
+- ModifyImageShareGroupPermission = com.aliyuncs.ecs.model.v20140526.ModifyImageShareGroupPermissionRequest
+- DescribeInstanceVncUrl = com.aliyuncs.ecs.model.v20140526.DescribeInstanceVncUrlRequest
+- RecoverVirtualBorderRouter = com.aliyuncs.ecs.model.v20140526.RecoverVirtualBorderRouterRequest
+- DescribeResourceByTags = com.aliyuncs.ecs.model.v20140526.DescribeResourceByTagsRequest
+- DescribeClusters = com.aliyuncs.ecs.model.v20140526.DescribeClustersRequest
+- DeleteBandwidthPackage = com.aliyuncs.ecs.model.v20140526.DeleteBandwidthPackageRequest
+- DescribeTags = com.aliyuncs.ecs.model.v20140526.DescribeTagsRequest
+- DescribeImages = com.aliyuncs.ecs.model.v20140526.DescribeImagesRequest
+- AuthorizeSecurityGroupEgress = com.aliyuncs.ecs.model.v20140526.AuthorizeSecurityGroupEgressRequest
+- SignAgreement = com.aliyuncs.ecs.model.v20140526.SignAgreementRequest
+- ImportImage = com.aliyuncs.ecs.model.v20140526.ImportImageRequest
+- ModifyForwardEntry = com.aliyuncs.ecs.model.v20140526.ModifyForwardEntryRequest
+- RenewInstance = com.aliyuncs.ecs.model.v20140526.RenewInstanceRequest
+- CopyImage = com.aliyuncs.ecs.model.v20140526.CopyImageRequest
+- CreateVpc = com.aliyuncs.ecs.model.v20140526.CreateVpcRequest
+- DescribeInstanceMonitorData = com.aliyuncs.ecs.model.v20140526.DescribeInstanceMonitorDataRequest
+- UnassociateEipAddress = com.aliyuncs.ecs.model.v20140526.UnassociateEipAddressRequest
+- CreateSnapshot = com.aliyuncs.ecs.model.v20140526.CreateSnapshotRequest
+- ModifyVirtualBorderRouterAttribute = com.aliyuncs.ecs.model.v20140526.ModifyVirtualBorderRouterAttributeRequest
+- DetachKeyPair = com.aliyuncs.ecs.model.v20140526.DetachKeyPairRequest
+- DescribeTasks = com.aliyuncs.ecs.model.v20140526.DescribeTasksRequest
+- DescribeRenewalPrice = com.aliyuncs.ecs.model.v20140526.DescribeRenewalPriceRequest
+- LeaveSecurityGroup = com.aliyuncs.ecs.model.v20140526.LeaveSecurityGroupRequest
+- DescribeInstanceVncPasswd = com.aliyuncs.ecs.model.v20140526.DescribeInstanceVncPasswdRequest
+- DescribeInstanceAutoRenewAttribute = com.aliyuncs.ecs.model.v20140526.DescribeInstanceAutoRenewAttributeRequest
+- ModifySecurityGroupRule = com.aliyuncs.ecs.model.v20140526.ModifySecurityGroupRuleRequest
+- DescribeResourcesModification = com.aliyuncs.ecs.model.v20140526.DescribeResourcesModificationRequest
+- ImportKeyPair = com.aliyuncs.ecs.model.v20140526.ImportKeyPairRequest
+- DescribeNewProjectEipMonitorData = com.aliyuncs.ecs.model.v20140526.DescribeNewProjectEipMonitorDataRequest
+- UnbindIpRange = com.aliyuncs.ecs.model.v20140526.UnbindIpRangeRequest
+- DeleteRecycleBin = com.aliyuncs.ecs.model.v20140526.DeleteRecycleBinRequest
+- DescribeInstanceRamRole = com.aliyuncs.ecs.model.v20140526.DescribeInstanceRamRoleRequest
+- CreateImage = com.aliyuncs.ecs.model.v20140526.CreateImageRequest
+- DescribeHaVips = com.aliyuncs.ecs.model.v20140526.DescribeHaVipsRequest
+- DescribeInstanceAttribute = com.aliyuncs.ecs.model.v20140526.DescribeInstanceAttributeRequest
+- DetachDisk = com.aliyuncs.ecs.model.v20140526.DetachDiskRequest
+- ModifyImageAttribute = com.aliyuncs.ecs.model.v20140526.ModifyImageAttributeRequest
+- AddBandwidthPackageIps = com.aliyuncs.ecs.model.v20140526.AddBandwidthPackageIpsRequest
+- DescribeInstanceStatus = com.aliyuncs.ecs.model.v20140526.DescribeInstanceStatusRequest
+- DescribeNatGateways = com.aliyuncs.ecs.model.v20140526.DescribeNatGatewaysRequest
+- DeleteHpcCluster = com.aliyuncs.ecs.model.v20140526.DeleteHpcClusterRequest
+- ResetDisk = com.aliyuncs.ecs.model.v20140526.ResetDiskRequest
+- ModifyDiskChargeType = com.aliyuncs.ecs.model.v20140526.ModifyDiskChargeTypeRequest
+- DescribeVolumes = com.aliyuncs.ecs.model.v20140526.DescribeVolumesRequest
+- ModifyIntranetBandwidthKb = com.aliyuncs.ecs.model.v20140526.ModifyIntranetBandwidthKbRequest
+- DescribeBandwidthPackages = com.aliyuncs.ecs.model.v20140526.DescribeBandwidthPackagesRequest
+- ApplyAutoSnapshotPolicy = com.aliyuncs.ecs.model.v20140526.ApplyAutoSnapshotPolicyRequest
+- DescribeSnapshotLinks = com.aliyuncs.ecs.model.v20140526.DescribeSnapshotLinksRequest
+- CreateSecurityGroup = com.aliyuncs.ecs.model.v20140526.CreateSecurityGroupRequest
+- DescribeEventDetail = com.aliyuncs.ecs.model.v20140526.DescribeEventDetailRequest
+- DescribeInvocationResults = com.aliyuncs.ecs.model.v20140526.DescribeInvocationResultsRequest
+- DescribeRecommendInstanceType = com.aliyuncs.ecs.model.v20140526.DescribeRecommendInstanceTypeRequest
+- DescribeTagKeys = com.aliyuncs.ecs.model.v20140526.DescribeTagKeysRequest
+- CreateVolume = com.aliyuncs.ecs.model.v20140526.CreateVolumeRequest
+- DeleteInstance = com.aliyuncs.ecs.model.v20140526.DeleteInstanceRequest
+- DescribeIntranetAttributeKb = com.aliyuncs.ecs.model.v20140526.DescribeIntranetAttributeKbRequest
+- ModifyVpcAttribute = com.aliyuncs.ecs.model.v20140526.ModifyVpcAttributeRequest
+- RemoveBandwidthPackageIps = com.aliyuncs.ecs.model.v20140526.RemoveBandwidthPackageIpsRequest
+- DescribeSnapshotsUsage = com.aliyuncs.ecs.model.v20140526.DescribeSnapshotsUsageRequest
+- DeleteAutoSnapshotPolicy = com.aliyuncs.ecs.model.v20140526.DeleteAutoSnapshotPolicyRequest
+- ModifySecurityGroupEgressRule = com.aliyuncs.ecs.model.v20140526.ModifySecurityGroupEgressRuleRequest
+- CreateInstance = com.aliyuncs.ecs.model.v20140526.CreateInstanceRequest
+- EnablePhysicalConnection = com.aliyuncs.ecs.model.v20140526.EnablePhysicalConnectionRequest
+- DescribeInstanceTypeFamilies = com.aliyuncs.ecs.model.v20140526.DescribeInstanceTypeFamiliesRequest
+- RollbackVolume = com.aliyuncs.ecs.model.v20140526.RollbackVolumeRequest
+- DeleteVolume = com.aliyuncs.ecs.model.v20140526.DeleteVolumeRequest
+- DescribeRouterInterfaces = com.aliyuncs.ecs.model.v20140526.DescribeRouterInterfacesRequest
+- CreateForwardEntry = com.aliyuncs.ecs.model.v20140526.CreateForwardEntryRequest
+- EipNotifyPaid = com.aliyuncs.ecs.model.v20140526.EipNotifyPaidRequest
+- ReleasePublicIpAddress = com.aliyuncs.ecs.model.v20140526.ReleasePublicIpAddressRequest
+- CreateVirtualBorderRouter = com.aliyuncs.ecs.model.v20140526.CreateVirtualBorderRouterRequest
+- EipFillParams = com.aliyuncs.ecs.model.v20140526.EipFillParamsRequest
+- ModifyPrepayInstanceSpec = com.aliyuncs.ecs.model.v20140526.ModifyPrepayInstanceSpecRequest
+- EipFillProduct = com.aliyuncs.ecs.model.v20140526.EipFillProductRequest
+- DescribeRouteTables = com.aliyuncs.ecs.model.v20140526.DescribeRouteTablesRequest
+- DescribeUserData = com.aliyuncs.ecs.model.v20140526.DescribeUserDataRequest
+- JoinResourceGroup = com.aliyuncs.ecs.model.v20140526.JoinResourceGroupRequest
+- ModifyAutoSnapshotPolicyEx = com.aliyuncs.ecs.model.v20140526.ModifyAutoSnapshotPolicyExRequest
+- CreatePhysicalConnection = com.aliyuncs.ecs.model.v20140526.CreatePhysicalConnectionRequest
+- ModifyUserEventAttribute = com.aliyuncs.ecs.model.v20140526.ModifyUserEventAttributeRequest
+- DescribeKeyPairs = com.aliyuncs.ecs.model.v20140526.DescribeKeyPairsRequest
+- ModifySecurityGroupPolicy = com.aliyuncs.ecs.model.v20140526.ModifySecurityGroupPolicyRequest
+- AssociateHaVip = com.aliyuncs.ecs.model.v20140526.AssociateHaVipRequest
+- ConvertNatPublicIpToEip = com.aliyuncs.ecs.model.v20140526.ConvertNatPublicIpToEipRequest
+- DeleteRouteEntry = com.aliyuncs.ecs.model.v20140526.DeleteRouteEntryRequest
+- DeleteVirtualBorderRouter = com.aliyuncs.ecs.model.v20140526.DeleteVirtualBorderRouterRequest
+- DescribeInstancePhysicalAttribute = com.aliyuncs.ecs.model.v20140526.DescribeInstancePhysicalAttributeRequest
+- TerminatePhysicalConnection = com.aliyuncs.ecs.model.v20140526.TerminatePhysicalConnectionRequest
+- AttachNetworkInterface = com.aliyuncs.ecs.model.v20140526.AttachNetworkInterfaceRequest
+- ModifyImageSharePermission = com.aliyuncs.ecs.model.v20140526.ModifyImageSharePermissionRequest
+- DescribeSecurityGroupAttribute = com.aliyuncs.ecs.model.v20140526.DescribeSecurityGroupAttributeRequest
+- DescribeAutoSnapshotPolicyEx = com.aliyuncs.ecs.model.v20140526.DescribeAutoSnapshotPolicyExRequest
+- DescribeImageSharePermission = com.aliyuncs.ecs.model.v20140526.DescribeImageSharePermissionRequest
+- CancelCopyImage = com.aliyuncs.ecs.model.v20140526.CancelCopyImageRequest
+- CreateDeploymentSet = com.aliyuncs.ecs.model.v20140526.CreateDeploymentSetRequest
+- DescribeRegions = com.aliyuncs.ecs.model.v20140526.DescribeRegionsRequest
+- DescribeClassicLinkInstances = com.aliyuncs.ecs.model.v20140526.DescribeClassicLinkInstancesRequest
+- DescribePhysicalConnections = com.aliyuncs.ecs.model.v20140526.DescribePhysicalConnectionsRequest
+- DescribeAutoSnapshotPolicy = com.aliyuncs.ecs.model.v20140526.DescribeAutoSnapshotPolicyRequest
+- CreateUserEvent = com.aliyuncs.ecs.model.v20140526.CreateUserEventRequest
+- DescribeRecycleBin = com.aliyuncs.ecs.model.v20140526.DescribeRecycleBinRequest
+- CreateNetworkInterface = com.aliyuncs.ecs.model.v20140526.CreateNetworkInterfaceRequest
+- DetachVolume = com.aliyuncs.ecs.model.v20140526.DetachVolumeRequest
+- DescribeIpRanges = com.aliyuncs.ecs.model.v20140526.DescribeIpRangesRequest
+- CancelPhysicalConnection = com.aliyuncs.ecs.model.v20140526.CancelPhysicalConnectionRequest
+- DescribeVRouters = com.aliyuncs.ecs.model.v20140526.DescribeVRoutersRequest
+- DescribeNetworkInterfaces = com.aliyuncs.ecs.model.v20140526.DescribeNetworkInterfacesRequest
+- DetachNetworkInterface = com.aliyuncs.ecs.model.v20140526.DetachNetworkInterfaceRequest
+- ModifyNetworkInterfaceAttribute = com.aliyuncs.ecs.model.v20140526.ModifyNetworkInterfaceAttributeRequest
+- DescribeEvents = com.aliyuncs.ecs.model.v20140526.DescribeEventsRequest
+- AllocateEipAddress = com.aliyuncs.ecs.model.v20140526.AllocateEipAddressRequest
+- DeleteDisk = com.aliyuncs.ecs.model.v20140526.DeleteDiskRequest
+- UnassociateHaVip = com.aliyuncs.ecs.model.v20140526.UnassociateHaVipRequest
+- ModifyHaVipAttribute = com.aliyuncs.ecs.model.v20140526.ModifyHaVipAttributeRequest
+- CreateKeyPair = com.aliyuncs.ecs.model.v20140526.CreateKeyPairRequest
+- DescribeDeploymentSets = com.aliyuncs.ecs.model.v20140526.DescribeDeploymentSetsRequest
+- AttachClassicLinkVpc = com.aliyuncs.ecs.model.v20140526.AttachClassicLinkVpcRequest
+- AttachInstanceRamRole = com.aliyuncs.ecs.model.v20140526.AttachInstanceRamRoleRequest
+- ModifyVRouterAttribute = com.aliyuncs.ecs.model.v20140526.ModifyVRouterAttributeRequest
 ```
