@@ -19,6 +19,7 @@ import junit.framework.TestCase;
  *
  * 2018年2月20日
  */
+@SuppressWarnings("deprecation")
 public class OpenshiftKindModelsAnalyzerTest extends TestCase {
 
 	Map<String, String> kindModels = null;
