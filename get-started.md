@@ -1,12 +1,24 @@
 ## Prerequisite
 
-We have updated this project to MAVEN Center (Public), and you can use it by configuring your pom.xml.
+We have updated this project to MAVEN Center (Public), and you can use it by configuring your pom.xml. Take Kubernetes/OpenShift for example.
 
 ```
 <dependency>
     <groupId>com.github.isdream</groupId>
-    <artifactId>cluster-dispatcher</artifactId>
-    <version>1.2.1</version>
+    <artifactId>jointware-core</artifactId>
+    <version>2.1.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.isdream</groupId>
+    <artifactId>jointware-kubernetes</artifactId>
+    <version>2.1.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.github.isdream</groupId>
+    <artifactId>jointware-openshift</artifactId>
+    <version>2.1.0</version>
 </dependency>
 ```
 
@@ -114,7 +126,7 @@ protected static String write(String kind, String file) throws ClassNotFoundExce
 Kubernetes:
 
 ```
-   DefaultKubernetesClient client = new DefaultKubernetesClient("http://118.190.46.58:9888");
+   DefaultKubernetesClient client = new DefaultKubernetesClient("http://IP:port");
 	 KubernetesModelParametersGenerator generator = new KubernetesModelParametersGenerator();
 	 generator.create(client, Constants.YAML_DEPLOYMENT, params);
 ```
@@ -122,7 +134,7 @@ Kubernetes:
 OpenShift:
 
 ```
-   DefaultOpenShiftClient client = new DefaultOpenShiftClient("http://118.190.46.58:9888");
+   DefaultOpenShiftClient client = new DefaultOpenShiftClient("http://IP:port");
 	 OpenShiftModelParametersGenerator generator = new OpenShiftModelParametersGenerator();
 	 generator.create(client, Constants.YAML_DEPLOYMENT, params);
 ```
@@ -146,4 +158,4 @@ OpenShift:
 	 generator.scaleTo(client, Constants.YAML_DEPLOYMENT, "default", "busybox-dm", 4);
 ```
 
- Please see https://github.com/isdream/cluster-dispatcher/blob/master/src/main/java/com/github/isdream/cdispatcher/ModelParamtersGenerator.java for more detail 
+ Please see https://github.com/isdream/jointware/blob/master/jointware-core/src/main/java/com/github/isdream/jointware/core/ModelParameterAnalyzer.java for more detail 
