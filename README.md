@@ -16,6 +16,11 @@ jointware
 * <a href="http://kubernetes.io/">Kubernetes</a>
 * <a href="https://www.openshift.com/">OpenShift</a>
 
+#### **_VMs_**
+
+* <a href="https://www.aliyun.com/">AliyunECS</a>
+* <a href="https://cloud.tencent.com/">TencentCVM</a>
+
 
 
 ### Getting Started
