@@ -25,6 +25,10 @@ public abstract class ModelParameterAnalyzer {
 
 	protected final static String MODEL_METHOD_SET = "set";
 	
+	protected final static String MODEL_METHOD_ADD = "add";
+	
+	protected final static String MODEL_METHOD_WITH = "with";
+	
 	public final static Set<String> ignoreMethods = new HashSet<String>();
 	
 	/************************************************************************************
@@ -220,8 +224,10 @@ public abstract class ModelParameterAnalyzer {
 	 * @return 是否可以反射
 	 */
 	protected boolean canReflect(Method method) {
-		return !ObjectUtils.isNull(method) && 
-				(method.getName().startsWith(MODEL_METHOD_SET) // set开头的方法
+		return !ObjectUtils.isNull(method) &&        
+				((method.getName().startsWith(MODEL_METHOD_SET)             // set开头的方法
+						|| method.getName().startsWith(MODEL_METHOD_ADD)    // add开头的方法
+						|| method.getName().startsWith(MODEL_METHOD_WITH))  // with开头的方法
 				   && method.getParameterCount() == 1 // 该方法只有一个参数
 				   && !JavaUtils.ignoreMethod(method.getName())
 				   && !ignoreMethods.contains(method.getName())
