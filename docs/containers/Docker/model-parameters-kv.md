@@ -12,7 +12,6 @@
 ## Kubernetes ExecCreate parameters:
 
 ```
-- withContainerId = java.lang.String
 - withAttachStderr = java.lang.Boolean
 - withAttachStdin = java.lang.Boolean
 - withAttachStdout = java.lang.Boolean
@@ -28,12 +27,12 @@
 ```
 - withTag = java.lang.String
 - withAuthConfig = com.github.dockerjava.api.model.AuthConfig
-- withAuthConfig-withEmail = java.lang.String
 - withAuthConfig-withUsername = java.lang.String
-- withAuthConfig-withPassword = java.lang.String
 - withAuthConfig-withRegistryAddress = java.lang.String
-- withAuthConfig-withAuth = java.lang.String
+- withAuthConfig-withPassword = java.lang.String
+- withAuthConfig-withEmail = java.lang.String
 - withAuthConfig-withRegistrytoken = java.lang.String
+- withAuthConfig-withAuth = java.lang.String
 - withRepository = java.lang.String
 - withRegistry = java.lang.String
 ```
@@ -85,7 +84,6 @@
 ## Kubernetes CreateNetwork parameters:
 
 ```
-- withCheckDuplicate = boolean
 - withLabels = java.util.Map<java.lang.String, java.lang.String>
 - withName = java.lang.String
 - withDriver = java.lang.String
@@ -100,10 +98,10 @@
 ## Kubernetes JoinSwarm parameters:
 
 ```
-- withAdvertiseAddr = java.lang.String
 - withListenAddr = java.lang.String
 - withRemoteAddrs = java.util.List<java.lang.String>
 - withJoinToken = java.lang.String
+- withAdvertiseAddr = java.lang.String
 ```
 ## Kubernetes UnpauseContainer parameters:
 
@@ -138,8 +136,6 @@
 ## Kubernetes UpdateSwarm parameters:
 
 ```
-- withRotateWorkerToken = java.lang.Boolean
-- withRotateManagerToken = java.lang.Boolean
 - withVersion = java.lang.Long
 - withSwarmSpec = com.github.dockerjava.api.model.SwarmSpec
 - withSwarmSpec-withName = java.lang.String
@@ -148,20 +144,22 @@
 - withSwarmSpec-withDispatcher = com.github.dockerjava.api.model.SwarmDispatcherConfig
 - withSwarmSpec-withDispatcher-withHeartbeatPeriod = java.lang.Long
 - withSwarmSpec-withCaConfig = com.github.dockerjava.api.model.SwarmCAConfig
-- withSwarmSpec-withCaConfig-withNodeCertExpiry = java.lang.Long
 - withSwarmSpec-withCaConfig-withExternalCA = java.util.List<com.github.dockerjava.api.model.ExternalCA>
 - withSwarmSpec-withCaConfig-withExternalCA-withOptions = java.util.Map<java.lang.String, java.lang.String>
 - withSwarmSpec-withCaConfig-withExternalCA-withProtocol = com.github.dockerjava.api.model.ExternalCAProtocol
 - withSwarmSpec-withCaConfig-withExternalCA-withUrl = java.lang.String
+- withSwarmSpec-withCaConfig-withNodeCertExpiry = java.lang.Long
 - withSwarmSpec-withRaft = com.github.dockerjava.api.model.SwarmRaftConfig
+- withSwarmSpec-withRaft-withElectionTick = int
 - withSwarmSpec-withRaft-withLogEntriesForSlowFollowers = long
 - withSwarmSpec-withRaft-withHeartbeatTick = int
 - withSwarmSpec-withRaft-withSnapshotInterval = long
-- withSwarmSpec-withRaft-withElectionTick = int
 - withSwarmSpec-withTaskDefaults = com.github.dockerjava.api.model.TaskDefaults
 - withSwarmSpec-withTaskDefaults-withLogDriver = com.github.dockerjava.api.model.Driver
 - withSwarmSpec-withTaskDefaults-withLogDriver-withName = java.lang.String
 - withSwarmSpec-withTaskDefaults-withLogDriver-withOptions = java.util.Map<java.lang.String, java.lang.String>
+- withRotateWorkerToken = java.lang.Boolean
+- withRotateManagerToken = java.lang.Boolean
 ```
 ## Kubernetes InspectImage parameters:
 
@@ -171,17 +169,6 @@
 ## Kubernetes BuildImage parameters:
 
 ```
-- withBuildAuthConfigs = com.github.dockerjava.api.model.AuthConfigurations
-- withBuildAuthConfigs-addConfig = com.github.dockerjava.api.model.AuthConfig
-- withBuildAuthConfigs-addConfig-withEmail = java.lang.String
-- withBuildAuthConfigs-addConfig-withUsername = java.lang.String
-- withBuildAuthConfigs-addConfig-withPassword = java.lang.String
-- withBuildAuthConfigs-addConfig-withRegistryAddress = java.lang.String
-- withBuildAuthConfigs-addConfig-withAuth = java.lang.String
-- withBuildAuthConfigs-addConfig-withRegistrytoken = java.lang.String
-- withTag = java.lang.String
-- withLabels = java.util.Map<java.lang.String, java.lang.String>
-- withMemory = java.lang.Long
 - withTarInputStream = java.io.InputStream
 - withBaseDirectory = java.io.File
 - withBaseDirectory-setExecutable = boolean
@@ -189,6 +176,9 @@
 - withBaseDirectory-setReadable = boolean
 - withBaseDirectory-setWritable = boolean
 - withDockerfilePath = java.lang.String
+- withTag = java.lang.String
+- withLabels = java.util.Map<java.lang.String, java.lang.String>
+- withMemory = java.lang.Long
 - withTags = java.util.Set<java.lang.String>
 - withCacheFrom = java.util.Set<java.lang.String>
 - withRemote = java.net.URI
@@ -206,6 +196,14 @@
 - withCpushares = java.lang.String
 - withCpusetcpus = java.lang.String
 - withShmsize = java.lang.Long
+- withBuildAuthConfigs = com.github.dockerjava.api.model.AuthConfigurations
+- withBuildAuthConfigs-addConfig = com.github.dockerjava.api.model.AuthConfig
+- withBuildAuthConfigs-addConfig-withUsername = java.lang.String
+- withBuildAuthConfigs-addConfig-withRegistryAddress = java.lang.String
+- withBuildAuthConfigs-addConfig-withPassword = java.lang.String
+- withBuildAuthConfigs-addConfig-withEmail = java.lang.String
+- withBuildAuthConfigs-addConfig-withRegistrytoken = java.lang.String
+- withBuildAuthConfigs-addConfig-withAuth = java.lang.String
 ```
 ## Kubernetes ListServices parameters:
 
@@ -234,19 +232,19 @@
 ## Kubernetes ListTasks parameters:
 
 ```
-- withServiceFilter = java.lang.String[]
+- withNameFilter = java.lang.String[]
 ```
 ## Kubernetes PushImage parameters:
 
 ```
 - withTag = java.lang.String
 - withAuthConfig = com.github.dockerjava.api.model.AuthConfig
-- withAuthConfig-withEmail = java.lang.String
 - withAuthConfig-withUsername = java.lang.String
-- withAuthConfig-withPassword = java.lang.String
 - withAuthConfig-withRegistryAddress = java.lang.String
-- withAuthConfig-withAuth = java.lang.String
+- withAuthConfig-withPassword = java.lang.String
+- withAuthConfig-withEmail = java.lang.String
 - withAuthConfig-withRegistrytoken = java.lang.String
+- withAuthConfig-withAuth = java.lang.String
 - withName = java.lang.String
 ```
 ## Kubernetes WaitContainer parameters:
@@ -270,6 +268,23 @@
 - withServiceSpec-withRollbackConfig-withMaxFailureRatio = java.lang.Float
 - withServiceSpec-withTaskTemplate = com.github.dockerjava.api.model.TaskSpec
 - withServiceSpec-withTaskTemplate-withForceUpdate = java.lang.Integer
+- withServiceSpec-withTaskTemplate-withRuntime = java.lang.String
+- withServiceSpec-withTaskTemplate-withPlacement = com.github.dockerjava.api.model.ServicePlacement
+- withServiceSpec-withTaskTemplate-withPlacement-withConstraints = java.util.List<java.lang.String>
+- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms = java.util.List<com.github.dockerjava.api.model.SwarmNodePlatform>
+- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withOs = java.lang.String
+- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withArchitecture = java.lang.String
+- withServiceSpec-withTaskTemplate-withRestartPolicy = com.github.dockerjava.api.model.ServiceRestartPolicy
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withDelay = java.lang.Long
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withCondition = com.github.dockerjava.api.model.ServiceRestartCondition
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withMaxAttempts = java.lang.Long
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withWindow = java.lang.Long
+- withServiceSpec-withTaskTemplate-withLogDriver = com.github.dockerjava.api.model.Driver
+- withServiceSpec-withTaskTemplate-withLogDriver-withName = java.lang.String
+- withServiceSpec-withTaskTemplate-withLogDriver-withOptions = java.util.Map<java.lang.String, java.lang.String>
+- withServiceSpec-withTaskTemplate-withNetworks = java.util.List<com.github.dockerjava.api.model.NetworkAttachmentConfig>
+- withServiceSpec-withTaskTemplate-withNetworks-withAliases = java.util.List<java.lang.String>
+- withServiceSpec-withTaskTemplate-withNetworks-withTarget = java.lang.String
 - withServiceSpec-withTaskTemplate-withResources = com.github.dockerjava.api.model.ResourceRequirements
 - withServiceSpec-withTaskTemplate-withResources-withLimits = com.github.dockerjava.api.model.ResourceSpecs
 - withServiceSpec-withTaskTemplate-withResources-withLimits-withMemoryBytes = long
@@ -277,20 +292,6 @@
 - withServiceSpec-withTaskTemplate-withResources-withReservations = com.github.dockerjava.api.model.ResourceSpecs
 - withServiceSpec-withTaskTemplate-withResources-withReservations-withMemoryBytes = long
 - withServiceSpec-withTaskTemplate-withResources-withReservations-withNanoCPUs = long
-- withServiceSpec-withTaskTemplate-withRestartPolicy = com.github.dockerjava.api.model.ServiceRestartPolicy
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withDelay = java.lang.Long
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withCondition = com.github.dockerjava.api.model.ServiceRestartCondition
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withMaxAttempts = java.lang.Long
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withWindow = java.lang.Long
-- withServiceSpec-withTaskTemplate-withNetworks = java.util.List<com.github.dockerjava.api.model.NetworkAttachmentConfig>
-- withServiceSpec-withTaskTemplate-withNetworks-withAliases = java.util.List<java.lang.String>
-- withServiceSpec-withTaskTemplate-withNetworks-withTarget = java.lang.String
-- withServiceSpec-withTaskTemplate-withRuntime = java.lang.String
-- withServiceSpec-withTaskTemplate-withPlacement = com.github.dockerjava.api.model.ServicePlacement
-- withServiceSpec-withTaskTemplate-withPlacement-withConstraints = java.util.List<java.lang.String>
-- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms = java.util.List<com.github.dockerjava.api.model.SwarmNodePlatform>
-- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withOs = java.lang.String
-- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withArchitecture = java.lang.String
 - withServiceSpec-withTaskTemplate-withContainerSpec = com.github.dockerjava.api.model.ContainerSpec
 - withServiceSpec-withTaskTemplate-withContainerSpec-withEnv = java.util.List<java.lang.String>
 - withServiceSpec-withTaskTemplate-withContainerSpec-withStopSignal = java.lang.String
@@ -357,9 +358,6 @@
 - withServiceSpec-withTaskTemplate-withContainerSpec-withConfigs-withConfigID = java.lang.String
 - withServiceSpec-withTaskTemplate-withContainerSpec-withConfigs-withConfigName = java.lang.String
 - withServiceSpec-withTaskTemplate-withContainerSpec-withStopGracePeriod = java.lang.Long
-- withServiceSpec-withTaskTemplate-withLogDriver = com.github.dockerjava.api.model.Driver
-- withServiceSpec-withTaskTemplate-withLogDriver-withName = java.lang.String
-- withServiceSpec-withTaskTemplate-withLogDriver-withOptions = java.util.Map<java.lang.String, java.lang.String>
 - withServiceSpec-withMode = com.github.dockerjava.api.model.ServiceModeConfig
 - withServiceSpec-withMode-withReplicated = com.github.dockerjava.api.model.ServiceReplicatedModeOptions
 - withServiceSpec-withMode-withReplicated-withReplicas = int
@@ -376,13 +374,13 @@
 - withServiceSpec-withNetworks-withAliases = java.util.List<java.lang.String>
 - withServiceSpec-withNetworks-withTarget = java.lang.String
 - withServiceSpec-withEndpointSpec = com.github.dockerjava.api.model.EndpointSpec
-- withServiceSpec-withEndpointSpec-withMode = com.github.dockerjava.api.model.EndpointResolutionMode
 - withServiceSpec-withEndpointSpec-withPorts = java.util.List<com.github.dockerjava.api.model.PortConfig>
 - withServiceSpec-withEndpointSpec-withPorts-withName = java.lang.String
-- withServiceSpec-withEndpointSpec-withPorts-withPublishedPort = int
+- withServiceSpec-withEndpointSpec-withPorts-withProtocol = com.github.dockerjava.api.model.PortConfigProtocol
 - withServiceSpec-withEndpointSpec-withPorts-withTargetPort = int
 - withServiceSpec-withEndpointSpec-withPorts-withPublishMode = com.github.dockerjava.api.model.PortConfig$PublishMode
-- withServiceSpec-withEndpointSpec-withPorts-withProtocol = com.github.dockerjava.api.model.PortConfigProtocol
+- withServiceSpec-withEndpointSpec-withPorts-withPublishedPort = int
+- withServiceSpec-withEndpointSpec-withMode = com.github.dockerjava.api.model.EndpointResolutionMode
 ```
 ## Kubernetes UpdateService parameters:
 
@@ -401,6 +399,23 @@
 - withServiceSpec-withRollbackConfig-withMaxFailureRatio = java.lang.Float
 - withServiceSpec-withTaskTemplate = com.github.dockerjava.api.model.TaskSpec
 - withServiceSpec-withTaskTemplate-withForceUpdate = java.lang.Integer
+- withServiceSpec-withTaskTemplate-withRuntime = java.lang.String
+- withServiceSpec-withTaskTemplate-withPlacement = com.github.dockerjava.api.model.ServicePlacement
+- withServiceSpec-withTaskTemplate-withPlacement-withConstraints = java.util.List<java.lang.String>
+- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms = java.util.List<com.github.dockerjava.api.model.SwarmNodePlatform>
+- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withOs = java.lang.String
+- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withArchitecture = java.lang.String
+- withServiceSpec-withTaskTemplate-withRestartPolicy = com.github.dockerjava.api.model.ServiceRestartPolicy
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withDelay = java.lang.Long
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withCondition = com.github.dockerjava.api.model.ServiceRestartCondition
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withMaxAttempts = java.lang.Long
+- withServiceSpec-withTaskTemplate-withRestartPolicy-withWindow = java.lang.Long
+- withServiceSpec-withTaskTemplate-withLogDriver = com.github.dockerjava.api.model.Driver
+- withServiceSpec-withTaskTemplate-withLogDriver-withName = java.lang.String
+- withServiceSpec-withTaskTemplate-withLogDriver-withOptions = java.util.Map<java.lang.String, java.lang.String>
+- withServiceSpec-withTaskTemplate-withNetworks = java.util.List<com.github.dockerjava.api.model.NetworkAttachmentConfig>
+- withServiceSpec-withTaskTemplate-withNetworks-withAliases = java.util.List<java.lang.String>
+- withServiceSpec-withTaskTemplate-withNetworks-withTarget = java.lang.String
 - withServiceSpec-withTaskTemplate-withResources = com.github.dockerjava.api.model.ResourceRequirements
 - withServiceSpec-withTaskTemplate-withResources-withLimits = com.github.dockerjava.api.model.ResourceSpecs
 - withServiceSpec-withTaskTemplate-withResources-withLimits-withMemoryBytes = long
@@ -408,20 +423,6 @@
 - withServiceSpec-withTaskTemplate-withResources-withReservations = com.github.dockerjava.api.model.ResourceSpecs
 - withServiceSpec-withTaskTemplate-withResources-withReservations-withMemoryBytes = long
 - withServiceSpec-withTaskTemplate-withResources-withReservations-withNanoCPUs = long
-- withServiceSpec-withTaskTemplate-withRestartPolicy = com.github.dockerjava.api.model.ServiceRestartPolicy
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withDelay = java.lang.Long
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withCondition = com.github.dockerjava.api.model.ServiceRestartCondition
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withMaxAttempts = java.lang.Long
-- withServiceSpec-withTaskTemplate-withRestartPolicy-withWindow = java.lang.Long
-- withServiceSpec-withTaskTemplate-withNetworks = java.util.List<com.github.dockerjava.api.model.NetworkAttachmentConfig>
-- withServiceSpec-withTaskTemplate-withNetworks-withAliases = java.util.List<java.lang.String>
-- withServiceSpec-withTaskTemplate-withNetworks-withTarget = java.lang.String
-- withServiceSpec-withTaskTemplate-withRuntime = java.lang.String
-- withServiceSpec-withTaskTemplate-withPlacement = com.github.dockerjava.api.model.ServicePlacement
-- withServiceSpec-withTaskTemplate-withPlacement-withConstraints = java.util.List<java.lang.String>
-- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms = java.util.List<com.github.dockerjava.api.model.SwarmNodePlatform>
-- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withOs = java.lang.String
-- withServiceSpec-withTaskTemplate-withPlacement-setPlatforms-withArchitecture = java.lang.String
 - withServiceSpec-withTaskTemplate-withContainerSpec = com.github.dockerjava.api.model.ContainerSpec
 - withServiceSpec-withTaskTemplate-withContainerSpec-withEnv = java.util.List<java.lang.String>
 - withServiceSpec-withTaskTemplate-withContainerSpec-withStopSignal = java.lang.String
@@ -488,9 +489,6 @@
 - withServiceSpec-withTaskTemplate-withContainerSpec-withConfigs-withConfigID = java.lang.String
 - withServiceSpec-withTaskTemplate-withContainerSpec-withConfigs-withConfigName = java.lang.String
 - withServiceSpec-withTaskTemplate-withContainerSpec-withStopGracePeriod = java.lang.Long
-- withServiceSpec-withTaskTemplate-withLogDriver = com.github.dockerjava.api.model.Driver
-- withServiceSpec-withTaskTemplate-withLogDriver-withName = java.lang.String
-- withServiceSpec-withTaskTemplate-withLogDriver-withOptions = java.util.Map<java.lang.String, java.lang.String>
 - withServiceSpec-withMode = com.github.dockerjava.api.model.ServiceModeConfig
 - withServiceSpec-withMode-withReplicated = com.github.dockerjava.api.model.ServiceReplicatedModeOptions
 - withServiceSpec-withMode-withReplicated-withReplicas = int
@@ -507,24 +505,24 @@
 - withServiceSpec-withNetworks-withAliases = java.util.List<java.lang.String>
 - withServiceSpec-withNetworks-withTarget = java.lang.String
 - withServiceSpec-withEndpointSpec = com.github.dockerjava.api.model.EndpointSpec
-- withServiceSpec-withEndpointSpec-withMode = com.github.dockerjava.api.model.EndpointResolutionMode
 - withServiceSpec-withEndpointSpec-withPorts = java.util.List<com.github.dockerjava.api.model.PortConfig>
 - withServiceSpec-withEndpointSpec-withPorts-withName = java.lang.String
-- withServiceSpec-withEndpointSpec-withPorts-withPublishedPort = int
+- withServiceSpec-withEndpointSpec-withPorts-withProtocol = com.github.dockerjava.api.model.PortConfigProtocol
 - withServiceSpec-withEndpointSpec-withPorts-withTargetPort = int
 - withServiceSpec-withEndpointSpec-withPorts-withPublishMode = com.github.dockerjava.api.model.PortConfig$PublishMode
-- withServiceSpec-withEndpointSpec-withPorts-withProtocol = com.github.dockerjava.api.model.PortConfigProtocol
+- withServiceSpec-withEndpointSpec-withPorts-withPublishedPort = int
+- withServiceSpec-withEndpointSpec-withMode = com.github.dockerjava.api.model.EndpointResolutionMode
 - withServiceId = java.lang.String
 ```
 ## Kubernetes CopyArchiveToContainer parameters:
 
 ```
-- withContainerId = java.lang.String
-- withHostResource = java.lang.String
-- withRemotePath = java.lang.String
 - withTarInputStream = java.io.InputStream
 - withNoOverwriteDirNonDir = boolean
 - withDirChildrenOnly = boolean
+- withContainerId = java.lang.String
+- withHostResource = java.lang.String
+- withRemotePath = java.lang.String
 ```
 ## Kubernetes Ping parameters:
 
@@ -563,9 +561,9 @@
 ## Kubernetes RemoveContainer parameters:
 
 ```
+- withRemoveVolumes = java.lang.Boolean
 - withContainerId = java.lang.String
 - withForce = java.lang.Boolean
-- withRemoveVolumes = java.lang.Boolean
 ```
 ## Kubernetes ListNetworks parameters:
 
@@ -575,6 +573,8 @@
 ## Kubernetes ListImages parameters:
 
 ```
+- withImageNameFilter = java.lang.String
+- withDanglingFilter = java.lang.Boolean
 - withLabelFilter = java.lang.String[]
 ```
 ## Kubernetes ListVolumes parameters:
@@ -590,7 +590,7 @@
 ## Kubernetes Events parameters:
 
 ```
-- withContainerFilter = java.lang.String[]
+- withLabelFilter = java.lang.String[]
 ```
 ## Kubernetes RemoveService parameters:
 
@@ -600,12 +600,13 @@
 ## Kubernetes Auth parameters:
 
 ```
-- withEmail = java.lang.String
-- withUsername = java.lang.String
-- withPassword = java.lang.String
-- withRegistryAddress = java.lang.String
-- withAuth = java.lang.String
-- withRegistrytoken = java.lang.String
+- withAuthConfig = com.github.dockerjava.api.model.AuthConfig
+- withAuthConfig-withUsername = java.lang.String
+- withAuthConfig-withRegistryAddress = java.lang.String
+- withAuthConfig-withPassword = java.lang.String
+- withAuthConfig-withEmail = java.lang.String
+- withAuthConfig-withRegistrytoken = java.lang.String
+- withAuthConfig-withAuth = java.lang.String
 ```
 ## Kubernetes CreateImage parameters:
 
@@ -617,8 +618,8 @@
 ## Kubernetes LogContainer parameters:
 
 ```
-- withContainerId = java.lang.String
 - withSince = java.lang.Integer
+- withContainerId = java.lang.String
 - withFollowStream = java.lang.Boolean
 - withTimestamps = java.lang.Boolean
 - withStdOut = java.lang.Boolean
@@ -628,6 +629,8 @@
 ## Kubernetes ConnectToNetwork parameters:
 
 ```
+- withContainerId = java.lang.String
+- withNetworkId = java.lang.String
 - withContainerNetwork = com.github.dockerjava.api.model.ContainerNetwork
 - withContainerNetwork-withAliases = java.lang.String[]
 ```
@@ -657,26 +660,25 @@
 ## Kubernetes UpdateSwarmNode parameters:
 
 ```
+- withVersion = java.lang.Long
+- withSwarmNodeId = java.lang.String
 - withSwarmNodeSpec = com.github.dockerjava.api.model.SwarmNodeSpec
 - withSwarmNodeSpec-withLabels = java.util.Map<java.lang.String, java.lang.String>
 - withSwarmNodeSpec-withName = java.lang.String
 - withSwarmNodeSpec-withRole = com.github.dockerjava.api.model.SwarmNodeRole
 - withSwarmNodeSpec-withAvailability = com.github.dockerjava.api.model.SwarmNodeAvailability
-- withVersion = java.lang.Long
-- withSwarmNodeId = java.lang.String
 ```
 ## Kubernetes RenameContainer parameters:
 
 ```
-- withContainerId = java.lang.String
 - withName = java.lang.String
+- withContainerId = java.lang.String
 ```
 ## Kubernetes Commit parameters:
 
 ```
 - withDisableNetwork = java.lang.Boolean
 - withTag = java.lang.String
-- withContainerId = java.lang.String
 - withAttachStderr = java.lang.Boolean
 - withAttachStdin = java.lang.Boolean
 - withAttachStdout = java.lang.Boolean
@@ -695,7 +697,7 @@
 ## Kubernetes UpdateContainer parameters:
 
 ```
-- withContainerId = java.lang.String
+- withMemoryReservation = java.lang.Long
 - withBlkioWeight = java.lang.Integer
 - withCpuPeriod = java.lang.Integer
 - withCpusetCpus = java.lang.String
@@ -703,15 +705,13 @@
 - withCpuShares = java.lang.Integer
 - withMemory = java.lang.Long
 - withMemorySwap = java.lang.Long
+- withContainerId = java.lang.String
 - withCpuQuota = java.lang.Integer
 - withKernelMemory = java.lang.Long
-- withMemoryReservation = java.lang.Long
 ```
 ## Kubernetes InitializeSwarm parameters:
 
 ```
-- withAdvertiseAddr = java.lang.String
-- withForceNewCluster = java.lang.Boolean
 - withListenAddr = java.lang.String
 - withSwarmSpec = com.github.dockerjava.api.model.SwarmSpec
 - withSwarmSpec-withName = java.lang.String
@@ -720,20 +720,22 @@
 - withSwarmSpec-withDispatcher = com.github.dockerjava.api.model.SwarmDispatcherConfig
 - withSwarmSpec-withDispatcher-withHeartbeatPeriod = java.lang.Long
 - withSwarmSpec-withCaConfig = com.github.dockerjava.api.model.SwarmCAConfig
-- withSwarmSpec-withCaConfig-withNodeCertExpiry = java.lang.Long
 - withSwarmSpec-withCaConfig-withExternalCA = java.util.List<com.github.dockerjava.api.model.ExternalCA>
 - withSwarmSpec-withCaConfig-withExternalCA-withOptions = java.util.Map<java.lang.String, java.lang.String>
 - withSwarmSpec-withCaConfig-withExternalCA-withProtocol = com.github.dockerjava.api.model.ExternalCAProtocol
 - withSwarmSpec-withCaConfig-withExternalCA-withUrl = java.lang.String
+- withSwarmSpec-withCaConfig-withNodeCertExpiry = java.lang.Long
 - withSwarmSpec-withRaft = com.github.dockerjava.api.model.SwarmRaftConfig
+- withSwarmSpec-withRaft-withElectionTick = int
 - withSwarmSpec-withRaft-withLogEntriesForSlowFollowers = long
 - withSwarmSpec-withRaft-withHeartbeatTick = int
 - withSwarmSpec-withRaft-withSnapshotInterval = long
-- withSwarmSpec-withRaft-withElectionTick = int
 - withSwarmSpec-withTaskDefaults = com.github.dockerjava.api.model.TaskDefaults
 - withSwarmSpec-withTaskDefaults-withLogDriver = com.github.dockerjava.api.model.Driver
 - withSwarmSpec-withTaskDefaults-withLogDriver-withName = java.lang.String
 - withSwarmSpec-withTaskDefaults-withLogDriver-withOptions = java.util.Map<java.lang.String, java.lang.String>
+- withAdvertiseAddr = java.lang.String
+- withForceNewCluster = java.lang.Boolean
 ```
 ## Kubernetes LoadImage parameters:
 
@@ -744,12 +746,18 @@
 
 ```
 - withAuthConfig = com.github.dockerjava.api.model.AuthConfig
-- withAuthConfig-withEmail = java.lang.String
 - withAuthConfig-withUsername = java.lang.String
-- withAuthConfig-withPassword = java.lang.String
 - withAuthConfig-withRegistryAddress = java.lang.String
-- withAuthConfig-withAuth = java.lang.String
+- withAuthConfig-withPassword = java.lang.String
+- withAuthConfig-withEmail = java.lang.String
 - withAuthConfig-withRegistrytoken = java.lang.String
+- withAuthConfig-withAuth = java.lang.String
+- withContainerIDFile = java.lang.String
+- withNetworkDisabled = java.lang.Boolean
+- withOomKillDisable = java.lang.Boolean
+- withPublishAllPorts = java.lang.Boolean
+- withReadonlyRootfs = java.lang.Boolean
+- withRestartPolicy = com.github.dockerjava.api.model.RestartPolicy
 - withAliases = java.lang.String[]
 ```
 ## Kubernetes InspectContainer parameters:
