@@ -52,8 +52,8 @@ jointware
    * [OpenShift parameters with key-value style](docs/containers/OpenShift/model-parameters-kv.md)
    * [OpenShift parameters with nested style](docs/containers/OpenShift/model-parameters-nested.md)
    * [OpenShift parameters with json style](docs/containers/OpenShift/model-parameters-json.md)
- 
- 
+
+
 - #### **_VMs_**
 
   **_1. AliyunECS_**
