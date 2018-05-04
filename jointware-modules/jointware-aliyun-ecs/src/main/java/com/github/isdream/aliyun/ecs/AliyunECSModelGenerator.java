@@ -4,6 +4,7 @@ import com.github.isdream.jointware.core.ModelGenerator;
 import com.github.isdream.jointware.core.ModelParameterAnalyzer;
 
 public class AliyunECSModelGenerator extends ModelGenerator {
+	
     protected final static AliyunECSModelParameterAnalyzer analyzer = new AliyunECSModelParameterAnalyzer();
 
     /**
