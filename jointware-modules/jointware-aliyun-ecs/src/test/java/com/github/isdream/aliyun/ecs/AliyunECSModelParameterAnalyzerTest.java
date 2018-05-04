@@ -1,27 +1,27 @@
+/**
+ * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
+ */
 package com.github.isdream.aliyun.ecs;
 
-import com.aliyuncs.ecs.model.v20140526.CreateNatGatewayRequest;
-import com.aliyuncs.ecs.model.v20140526.UnassociateEipAddressRequest;
-import com.aliyuncs.http.FormatType;
-import com.aliyuncs.http.MethodType;
-import com.aliyuncs.http.ProtocolType;
-import com.aliyuncs.regions.ProductDomain;
 import com.github.isdream.aliyun.ecs.AliyunECSModelParameterAnalyzer;
 import com.github.isdream.jointware.core.helpers.ParametersHelper;
 import junit.framework.TestCase;
 
-import javax.net.ssl.SSLSocketFactory;
-
+/**
+ * @author wuheng@otcaix.iscas.ac.cn
+ *
+ * 2018年5月4日
+ */
+@SuppressWarnings("deprecation")
 public class AliyunECSModelParameterAnalyzerTest extends TestCase {
     /**
      * @param args
      */
     public static void main(String[] args) {
         AliyunECSModelParameterAnalyzer analyzer = new AliyunECSModelParameterAnalyzer();
-        //showModelParametersWithKeyValueStyle(analyzer);
-        showModelParametersWithNetstedStyle(analyzer);
-        //showModelParametersWithJsonStyle(analyzer);
-        CreateNatGatewayRequest createNatGatewayRequest =new CreateNatGatewayRequest();
+//        showModelParametersWithKeyValueStyle(analyzer);
+//        showModelParametersWithNetstedStyle(analyzer);
+        showModelParametersWithJsonStyle(analyzer);
     }
 
     protected static void showModelParametersWithJsonStyle(AliyunECSModelParameterAnalyzer analyzer) {

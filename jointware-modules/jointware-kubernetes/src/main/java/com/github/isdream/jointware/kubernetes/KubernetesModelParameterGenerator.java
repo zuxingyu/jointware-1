@@ -12,33 +12,6 @@ import com.github.isdream.jointware.core.ModelParameterGenerator;
  */
 public class KubernetesModelParameterGenerator extends ModelParameterGenerator {
 
-	static {
-		ignoreMethods.add("setApiVersion");
-		ignoreMethods.add("setKind");
-		ignoreMethods.add("setResult");
-		ignoreMethods.add("setPaused");
-		ignoreMethods.add("setInitContainers");
-		ignoreMethods.add("setUid");
-		ignoreMethods.add("setSelfLink");
-		ignoreMethods.add("setFinalizers");
-		ignoreMethods.add("setCreationTimestamp");
-		ignoreMethods.add("setMetadatasetClasssetModifiers");
-		ignoreMethods.add("setAdditionalProperties");
-		
-		
-		ignoreMethods.add("getApiVersion");
-		ignoreMethods.add("getKind");
-		ignoreMethods.add("getResult");
-		ignoreMethods.add("getPaused");
-		ignoreMethods.add("getInitContainers");
-		ignoreMethods.add("getUid");
-		ignoreMethods.add("getSelfLink");
-		ignoreMethods.add("getFinalizers");
-		ignoreMethods.add("getCreationTimestamp");
-		ignoreMethods.add("getMetadatasetClasssetModifiers");
-		ignoreMethods.add("getAdditionalProperties");
-	}
-	
 	/**
 	 * 
 	 */

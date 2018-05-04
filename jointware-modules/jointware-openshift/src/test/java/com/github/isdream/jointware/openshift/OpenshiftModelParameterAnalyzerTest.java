@@ -13,6 +13,7 @@ import junit.framework.TestCase;
  *
  * 2018年3月3日
  */
+@SuppressWarnings("deprecation")
 public class OpenshiftModelParameterAnalyzerTest extends TestCase {
 
 	/**

@@ -5,8 +5,10 @@ package com.github.isdream.jointware.core;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 
 import com.github.isdream.jointware.core.utils.JavaUtils;
 import com.github.isdream.jointware.core.utils.ObjectUtils;
@@ -23,7 +25,7 @@ public abstract class ModelParameterAnalyzer {
 
 	protected final static String MODEL_METHOD_SET = "set";
 	
-	protected final static String MODEL_METHOD_ADD = "add";
+	public final static Set<String> ignoreMethods = new HashSet<String>();
 	
 	/************************************************************************************
 	 * 
@@ -222,6 +224,7 @@ public abstract class ModelParameterAnalyzer {
 				(method.getName().startsWith(MODEL_METHOD_SET) // set开头的方法
 				   && method.getParameterCount() == 1 // 该方法只有一个参数
 				   && !JavaUtils.ignoreMethod(method.getName())
+				   && !ignoreMethods.contains(method.getName())
 				); // 可以人工指定过滤哪些方法
 	}
 	
