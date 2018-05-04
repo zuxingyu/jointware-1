@@ -14,7 +14,9 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jointware.version>2.0.0</jointware.version>
+		<junit.version>4.12</junit.version>
+		<tencent.cvm.version>3.0.1</tencent.cvm.version>
 	</properties>
 
 	<dependencies>
@@ -22,17 +24,20 @@
 		<dependency>
 			<groupId>com.github.isdream</groupId>
 			<artifactId>jointware-core</artifactId>
+			<version>${jointware.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.tencentcloudapi/tencentcloud-sdk-java -->
 		<dependency>
 			<groupId>com.tencentcloudapi</groupId>
 			<artifactId>tencentcloud-sdk-java</artifactId>
+			<version>${tencent.cvm.version}</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
