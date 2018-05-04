@@ -14,7 +14,7 @@ import com.github.isdream.jointware.core.ModelParameterAnalyzer;
 public class KubernetesModelGenerator extends ModelGenerator {
 
 	protected final static KubernetesModelParameterAnalyzer 
-				analyzer = new KubernetesModelParameterAnalyzer();
+						analyzer = new KubernetesModelParameterAnalyzer();
 	
 	/**
 	 * 
