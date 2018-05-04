@@ -1,0 +1,47 @@
+## Openshift features:
+
+```
+- Policy
+- Group
+- ServiceAccount
+- User
+- OAuthClient
+- ThirdPartyResource
+- ClusterRoleBinding
+- Node
+- ImageStreamTag
+- Deployment
+- ImageStream
+- Endpoint
+- ResourceQuota
+- Build
+- ReplicationController
+- BuildConfig
+- RoleBinding
+- Job
+- ReplicaSet
+- Route
+- ConfigMap
+- Pod
+- NetworkPolicy
+- CustomResourceDefinition
+- Ingress
+- Service
+- SecurityContextConstraint
+- Namespace
+- PolicyBinding
+- OAuthAuthorizeToken
+- Secret
+- Role
+- Project
+- LimitRange
+- HorizontalPodAutoscaler
+- Event
+- DaemonSet
+- PersistentVolumeClaim
+- OAuthAccessToken
+- PersistentVolume
+- Componentstatus
+- DeploymentConfig
+- StatefulSet
+```
