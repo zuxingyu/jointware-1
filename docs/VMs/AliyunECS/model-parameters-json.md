@@ -1,4895 +1,7135 @@
-## Kubernetes ServiceAccount parameterss:
+## AliyunECS ModifySnapshotAttribute parameters:
 
 ```
 {
-	"main": {
-		"setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setImagePullSecrets": ["ref1-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref2-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref3-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setSecrets": ["ref4-io.fabric8.kubernetes.api.model.ObjectReference"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.ObjectReference": {
-		"setName": "java.lang.String",
-		"setNamespace": "java.lang.String",
-		"setFieldPath": "java.lang.String",
-		"setResourceVersion": "java.lang.String"
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setSnapshotName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes ThirdPartyResource parameterss:
+## AliyunECS JoinSecurityGroup parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setDescription": "java.lang.String",
-		"setVersions": ["ref3-io.fabric8.kubernetes.api.model.extensions.APIVersion"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.extensions.APIVersion": {
-		"setName": "java.lang.String"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Node parameterss:
+## AliyunECS DescribeSnapshots parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setConditions": ["ref3-io.fabric8.kubernetes.api.model.NodeCondition"],
-		"setStatus-setAddresses": ["ref4-io.fabric8.kubernetes.api.model.NodeAddress"],
-		"setStatus-setAllocatable": {
-			"java.lang.String0": "ref5-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setStatus-setCapacity": {
-			"java.lang.String0": "ref6-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setStatus-setImages": ["ref7-io.fabric8.kubernetes.api.model.ContainerImage"],
-		"setStatus-setNodeInfo-setArchitecture": "java.lang.String",
-		"setStatus-setNodeInfo-setBootID": "java.lang.String",
-		"setStatus-setNodeInfo-setKernelVersion": "java.lang.String",
-		"setStatus-setNodeInfo-setMachineID": "java.lang.String",
-		"setStatus-setNodeInfo-setOsImage": "java.lang.String",
-		"setStatus-setNodeInfo-setSystemUUID": "java.lang.String",
-		"setStatus-setNodeInfo-setContainerRuntimeVersion": "java.lang.String",
-		"setStatus-setNodeInfo-setKubeProxyVersion": "java.lang.String",
-		"setStatus-setNodeInfo-setKubeletVersion": "java.lang.String",
-		"setStatus-setNodeInfo-setOperatingSystem": "java.lang.String",
-		"setStatus-setPhase": "java.lang.String",
-		"setStatus-setVolumesInUse": ["java.lang.String0", "java.lang.String1"],
-		"setStatus-setDaemonEndpoints-setKubeletEndpoint-setPort": "java.lang.Integer",
-		"setStatus-setVolumesAttached": ["ref8-io.fabric8.kubernetes.api.model.AttachedVolume"],
-		"setSpec-setProviderID": "java.lang.String",
-		"setSpec-setExternalID": "java.lang.String",
-		"setSpec-setUnschedulable": "java.lang.Boolean",
-		"setSpec-setPodCIDR": "java.lang.String",
-		"setSpec-setTaints": ["ref9-io.fabric8.kubernetes.api.model.Taint"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.NodeCondition": {
-		"setStatus": "java.lang.String",
-		"setLastHeartbeatTime": "java.lang.String",
-		"setLastTransitionTime": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.NodeAddress": {
-		"setAddress": "java.lang.String",
-		"setType": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref7-io.fabric8.kubernetes.api.model.ContainerImage": {
-		"setNames": ["java.lang.String0", "java.lang.String1"],
-		"setSizeBytes": "java.lang.Long"
-	},
-	"ref8-io.fabric8.kubernetes.api.model.AttachedVolume": {
-		"setName": "java.lang.String",
-		"setDevicePath": "java.lang.String"
-	},
-	"ref9-io.fabric8.kubernetes.api.model.Taint": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setTimeAdded": "java.lang.String"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSnapshotLinkId":"java.lang.String",
+		"setSourceDiskType":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setFilter2Value":"java.lang.String",
+		"setSnapshotIds":"java.lang.String",
+		"setUsage":"java.lang.String",
+		"setSnapshotName":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setTag5Key":"java.lang.String",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setSnapshotType":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Deployment parameterss:
+## AliyunECS ModifyBandwidthPackageSpec parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setAvailableReplicas": "java.lang.Integer",
-		"setStatus-setCollisionCount": "java.lang.Long",
-		"setStatus-setObservedGeneration": "java.lang.Long",
-		"setStatus-setUnavailableReplicas": "java.lang.Integer",
-		"setStatus-setUpdatedReplicas": "java.lang.Integer",
-		"setStatus-setReplicas": "java.lang.Integer",
-		"setStatus-setReadyReplicas": "java.lang.Integer",
-		"setStatus-setConditions": ["ref3-io.fabric8.kubernetes.api.model.extensions.DeploymentCondition"],
-		"setSpec-setMinReadySeconds": "java.lang.Integer",
-		"setSpec-setProgressDeadlineSeconds": "java.lang.Integer",
-		"setSpec-setRevisionHistoryLimit": "java.lang.Integer",
-		"setSpec-setReplicas": "java.lang.Integer",
-		"setSpec-setRollbackTo-setRevision": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setNamespace": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setClusterName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setMetadata-setGenerateName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setGeneration": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setInitializers-setPending": ["ref4-io.fabric8.kubernetes.api.model.Initializer"],
-		"setSpec-setTemplate-setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setOwnerReferences": ["ref5-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setSpec-setTemplate-setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setImagePullSecrets": ["ref6-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setSpec-setTemplate-setSpec-setVolumes": ["ref7-io.fabric8.kubernetes.api.model.Volume"],
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setItems": ["ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setMedium": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setAmount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setFormat": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRevision": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setDirectory": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRepository": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setHostPath-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setServer": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources": ["ref10-io.fabric8.kubernetes.api.model.VolumeProjection"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setDownwardAPI-setItems": ["ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setItems": ["ref13-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setImage": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setPool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setItems": ["ref14-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setSecretName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setClaimName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setWeight": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms": ["ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setContainers": ["ref27-io.fabric8.kubernetes.api.model.Container"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHttpHeaders": ["ref30-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHttpHeaders": ["ref31-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHttpHeaders": ["ref32-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setPorts": ["ref33-io.fabric8.kubernetes.api.model.ContainerPort"],
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setRequests": {
-			"java.lang.String0": "ref34-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setLimits": {
-			"java.lang.String0": "ref35-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setStdin": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setStdinOnce": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setTty": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setVolumeMounts": ["ref36-io.fabric8.kubernetes.api.model.VolumeMount"],
-		"setSpec-setTemplate-setSpec-setContainers-setWorkingDir": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setImagePullPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHttpHeaders": ["ref37-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setPrivileged": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setAdd": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setDrop": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setDnsPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setHostAliases": ["ref38-io.fabric8.kubernetes.api.model.HostAlias"],
-		"setSpec-setTemplate-setSpec-setHostIPC": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostNetwork": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostPID": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostname": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setRestartPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSchedulerName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSubdomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTolerations": ["ref39-io.fabric8.kubernetes.api.model.Toleration"],
-		"setSpec-setTemplate-setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setFsGroup": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSupplementalGroups": ["ref40-java.lang.Long"],
-		"setSpec-setTemplate-setSpec-setServiceAccount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setServiceAccountName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTerminationGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setStrategy-setRollingUpdate-setMaxUnavailable-setIntVal": "java.lang.Integer",
-		"setSpec-setStrategy-setRollingUpdate-setMaxUnavailable-setStrVal": "java.lang.String",
-		"setSpec-setStrategy-setRollingUpdate-setMaxSurge-setIntVal": "java.lang.Integer",
-		"setSpec-setStrategy-setRollingUpdate-setMaxSurge-setStrVal": "java.lang.String",
-		"setSpec-setStrategy-setType": "java.lang.String",
-		"setSpec-setSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setSelector-setMatchExpressions": ["ref41-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.extensions.DeploymentCondition": {
-		"setStatus": "java.lang.String",
-		"setLastTransitionTime": "java.lang.String",
-		"setLastUpdateTime": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
-	},
-	"ref7-io.fabric8.kubernetes.api.model.Volume": {
-		"setName": "java.lang.String",
-		"setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setAzureDisk-setFsType": "java.lang.String",
-		"setAzureDisk-setCachingMode": "java.lang.String",
-		"setAzureDisk-setDiskName": "java.lang.String",
-		"setAzureDisk-setDiskURI": "java.lang.String",
-		"setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setAzureFile-setShareName": "java.lang.String",
-		"setAzureFile-setSecretName": "java.lang.String",
-		"setCephfs-setReadOnly": "java.lang.Boolean",
-		"setCephfs-setPath": "java.lang.String",
-		"setCephfs-setUser": "java.lang.String",
-		"setCephfs-setSecretRef-setName": "java.lang.String",
-		"setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setCephfs-setSecretFile": "java.lang.String",
-		"setCinder-setReadOnly": "java.lang.Boolean",
-		"setCinder-setFsType": "java.lang.String",
-		"setCinder-setVolumeID": "java.lang.String",
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setItems": ["ref8-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref8-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref10-io.fabric8.kubernetes.api.model.VolumeProjection": {
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setItems": ["ref11-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref11-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref13-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref14-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPreference-setMatchExpressions": ["ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms-setMatchExpressions": ["ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref27-io.fabric8.kubernetes.api.model.Container": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setArgs": ["java.lang.String0", "java.lang.String1"],
-		"setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setEnv": ["ref28-io.fabric8.kubernetes.api.model.EnvVar"]
-	},
-	"ref28-io.fabric8.kubernetes.api.model.EnvVar": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String",
-		"setValueFrom-setFieldRef-setFieldPath": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setResource": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setContainerName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setOptional": "java.lang.Boolean",
-		"setValueFrom-setSecretKeyRef-setName": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setEnvFrom": ["ref29-io.fabric8.kubernetes.api.model.EnvFromSource"]
-	},
-	"ref29-io.fabric8.kubernetes.api.model.EnvFromSource": {
-		"setSecretRef-setName": "java.lang.String",
-		"setSecretRef-setOptional": "java.lang.Boolean",
-		"setPrefix": "java.lang.String",
-		"setConfigMapRef-setName": "java.lang.String",
-		"setConfigMapRef-setOptional": "java.lang.Boolean"
-	},
-	"ref30-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref31-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref32-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref33-io.fabric8.kubernetes.api.model.ContainerPort": {
-		"setName": "java.lang.String",
-		"setContainerPort": "java.lang.Integer",
-		"setHostIP": "java.lang.String",
-		"setHostPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref34-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref35-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref36-io.fabric8.kubernetes.api.model.VolumeMount": {
-		"setReadOnly": "java.lang.Boolean",
-		"setName": "java.lang.String",
-		"setSubPath": "java.lang.String",
-		"setMountPath": "java.lang.String"
-	},
-	"ref37-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref38-io.fabric8.kubernetes.api.model.HostAlias": {
-		"setHostnames": ["java.lang.String0", "java.lang.String1"],
-		"setIp": "java.lang.String"
-	},
-	"ref39-io.fabric8.kubernetes.api.model.Toleration": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setTolerationSeconds": "java.lang.Long"
-	},
-	"ref41-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
+	"main":{
+		"setBandwidth":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setBandwidthPackageId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Endpoint parameterss:
+## AliyunECS ModifyInstanceVncPasswd parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setSubsets": ["ref3-io.fabric8.kubernetes.api.model.EndpointSubset"],
-		"setSubsets-setAddresses": ["ref5-io.fabric8.kubernetes.api.model.EndpointAddress"],
-		"setSubsets-setNotReadyAddresses": ["ref6-io.fabric8.kubernetes.api.model.EndpointAddress"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.EndpointSubset": {
-		"setSubsets-setPorts": ["ref4-io.fabric8.kubernetes.api.model.EndpointPort"]
-	},
-	"ref4-io.fabric8.kubernetes.api.model.EndpointPort": {
-		"setName": "java.lang.String",
-		"setPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.EndpointAddress": {
-		"setHostname": "java.lang.String",
-		"setNodeName": "java.lang.String",
-		"setIp": "java.lang.String",
-		"setTargetRef-setName": "java.lang.String",
-		"setTargetRef-setNamespace": "java.lang.String",
-		"setTargetRef-setFieldPath": "java.lang.String",
-		"setTargetRef-setResourceVersion": "java.lang.String"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.EndpointAddress": {
-		"setHostname": "java.lang.String",
-		"setNodeName": "java.lang.String",
-		"setIp": "java.lang.String",
-		"setTargetRef-setName": "java.lang.String",
-		"setTargetRef-setNamespace": "java.lang.String",
-		"setTargetRef-setFieldPath": "java.lang.String",
-		"setTargetRef-setResourceVersion": "java.lang.String"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVncPassword":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes ResourceQuota parameterss:
+## AliyunECS CreateNatGateway parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setHard": {
-			"java.lang.String0": "ref3-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setStatus-setUsed": {
-			"java.lang.String0": "ref4-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setHard": {
-			"java.lang.String0": "ref5-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setScopes": ["java.lang.String0", "java.lang.String1"]
+	"main":{
+		"setName":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setBandwidthPackages":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateNatGatewayRequest$BandwidthPackage"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateNatGatewayRequest$BandwidthPackage":{
+		"setZone":"java.lang.String",
+		"setBandwidth":"java.lang.Integer",
+		"setIpCount":"java.lang.Integer"
 	}
 }
 ```
-## Kubernetes ReplicationController parameterss:
+## AliyunECS AttachDisk parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setAvailableReplicas": "java.lang.Integer",
-		"setStatus-setObservedGeneration": "java.lang.Long",
-		"setStatus-setReplicas": "java.lang.Integer",
-		"setStatus-setReadyReplicas": "java.lang.Integer",
-		"setStatus-setConditions": ["ref3-io.fabric8.kubernetes.api.model.ReplicationControllerCondition"],
-		"setStatus-setFullyLabeledReplicas": "java.lang.Integer",
-		"setSpec-setMinReadySeconds": "java.lang.Integer",
-		"setSpec-setReplicas": "java.lang.Integer",
-		"setSpec-setTemplate-setMetadata-setName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setNamespace": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setClusterName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setMetadata-setGenerateName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setGeneration": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setInitializers-setPending": ["ref4-io.fabric8.kubernetes.api.model.Initializer"],
-		"setSpec-setTemplate-setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setOwnerReferences": ["ref5-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setSpec-setTemplate-setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setImagePullSecrets": ["ref6-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setSpec-setTemplate-setSpec-setVolumes": ["ref7-io.fabric8.kubernetes.api.model.Volume"],
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setItems": ["ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setMedium": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setAmount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setFormat": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRevision": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setDirectory": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRepository": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setHostPath-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setServer": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources": ["ref10-io.fabric8.kubernetes.api.model.VolumeProjection"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setDownwardAPI-setItems": ["ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setItems": ["ref13-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setImage": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setPool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setItems": ["ref14-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setSecretName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setClaimName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setWeight": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms": ["ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setContainers": ["ref27-io.fabric8.kubernetes.api.model.Container"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHttpHeaders": ["ref30-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHttpHeaders": ["ref31-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHttpHeaders": ["ref32-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setPorts": ["ref33-io.fabric8.kubernetes.api.model.ContainerPort"],
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setRequests": {
-			"java.lang.String0": "ref34-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setLimits": {
-			"java.lang.String0": "ref35-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setStdin": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setStdinOnce": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setTty": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setVolumeMounts": ["ref36-io.fabric8.kubernetes.api.model.VolumeMount"],
-		"setSpec-setTemplate-setSpec-setContainers-setWorkingDir": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setImagePullPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHttpHeaders": ["ref37-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setPrivileged": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setAdd": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setDrop": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setDnsPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setHostAliases": ["ref38-io.fabric8.kubernetes.api.model.HostAlias"],
-		"setSpec-setTemplate-setSpec-setHostIPC": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostNetwork": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostPID": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostname": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setRestartPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSchedulerName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSubdomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTolerations": ["ref39-io.fabric8.kubernetes.api.model.Toleration"],
-		"setSpec-setTemplate-setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setFsGroup": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSupplementalGroups": ["ref40-java.lang.Long"],
-		"setSpec-setTemplate-setSpec-setServiceAccount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setServiceAccountName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTerminationGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		}
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.ReplicationControllerCondition": {
-		"setStatus": "java.lang.String",
-		"setLastTransitionTime": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
-	},
-	"ref7-io.fabric8.kubernetes.api.model.Volume": {
-		"setName": "java.lang.String",
-		"setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setAzureDisk-setFsType": "java.lang.String",
-		"setAzureDisk-setCachingMode": "java.lang.String",
-		"setAzureDisk-setDiskName": "java.lang.String",
-		"setAzureDisk-setDiskURI": "java.lang.String",
-		"setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setAzureFile-setShareName": "java.lang.String",
-		"setAzureFile-setSecretName": "java.lang.String",
-		"setCephfs-setReadOnly": "java.lang.Boolean",
-		"setCephfs-setPath": "java.lang.String",
-		"setCephfs-setUser": "java.lang.String",
-		"setCephfs-setSecretRef-setName": "java.lang.String",
-		"setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setCephfs-setSecretFile": "java.lang.String",
-		"setCinder-setReadOnly": "java.lang.Boolean",
-		"setCinder-setFsType": "java.lang.String",
-		"setCinder-setVolumeID": "java.lang.String",
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setItems": ["ref8-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref8-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref10-io.fabric8.kubernetes.api.model.VolumeProjection": {
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setItems": ["ref11-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref11-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref13-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref14-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPreference-setMatchExpressions": ["ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms-setMatchExpressions": ["ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref27-io.fabric8.kubernetes.api.model.Container": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setArgs": ["java.lang.String0", "java.lang.String1"],
-		"setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setEnv": ["ref28-io.fabric8.kubernetes.api.model.EnvVar"]
-	},
-	"ref28-io.fabric8.kubernetes.api.model.EnvVar": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String",
-		"setValueFrom-setFieldRef-setFieldPath": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setResource": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setContainerName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setOptional": "java.lang.Boolean",
-		"setValueFrom-setSecretKeyRef-setName": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setEnvFrom": ["ref29-io.fabric8.kubernetes.api.model.EnvFromSource"]
-	},
-	"ref29-io.fabric8.kubernetes.api.model.EnvFromSource": {
-		"setSecretRef-setName": "java.lang.String",
-		"setSecretRef-setOptional": "java.lang.Boolean",
-		"setPrefix": "java.lang.String",
-		"setConfigMapRef-setName": "java.lang.String",
-		"setConfigMapRef-setOptional": "java.lang.Boolean"
-	},
-	"ref30-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref31-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref32-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref33-io.fabric8.kubernetes.api.model.ContainerPort": {
-		"setName": "java.lang.String",
-		"setContainerPort": "java.lang.Integer",
-		"setHostIP": "java.lang.String",
-		"setHostPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref34-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref35-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref36-io.fabric8.kubernetes.api.model.VolumeMount": {
-		"setReadOnly": "java.lang.Boolean",
-		"setName": "java.lang.String",
-		"setSubPath": "java.lang.String",
-		"setMountPath": "java.lang.String"
-	},
-	"ref37-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref38-io.fabric8.kubernetes.api.model.HostAlias": {
-		"setHostnames": ["java.lang.String0", "java.lang.String1"],
-		"setIp": "java.lang.String"
-	},
-	"ref39-io.fabric8.kubernetes.api.model.Toleration": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setTolerationSeconds": "java.lang.Long"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setDevice":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Job parameterss:
+## AliyunECS ReInitDisk parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setConditions": ["ref3-io.fabric8.kubernetes.api.model.JobCondition"],
-		"setStatus-setCompletionTime": "java.lang.String",
-		"setStatus-setActive": "java.lang.Integer",
-		"setStatus-setFailed": "java.lang.Integer",
-		"setStatus-setStartTime": "java.lang.String",
-		"setStatus-setSucceeded": "java.lang.Integer",
-		"setSpec-setTemplate-setMetadata-setName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setNamespace": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setClusterName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setMetadata-setGenerateName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setGeneration": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setInitializers-setPending": ["ref4-io.fabric8.kubernetes.api.model.Initializer"],
-		"setSpec-setTemplate-setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setOwnerReferences": ["ref5-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setSpec-setTemplate-setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setImagePullSecrets": ["ref6-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setSpec-setTemplate-setSpec-setVolumes": ["ref7-io.fabric8.kubernetes.api.model.Volume"],
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setItems": ["ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setMedium": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setAmount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setFormat": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRevision": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setDirectory": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRepository": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setHostPath-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setServer": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources": ["ref10-io.fabric8.kubernetes.api.model.VolumeProjection"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setDownwardAPI-setItems": ["ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setItems": ["ref13-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setImage": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setPool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setItems": ["ref14-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setSecretName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setClaimName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setWeight": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms": ["ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setContainers": ["ref27-io.fabric8.kubernetes.api.model.Container"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHttpHeaders": ["ref30-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHttpHeaders": ["ref31-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHttpHeaders": ["ref32-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setPorts": ["ref33-io.fabric8.kubernetes.api.model.ContainerPort"],
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setRequests": {
-			"java.lang.String0": "ref34-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setLimits": {
-			"java.lang.String0": "ref35-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setStdin": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setStdinOnce": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setTty": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setVolumeMounts": ["ref36-io.fabric8.kubernetes.api.model.VolumeMount"],
-		"setSpec-setTemplate-setSpec-setContainers-setWorkingDir": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setImagePullPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHttpHeaders": ["ref37-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setPrivileged": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setAdd": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setDrop": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setDnsPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setHostAliases": ["ref38-io.fabric8.kubernetes.api.model.HostAlias"],
-		"setSpec-setTemplate-setSpec-setHostIPC": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostNetwork": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostPID": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostname": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setRestartPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSchedulerName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSubdomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTolerations": ["ref39-io.fabric8.kubernetes.api.model.Toleration"],
-		"setSpec-setTemplate-setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setFsGroup": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSupplementalGroups": ["ref40-java.lang.Long"],
-		"setSpec-setTemplate-setSpec-setServiceAccount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setServiceAccountName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTerminationGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setSelector-setMatchExpressions": ["ref41-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"],
-		"setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setManualSelector": "java.lang.Boolean",
-		"setSpec-setCompletions": "java.lang.Integer",
-		"setSpec-setParallelism": "java.lang.Integer"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.JobCondition": {
-		"setStatus": "java.lang.String",
-		"setLastTransitionTime": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String",
-		"setLastProbeTime": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
-	},
-	"ref7-io.fabric8.kubernetes.api.model.Volume": {
-		"setName": "java.lang.String",
-		"setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setAzureDisk-setFsType": "java.lang.String",
-		"setAzureDisk-setCachingMode": "java.lang.String",
-		"setAzureDisk-setDiskName": "java.lang.String",
-		"setAzureDisk-setDiskURI": "java.lang.String",
-		"setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setAzureFile-setShareName": "java.lang.String",
-		"setAzureFile-setSecretName": "java.lang.String",
-		"setCephfs-setReadOnly": "java.lang.Boolean",
-		"setCephfs-setPath": "java.lang.String",
-		"setCephfs-setUser": "java.lang.String",
-		"setCephfs-setSecretRef-setName": "java.lang.String",
-		"setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setCephfs-setSecretFile": "java.lang.String",
-		"setCinder-setReadOnly": "java.lang.Boolean",
-		"setCinder-setFsType": "java.lang.String",
-		"setCinder-setVolumeID": "java.lang.String",
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setItems": ["ref8-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref8-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref10-io.fabric8.kubernetes.api.model.VolumeProjection": {
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setItems": ["ref11-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref11-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref13-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref14-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPreference-setMatchExpressions": ["ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms-setMatchExpressions": ["ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref27-io.fabric8.kubernetes.api.model.Container": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setArgs": ["java.lang.String0", "java.lang.String1"],
-		"setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setEnv": ["ref28-io.fabric8.kubernetes.api.model.EnvVar"]
-	},
-	"ref28-io.fabric8.kubernetes.api.model.EnvVar": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String",
-		"setValueFrom-setFieldRef-setFieldPath": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setResource": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setContainerName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setOptional": "java.lang.Boolean",
-		"setValueFrom-setSecretKeyRef-setName": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setEnvFrom": ["ref29-io.fabric8.kubernetes.api.model.EnvFromSource"]
-	},
-	"ref29-io.fabric8.kubernetes.api.model.EnvFromSource": {
-		"setSecretRef-setName": "java.lang.String",
-		"setSecretRef-setOptional": "java.lang.Boolean",
-		"setPrefix": "java.lang.String",
-		"setConfigMapRef-setName": "java.lang.String",
-		"setConfigMapRef-setOptional": "java.lang.Boolean"
-	},
-	"ref30-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref31-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref32-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref33-io.fabric8.kubernetes.api.model.ContainerPort": {
-		"setName": "java.lang.String",
-		"setContainerPort": "java.lang.Integer",
-		"setHostIP": "java.lang.String",
-		"setHostPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref34-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref35-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref36-io.fabric8.kubernetes.api.model.VolumeMount": {
-		"setReadOnly": "java.lang.Boolean",
-		"setName": "java.lang.String",
-		"setSubPath": "java.lang.String",
-		"setMountPath": "java.lang.String"
-	},
-	"ref37-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref38-io.fabric8.kubernetes.api.model.HostAlias": {
-		"setHostnames": ["java.lang.String0", "java.lang.String1"],
-		"setIp": "java.lang.String"
-	},
-	"ref39-io.fabric8.kubernetes.api.model.Toleration": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setTolerationSeconds": "java.lang.Long"
-	},
-	"ref41-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPassword":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setAutoStartInstance":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes ReplicaSet parameterss:
+## AliyunECS CreateHaVip parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setAvailableReplicas": "java.lang.Integer",
-		"setStatus-setObservedGeneration": "java.lang.Long",
-		"setStatus-setReplicas": "java.lang.Integer",
-		"setStatus-setReadyReplicas": "java.lang.Integer",
-		"setStatus-setConditions": ["ref3-io.fabric8.kubernetes.api.model.extensions.ReplicaSetCondition"],
-		"setStatus-setFullyLabeledReplicas": "java.lang.Integer",
-		"setSpec-setMinReadySeconds": "java.lang.Integer",
-		"setSpec-setReplicas": "java.lang.Integer",
-		"setSpec-setTemplate-setMetadata-setName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setNamespace": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setClusterName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setMetadata-setGenerateName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setGeneration": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setInitializers-setPending": ["ref4-io.fabric8.kubernetes.api.model.Initializer"],
-		"setSpec-setTemplate-setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setOwnerReferences": ["ref5-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setSpec-setTemplate-setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setImagePullSecrets": ["ref6-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setSpec-setTemplate-setSpec-setVolumes": ["ref7-io.fabric8.kubernetes.api.model.Volume"],
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setItems": ["ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setMedium": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setAmount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setFormat": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRevision": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setDirectory": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRepository": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setHostPath-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setServer": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources": ["ref10-io.fabric8.kubernetes.api.model.VolumeProjection"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setDownwardAPI-setItems": ["ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setItems": ["ref13-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setImage": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setPool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setItems": ["ref14-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setSecretName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setClaimName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setWeight": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms": ["ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setContainers": ["ref27-io.fabric8.kubernetes.api.model.Container"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHttpHeaders": ["ref30-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHttpHeaders": ["ref31-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHttpHeaders": ["ref32-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setPorts": ["ref33-io.fabric8.kubernetes.api.model.ContainerPort"],
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setRequests": {
-			"java.lang.String0": "ref34-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setLimits": {
-			"java.lang.String0": "ref35-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setStdin": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setStdinOnce": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setTty": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setVolumeMounts": ["ref36-io.fabric8.kubernetes.api.model.VolumeMount"],
-		"setSpec-setTemplate-setSpec-setContainers-setWorkingDir": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setImagePullPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHttpHeaders": ["ref37-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setPrivileged": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setAdd": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setDrop": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setDnsPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setHostAliases": ["ref38-io.fabric8.kubernetes.api.model.HostAlias"],
-		"setSpec-setTemplate-setSpec-setHostIPC": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostNetwork": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostPID": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostname": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setRestartPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSchedulerName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSubdomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTolerations": ["ref39-io.fabric8.kubernetes.api.model.Toleration"],
-		"setSpec-setTemplate-setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setFsGroup": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSupplementalGroups": ["ref40-java.lang.Long"],
-		"setSpec-setTemplate-setSpec-setServiceAccount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setServiceAccountName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTerminationGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setSelector-setMatchExpressions": ["ref41-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.extensions.ReplicaSetCondition": {
-		"setStatus": "java.lang.String",
-		"setLastTransitionTime": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
-	},
-	"ref7-io.fabric8.kubernetes.api.model.Volume": {
-		"setName": "java.lang.String",
-		"setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setAzureDisk-setFsType": "java.lang.String",
-		"setAzureDisk-setCachingMode": "java.lang.String",
-		"setAzureDisk-setDiskName": "java.lang.String",
-		"setAzureDisk-setDiskURI": "java.lang.String",
-		"setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setAzureFile-setShareName": "java.lang.String",
-		"setAzureFile-setSecretName": "java.lang.String",
-		"setCephfs-setReadOnly": "java.lang.Boolean",
-		"setCephfs-setPath": "java.lang.String",
-		"setCephfs-setUser": "java.lang.String",
-		"setCephfs-setSecretRef-setName": "java.lang.String",
-		"setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setCephfs-setSecretFile": "java.lang.String",
-		"setCinder-setReadOnly": "java.lang.Boolean",
-		"setCinder-setFsType": "java.lang.String",
-		"setCinder-setVolumeID": "java.lang.String",
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setItems": ["ref8-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref8-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref10-io.fabric8.kubernetes.api.model.VolumeProjection": {
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setItems": ["ref11-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref11-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref13-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref14-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPreference-setMatchExpressions": ["ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms-setMatchExpressions": ["ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref27-io.fabric8.kubernetes.api.model.Container": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setArgs": ["java.lang.String0", "java.lang.String1"],
-		"setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setEnv": ["ref28-io.fabric8.kubernetes.api.model.EnvVar"]
-	},
-	"ref28-io.fabric8.kubernetes.api.model.EnvVar": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String",
-		"setValueFrom-setFieldRef-setFieldPath": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setResource": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setContainerName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setOptional": "java.lang.Boolean",
-		"setValueFrom-setSecretKeyRef-setName": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setEnvFrom": ["ref29-io.fabric8.kubernetes.api.model.EnvFromSource"]
-	},
-	"ref29-io.fabric8.kubernetes.api.model.EnvFromSource": {
-		"setSecretRef-setName": "java.lang.String",
-		"setSecretRef-setOptional": "java.lang.Boolean",
-		"setPrefix": "java.lang.String",
-		"setConfigMapRef-setName": "java.lang.String",
-		"setConfigMapRef-setOptional": "java.lang.Boolean"
-	},
-	"ref30-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref31-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref32-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref33-io.fabric8.kubernetes.api.model.ContainerPort": {
-		"setName": "java.lang.String",
-		"setContainerPort": "java.lang.Integer",
-		"setHostIP": "java.lang.String",
-		"setHostPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref34-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref35-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref36-io.fabric8.kubernetes.api.model.VolumeMount": {
-		"setReadOnly": "java.lang.Boolean",
-		"setName": "java.lang.String",
-		"setSubPath": "java.lang.String",
-		"setMountPath": "java.lang.String"
-	},
-	"ref37-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref38-io.fabric8.kubernetes.api.model.HostAlias": {
-		"setHostnames": ["java.lang.String0", "java.lang.String1"],
-		"setIp": "java.lang.String"
-	},
-	"ref39-io.fabric8.kubernetes.api.model.Toleration": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setTolerationSeconds": "java.lang.Long"
-	},
-	"ref41-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Pod parameterss:
+## AliyunECS ModifyAutoSnapshotPolicy parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setMessage": "java.lang.String",
-		"setStatus-setReason": "java.lang.String",
-		"setStatus-setConditions": ["ref3-io.fabric8.kubernetes.api.model.PodCondition"],
-		"setStatus-setPhase": "java.lang.String",
-		"setStatus-setContainerStatuses": ["ref4-io.fabric8.kubernetes.api.model.ContainerStatus"],
-		"setStatus-setInitContainerStatuses": ["ref5-io.fabric8.kubernetes.api.model.ContainerStatus"],
-		"setStatus-setHostIP": "java.lang.String",
-		"setStatus-setStartTime": "java.lang.String",
-		"setStatus-setPodIP": "java.lang.String",
-		"setStatus-setQosClass": "java.lang.String",
-		"setSpec-setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setSpec-setImagePullSecrets": ["ref6-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setSpec-setVolumes": ["ref7-io.fabric8.kubernetes.api.model.Volume"],
-		"setSpec-setVolumes-setConfigMap-setDefaultMode": "java.lang.Integer",
-		"setSpec-setVolumes-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setVolumes-setDownwardAPI-setItems": ["ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setVolumes-setDownwardAPI-setDefaultMode": "java.lang.Integer",
-		"setSpec-setVolumes-setEmptyDir-setMedium": "java.lang.String",
-		"setSpec-setVolumes-setEmptyDir-setSizeLimit-setAmount": "java.lang.String",
-		"setSpec-setVolumes-setEmptyDir-setSizeLimit-setFormat": "java.lang.String",
-		"setSpec-setVolumes-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setFc-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setVolumes-setFc-setLun": "java.lang.Integer",
-		"setSpec-setVolumes-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setVolumes-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setVolumes-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setVolumes-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setVolumes-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setVolumes-setGitRepo-setRevision": "java.lang.String",
-		"setSpec-setVolumes-setGitRepo-setDirectory": "java.lang.String",
-		"setSpec-setVolumes-setGitRepo-setRepository": "java.lang.String",
-		"setSpec-setVolumes-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setVolumes-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setVolumes-setHostPath-setPath": "java.lang.String",
-		"setSpec-setVolumes-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setVolumes-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setVolumes-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setVolumes-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setVolumes-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setVolumes-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setVolumes-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setVolumes-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setVolumes-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setNfs-setPath": "java.lang.String",
-		"setSpec-setVolumes-setNfs-setServer": "java.lang.String",
-		"setSpec-setVolumes-setProjected-setDefaultMode": "java.lang.Integer",
-		"setSpec-setVolumes-setProjected-setSources": ["ref10-io.fabric8.kubernetes.api.model.VolumeProjection"],
-		"setSpec-setVolumes-setProjected-setSources-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setVolumes-setProjected-setSources-setDownwardAPI-setItems": ["ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setVolumes-setProjected-setSources-setSecret-setName": "java.lang.String",
-		"setSpec-setVolumes-setProjected-setSources-setSecret-setItems": ["ref13-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setVolumes-setProjected-setSources-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setVolumes-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setVolumes-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setVolumes-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setVolumes-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setVolumes-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setRbd-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setRbd-setUser": "java.lang.String",
-		"setSpec-setVolumes-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setVolumes-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setVolumes-setRbd-setImage": "java.lang.String",
-		"setSpec-setVolumes-setRbd-setPool": "java.lang.String",
-		"setSpec-setVolumes-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setVolumes-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setVolumes-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setVolumes-setSecret-setItems": ["ref14-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setVolumes-setSecret-setSecretName": "java.lang.String",
-		"setSpec-setVolumes-setSecret-setDefaultMode": "java.lang.Integer",
-		"setSpec-setVolumes-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setVolumes-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setVolumes-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setVolumes-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setVolumes-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setVolumes-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setVolumes-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setVolumes-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setVolumes-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setVolumes-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setVolumes-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setVolumes-setPersistentVolumeClaim-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setPersistentVolumeClaim-setClaimName": "java.lang.String",
-		"setSpec-setVolumes-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setVolumes-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setVolumes-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setVolumes-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm"],
-		"setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setWeight": "java.lang.Integer",
-		"setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms": ["ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm"],
-		"setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setContainers": ["ref27-io.fabric8.kubernetes.api.model.Container"],
-		"setSpec-setContainers-setLifecycle-setPreStop-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHttpHeaders": ["ref30-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPostStart-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHttpHeaders": ["ref31-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setContainers-setLivenessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setContainers-setLivenessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setContainers-setLivenessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setContainers-setLivenessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setContainers-setLivenessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setLivenessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setContainers-setLivenessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setContainers-setLivenessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setContainers-setLivenessProbe-setHttpGet-setHttpHeaders": ["ref32-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setContainers-setLivenessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setLivenessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setContainers-setPorts": ["ref33-io.fabric8.kubernetes.api.model.ContainerPort"],
-		"setSpec-setContainers-setResources-setRequests": {
-			"java.lang.String0": "ref34-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setContainers-setResources-setLimits": {
-			"java.lang.String0": "ref35-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setContainers-setStdin": "java.lang.Boolean",
-		"setSpec-setContainers-setStdinOnce": "java.lang.Boolean",
-		"setSpec-setContainers-setTty": "java.lang.Boolean",
-		"setSpec-setContainers-setVolumeMounts": ["ref36-io.fabric8.kubernetes.api.model.VolumeMount"],
-		"setSpec-setContainers-setWorkingDir": "java.lang.String",
-		"setSpec-setContainers-setImagePullPolicy": "java.lang.String",
-		"setSpec-setContainers-setReadinessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setContainers-setReadinessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setContainers-setReadinessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setContainers-setReadinessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setContainers-setReadinessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setReadinessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setContainers-setReadinessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setContainers-setReadinessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setContainers-setReadinessProbe-setHttpGet-setHttpHeaders": ["ref37-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setContainers-setReadinessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setContainers-setReadinessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setContainers-setTerminationMessagePath": "java.lang.String",
-		"setSpec-setContainers-setTerminationMessagePolicy": "java.lang.String",
-		"setSpec-setContainers-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setContainers-setSecurityContext-setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setSpec-setContainers-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setContainers-setSecurityContext-setPrivileged": "java.lang.Boolean",
-		"setSpec-setContainers-setSecurityContext-setCapabilities-setAdd": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setContainers-setSecurityContext-setCapabilities-setDrop": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setDnsPolicy": "java.lang.String",
-		"setSpec-setHostAliases": ["ref38-io.fabric8.kubernetes.api.model.HostAlias"],
-		"setSpec-setHostIPC": "java.lang.Boolean",
-		"setSpec-setHostNetwork": "java.lang.Boolean",
-		"setSpec-setHostPID": "java.lang.Boolean",
-		"setSpec-setHostname": "java.lang.String",
-		"setSpec-setNodeName": "java.lang.String",
-		"setSpec-setNodeSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setRestartPolicy": "java.lang.String",
-		"setSpec-setSchedulerName": "java.lang.String",
-		"setSpec-setSubdomain": "java.lang.String",
-		"setSpec-setTolerations": ["ref39-io.fabric8.kubernetes.api.model.Toleration"],
-		"setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setSecurityContext-setFsGroup": "java.lang.Long",
-		"setSpec-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setSecurityContext-setSupplementalGroups": ["ref40-java.lang.Long"],
-		"setSpec-setServiceAccount": "java.lang.String",
-		"setSpec-setServiceAccountName": "java.lang.String",
-		"setSpec-setTerminationGracePeriodSeconds": "java.lang.Long"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.PodCondition": {
-		"setStatus": "java.lang.String",
-		"setLastTransitionTime": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String",
-		"setLastProbeTime": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.ContainerStatus": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setContainerID": "java.lang.String",
-		"setLastState-setWaiting-setMessage": "java.lang.String",
-		"setLastState-setWaiting-setReason": "java.lang.String",
-		"setLastState-setTerminated-setMessage": "java.lang.String",
-		"setLastState-setTerminated-setReason": "java.lang.String",
-		"setLastState-setTerminated-setContainerID": "java.lang.String",
-		"setLastState-setTerminated-setSignal": "java.lang.Integer",
-		"setLastState-setTerminated-setExitCode": "java.lang.Integer",
-		"setLastState-setTerminated-setFinishedAt": "java.lang.String",
-		"setLastState-setTerminated-setStartedAt": "java.lang.String",
-		"setLastState-setRunning-setStartedAt": "java.lang.String",
-		"setImageID": "java.lang.String",
-		"setReady": "java.lang.Boolean",
-		"setRestartCount": "java.lang.Integer",
-		"setState-setWaiting-setMessage": "java.lang.String",
-		"setState-setWaiting-setReason": "java.lang.String",
-		"setState-setTerminated-setMessage": "java.lang.String",
-		"setState-setTerminated-setReason": "java.lang.String",
-		"setState-setTerminated-setContainerID": "java.lang.String",
-		"setState-setTerminated-setSignal": "java.lang.Integer",
-		"setState-setTerminated-setExitCode": "java.lang.Integer",
-		"setState-setTerminated-setFinishedAt": "java.lang.String",
-		"setState-setTerminated-setStartedAt": "java.lang.String",
-		"setState-setRunning-setStartedAt": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.ContainerStatus": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setContainerID": "java.lang.String",
-		"setLastState-setWaiting-setMessage": "java.lang.String",
-		"setLastState-setWaiting-setReason": "java.lang.String",
-		"setLastState-setTerminated-setMessage": "java.lang.String",
-		"setLastState-setTerminated-setReason": "java.lang.String",
-		"setLastState-setTerminated-setContainerID": "java.lang.String",
-		"setLastState-setTerminated-setSignal": "java.lang.Integer",
-		"setLastState-setTerminated-setExitCode": "java.lang.Integer",
-		"setLastState-setTerminated-setFinishedAt": "java.lang.String",
-		"setLastState-setTerminated-setStartedAt": "java.lang.String",
-		"setLastState-setRunning-setStartedAt": "java.lang.String",
-		"setImageID": "java.lang.String",
-		"setReady": "java.lang.Boolean",
-		"setRestartCount": "java.lang.Integer",
-		"setState-setWaiting-setMessage": "java.lang.String",
-		"setState-setWaiting-setReason": "java.lang.String",
-		"setState-setTerminated-setMessage": "java.lang.String",
-		"setState-setTerminated-setReason": "java.lang.String",
-		"setState-setTerminated-setContainerID": "java.lang.String",
-		"setState-setTerminated-setSignal": "java.lang.Integer",
-		"setState-setTerminated-setExitCode": "java.lang.Integer",
-		"setState-setTerminated-setFinishedAt": "java.lang.String",
-		"setState-setTerminated-setStartedAt": "java.lang.String",
-		"setState-setRunning-setStartedAt": "java.lang.String"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
-	},
-	"ref7-io.fabric8.kubernetes.api.model.Volume": {
-		"setName": "java.lang.String",
-		"setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setAzureDisk-setFsType": "java.lang.String",
-		"setAzureDisk-setCachingMode": "java.lang.String",
-		"setAzureDisk-setDiskName": "java.lang.String",
-		"setAzureDisk-setDiskURI": "java.lang.String",
-		"setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setAzureFile-setShareName": "java.lang.String",
-		"setAzureFile-setSecretName": "java.lang.String",
-		"setCephfs-setReadOnly": "java.lang.Boolean",
-		"setCephfs-setPath": "java.lang.String",
-		"setCephfs-setUser": "java.lang.String",
-		"setCephfs-setSecretRef-setName": "java.lang.String",
-		"setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setCephfs-setSecretFile": "java.lang.String",
-		"setCinder-setReadOnly": "java.lang.Boolean",
-		"setCinder-setFsType": "java.lang.String",
-		"setCinder-setVolumeID": "java.lang.String",
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setVolumes-setConfigMap-setItems": ["ref8-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref8-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref9-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref10-io.fabric8.kubernetes.api.model.VolumeProjection": {
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setVolumes-setProjected-setSources-setConfigMap-setItems": ["ref11-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref11-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref12-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref13-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref14-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref15-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm": {
-		"setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPreference-setMatchExpressions": ["ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref16-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref17-io.fabric8.kubernetes.api.model.NodeSelectorTerm": {
-		"setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms-setMatchExpressions": ["ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref18-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref19-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref20-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref21-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref22-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref23-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref24-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref25-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref26-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref27-io.fabric8.kubernetes.api.model.Container": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setArgs": ["java.lang.String0", "java.lang.String1"],
-		"setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setContainers-setEnv": ["ref28-io.fabric8.kubernetes.api.model.EnvVar"]
-	},
-	"ref28-io.fabric8.kubernetes.api.model.EnvVar": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String",
-		"setValueFrom-setFieldRef-setFieldPath": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setResource": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setContainerName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setOptional": "java.lang.Boolean",
-		"setValueFrom-setSecretKeyRef-setName": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setOptional": "java.lang.Boolean",
-		"setSpec-setContainers-setEnvFrom": ["ref29-io.fabric8.kubernetes.api.model.EnvFromSource"]
-	},
-	"ref29-io.fabric8.kubernetes.api.model.EnvFromSource": {
-		"setSecretRef-setName": "java.lang.String",
-		"setSecretRef-setOptional": "java.lang.Boolean",
-		"setPrefix": "java.lang.String",
-		"setConfigMapRef-setName": "java.lang.String",
-		"setConfigMapRef-setOptional": "java.lang.Boolean"
-	},
-	"ref30-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref31-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref32-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref33-io.fabric8.kubernetes.api.model.ContainerPort": {
-		"setName": "java.lang.String",
-		"setContainerPort": "java.lang.Integer",
-		"setHostIP": "java.lang.String",
-		"setHostPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref34-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref35-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref36-io.fabric8.kubernetes.api.model.VolumeMount": {
-		"setReadOnly": "java.lang.Boolean",
-		"setName": "java.lang.String",
-		"setSubPath": "java.lang.String",
-		"setMountPath": "java.lang.String"
-	},
-	"ref37-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref38-io.fabric8.kubernetes.api.model.HostAlias": {
-		"setHostnames": ["java.lang.String0", "java.lang.String1"],
-		"setIp": "java.lang.String"
-	},
-	"ref39-io.fabric8.kubernetes.api.model.Toleration": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setTolerationSeconds": "java.lang.Long"
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDataDiskPolicyEnabled":"java.lang.Boolean",
+		"setDataDiskPolicyRetentionDays":"java.lang.Integer",
+		"setSystemDiskPolicyTimePeriod":"java.lang.Integer",
+		"setSystemDiskPolicyRetentionDays":"java.lang.Integer",
+		"setDataDiskPolicyTimePeriod":"java.lang.Integer",
+		"setSystemDiskPolicyEnabled":"java.lang.Boolean",
+		"setSystemDiskPolicyRetentionLastWeek":"java.lang.Boolean",
+		"setDataDiskPolicyRetentionLastWeek":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes ConfigMap parameterss:
+## AliyunECS AssociateEipAddress parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setData": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		}
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setAllocationId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes NetworkPolicy parameterss:
+## AliyunECS RevokeSecurityGroupEgress parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setIngress": ["ref3-io.fabric8.kubernetes.api.model.extensions.NetworkPolicyIngressRule"],
-		"setSpec-setIngress-setFrom": ["ref5-io.fabric8.kubernetes.api.model.extensions.NetworkPolicyPeer"],
-		"setSpec-setIngress-setFrom-setPodSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setIngress-setFrom-setPodSelector-setMatchExpressions": ["ref7-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"],
-		"setSpec-setPodSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setPodSelector-setMatchExpressions": ["ref8-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.extensions.NetworkPolicyIngressRule": {
-		"setSpec-setIngress-setPorts": ["ref4-io.fabric8.kubernetes.api.model.extensions.NetworkPolicyPort"]
-	},
-	"ref4-io.fabric8.kubernetes.api.model.extensions.NetworkPolicyPort": {
-		"setPort-setIntVal": "java.lang.Integer",
-		"setPort-setStrVal": "java.lang.String",
-		"setProtocol": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.extensions.NetworkPolicyPeer": {
-		"setNamespaceSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setIngress-setFrom-setNamespaceSelector-setMatchExpressions": ["ref6-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref6-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref7-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref8-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
+	"main":{
+		"setPriority":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setDestGroupOwnerAccount":"java.lang.String",
+		"setDestGroupOwnerId":"java.lang.Long",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes CustomResourceDefinition parameterss:
+## AliyunECS DescribeEipAddresses parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setConditions": ["ref3-io.fabric8.kubernetes.api.model.apiextensions.CustomResourceDefinitionCondition"],
-		"setStatus-setAcceptedNames-setPlural": "java.lang.String",
-		"setStatus-setAcceptedNames-setShortNames": ["java.lang.String0", "java.lang.String1"],
-		"setStatus-setAcceptedNames-setSingular": "java.lang.String",
-		"setStatus-setAcceptedNames-setListKind": "java.lang.String",
-		"setSpec-setNames-setPlural": "java.lang.String",
-		"setSpec-setNames-setShortNames": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setNames-setSingular": "java.lang.String",
-		"setSpec-setNames-setListKind": "java.lang.String",
-		"setSpec-setGroup": "java.lang.String",
-		"setSpec-setVersion": "java.lang.String",
-		"setSpec-setScope": "java.lang.String"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.apiextensions.CustomResourceDefinitionCondition": {
-		"setStatus": "java.lang.String",
-		"setLastTransitionTime": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String"
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatus":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setFilter2Value":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setEipAddress":"java.lang.String",
+		"setChargeType":"java.lang.String",
+		"setAssociatedInstanceType":"java.lang.String",
+		"setAssociatedInstanceId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Ingress parameterss:
+## AliyunECS ActivateRouterInterface parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setLoadBalancer-setIngress": ["ref3-io.fabric8.kubernetes.api.model.LoadBalancerIngress"],
-		"setSpec-setBackend-setServiceName": "java.lang.String",
-		"setSpec-setBackend-setServicePort-setIntVal": "java.lang.Integer",
-		"setSpec-setBackend-setServicePort-setStrVal": "java.lang.String",
-		"setSpec-setRules": ["ref4-io.fabric8.kubernetes.api.model.extensions.IngressRule"],
-		"setSpec-setTls": ["ref6-io.fabric8.kubernetes.api.model.extensions.IngressTLS"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.LoadBalancerIngress": {
-		"setHostname": "java.lang.String",
-		"setIp": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.extensions.IngressRule": {
-		"setHost": "java.lang.String",
-		"setSpec-setRules-setHttp-setPaths": ["ref5-io.fabric8.kubernetes.api.model.extensions.HTTPIngressPath"]
-	},
-	"ref5-io.fabric8.kubernetes.api.model.extensions.HTTPIngressPath": {
-		"setPath": "java.lang.String",
-		"setBackend-setServiceName": "java.lang.String",
-		"setBackend-setServicePort-setIntVal": "java.lang.Integer",
-		"setBackend-setServicePort-setStrVal": "java.lang.String"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.extensions.IngressTLS": {
-		"setSecretName": "java.lang.String",
-		"setHosts": ["java.lang.String0", "java.lang.String1"]
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Service parameterss:
+## AliyunECS DescribeSpotPriceHistory parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setLoadBalancer-setIngress": ["ref3-io.fabric8.kubernetes.api.model.LoadBalancerIngress"],
-		"setSpec-setSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setPorts": ["ref4-io.fabric8.kubernetes.api.model.ServicePort"],
-		"setSpec-setType": "java.lang.String",
-		"setSpec-setExternalTrafficPolicy": "java.lang.String",
-		"setSpec-setHealthCheckNodePort": "java.lang.Integer",
-		"setSpec-setLoadBalancerIP": "java.lang.String",
-		"setSpec-setLoadBalancerSourceRanges": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setClusterIP": "java.lang.String",
-		"setSpec-setExternalIPs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setExternalName": "java.lang.String",
-		"setSpec-setSessionAffinity": "java.lang.String"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.LoadBalancerIngress": {
-		"setHostname": "java.lang.String",
-		"setIp": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.ServicePort": {
-		"setName": "java.lang.String",
-		"setPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String",
-		"setNodePort": "java.lang.Integer",
-		"setTargetPort-setIntVal": "java.lang.Integer",
-		"setTargetPort-setStrVal": "java.lang.String"
+	"main":{
+		"setOffset":"java.lang.Integer",
+		"setNetworkType":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEndTime":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setOSType":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes SecurityContextConstraint parameterss:
+## AliyunECS TerminateVirtualBorderRouter parameters:
 
 ```
 {
-	"main": {
-		"setPriority": "java.lang.Integer",
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setAllowHostIPC": "java.lang.Boolean",
-		"setAllowHostPID": "java.lang.Boolean",
-		"setFsGroup-setType": "java.lang.String",
-		"setFsGroup-setRanges": ["ref3-io.fabric8.openshift.api.model.IDRange"],
-		"setGroups": ["java.lang.String0", "java.lang.String1"],
-		"setRunAsUser-setType": "java.lang.String",
-		"setRunAsUser-setUidRangeMin": "java.lang.Long",
-		"setRunAsUser-setUidRangeMax": "java.lang.Long",
-		"setUsers": ["java.lang.String0", "java.lang.String1"],
-		"setVolumes": ["java.lang.String0", "java.lang.String1"],
-		"setAllowHostDirVolumePlugin": "java.lang.Boolean",
-		"setAllowHostNetwork": "java.lang.Boolean",
-		"setAllowHostPorts": "java.lang.Boolean",
-		"setAllowPrivilegedContainer": "java.lang.Boolean",
-		"setAllowedCapabilities": ["java.lang.String0", "java.lang.String1"],
-		"setDefaultAddCapabilities": ["java.lang.String0", "java.lang.String1"],
-		"setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setRequiredDropCapabilities": ["java.lang.String0", "java.lang.String1"],
-		"setSeLinuxContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSeLinuxContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSeLinuxContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSeLinuxContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSeLinuxContext-setType": "java.lang.String",
-		"setSeccompProfiles": ["java.lang.String0", "java.lang.String1"],
-		"setSupplementalGroups-setType": "java.lang.String",
-		"setSupplementalGroups-setRanges": ["ref4-io.fabric8.openshift.api.model.IDRange"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.openshift.api.model.IDRange": {
-		"setMin": "java.lang.Long",
-		"setMax": "java.lang.Long"
-	},
-	"ref4-io.fabric8.openshift.api.model.IDRange": {
-		"setMin": "java.lang.Long",
-		"setMax": "java.lang.Long"
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVbrId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Namespace parameterss:
+## AliyunECS StopInstance parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setPhase": "java.lang.String",
-		"setSpec-setFinalizers": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setForceStop":"java.lang.Boolean",
+		"setConfirmStop":"java.lang.Boolean",
+		"setStoppedMode":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Secret parameterss:
+## AliyunECS DescribeInstanceHistoryEvents parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setData": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setType": "java.lang.String",
-		"setStringData": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		}
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEventType":"java.lang.String",
+		"setEventIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setEventCycleStatus":"java.lang.String",
+		"setEventPublishTimeEnd":"java.lang.String",
+		"setNotBeforeStart":"java.lang.String",
+		"setEventPublishTimeStart":"java.lang.String",
+		"setNotBeforeEnd":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes LimitRange parameterss:
+## AliyunECS DeletePhysicalConnection parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setLimits": ["ref3-io.fabric8.kubernetes.api.model.LimitRangeItem"],
-		"setSpec-setLimits-setType": "java.lang.String",
-		"setSpec-setLimits-setDefaultRequest": {
-			"java.lang.String0": "ref5-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setLimits-setMaxLimitRequestRatio": {
-			"java.lang.String0": "ref6-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setLimits-setMin": {
-			"java.lang.String0": "ref7-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setLimits-setMax": {
-			"java.lang.String0": "ref8-io.fabric8.kubernetes.api.model.Quantity"
-		}
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.LimitRangeItem": {
-		"setSpec-setLimits-setDefault": {
-			"java.lang.String0": "ref4-io.fabric8.kubernetes.api.model.Quantity"
-		}
-	},
-	"ref4-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref7-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref8-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-
-## Kubernetes HorizontalPodAutoscaler parameterss:
+## AliyunECS RevokeSecurityGroup parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setObservedGeneration": "java.lang.Long",
-		"setStatus-setCurrentCPUUtilizationPercentage": "java.lang.Integer",
-		"setStatus-setLastScaleTime": "java.lang.String",
-		"setStatus-setCurrentReplicas": "java.lang.Integer",
-		"setStatus-setDesiredReplicas": "java.lang.Integer",
-		"setSpec-setTargetCPUUtilizationPercentage": "java.lang.Integer",
-		"setSpec-setMaxReplicas": "java.lang.Integer",
-		"setSpec-setMinReplicas": "java.lang.Integer",
-		"setSpec-setScaleTargetRef-setName": "java.lang.String"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
+	"main":{
+		"setPriority":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setSourceGroupOwnerId":"java.lang.Long",
+		"setSourceGroupOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Event parameterss:
+## AliyunECS CheckAutoSnapshotPolicy parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setType": "java.lang.String",
-		"setCount": "java.lang.Integer",
-		"setLastTimestamp": "java.lang.String",
-		"setMessage": "java.lang.String",
-		"setReason": "java.lang.String",
-		"setSource-setHost": "java.lang.String",
-		"setSource-setComponent": "java.lang.String",
-		"setFirstTimestamp": "java.lang.String",
-		"setInvolvedObject-setName": "java.lang.String",
-		"setInvolvedObject-setNamespace": "java.lang.String",
-		"setInvolvedObject-setFieldPath": "java.lang.String",
-		"setInvolvedObject-setResourceVersion": "java.lang.String"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDataDiskPolicyEnabled":"java.lang.Boolean",
+		"setDataDiskPolicyRetentionDays":"java.lang.Integer",
+		"setSystemDiskPolicyTimePeriod":"java.lang.Integer",
+		"setSystemDiskPolicyRetentionDays":"java.lang.Integer",
+		"setDataDiskPolicyTimePeriod":"java.lang.Integer",
+		"setSystemDiskPolicyEnabled":"java.lang.Boolean",
+		"setSystemDiskPolicyRetentionLastWeek":"java.lang.Boolean",
+		"setDataDiskPolicyRetentionLastWeek":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes DaemonSet parameterss:
+## AliyunECS DescribeTaskAttribute parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setCollisionCount": "java.lang.Long",
-		"setStatus-setObservedGeneration": "java.lang.Long",
-		"setStatus-setNumberReady": "java.lang.Integer",
-		"setStatus-setCurrentNumberScheduled": "java.lang.Integer",
-		"setStatus-setDesiredNumberScheduled": "java.lang.Integer",
-		"setStatus-setNumberAvailable": "java.lang.Integer",
-		"setStatus-setNumberMisscheduled": "java.lang.Integer",
-		"setStatus-setNumberUnavailable": "java.lang.Integer",
-		"setStatus-setUpdatedNumberScheduled": "java.lang.Integer",
-		"setSpec-setMinReadySeconds": "java.lang.Integer",
-		"setSpec-setRevisionHistoryLimit": "java.lang.Integer",
-		"setSpec-setTemplate-setMetadata-setName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setNamespace": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setClusterName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setMetadata-setGenerateName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setGeneration": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setInitializers-setPending": ["ref3-io.fabric8.kubernetes.api.model.Initializer"],
-		"setSpec-setTemplate-setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setOwnerReferences": ["ref4-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setSpec-setTemplate-setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setImagePullSecrets": ["ref5-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setSpec-setTemplate-setSpec-setVolumes": ["ref6-io.fabric8.kubernetes.api.model.Volume"],
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setItems": ["ref8-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setMedium": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setAmount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setFormat": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRevision": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setDirectory": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRepository": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setHostPath-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setServer": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources": ["ref9-io.fabric8.kubernetes.api.model.VolumeProjection"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setDownwardAPI-setItems": ["ref11-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setItems": ["ref12-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setImage": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setPool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setItems": ["ref13-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setSecretName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setClaimName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref14-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setWeight": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms": ["ref16-io.fabric8.kubernetes.api.model.NodeSelectorTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref18-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref20-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref22-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref24-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setContainers": ["ref26-io.fabric8.kubernetes.api.model.Container"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHttpHeaders": ["ref29-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHttpHeaders": ["ref30-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHttpHeaders": ["ref31-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setPorts": ["ref32-io.fabric8.kubernetes.api.model.ContainerPort"],
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setRequests": {
-			"java.lang.String0": "ref33-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setLimits": {
-			"java.lang.String0": "ref34-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setStdin": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setStdinOnce": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setTty": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setVolumeMounts": ["ref35-io.fabric8.kubernetes.api.model.VolumeMount"],
-		"setSpec-setTemplate-setSpec-setContainers-setWorkingDir": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setImagePullPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHttpHeaders": ["ref36-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setPrivileged": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setAdd": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setDrop": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setDnsPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setHostAliases": ["ref37-io.fabric8.kubernetes.api.model.HostAlias"],
-		"setSpec-setTemplate-setSpec-setHostIPC": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostNetwork": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostPID": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostname": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setRestartPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSchedulerName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSubdomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTolerations": ["ref38-io.fabric8.kubernetes.api.model.Toleration"],
-		"setSpec-setTemplate-setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setFsGroup": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSupplementalGroups": ["ref39-java.lang.Long"],
-		"setSpec-setTemplate-setSpec-setServiceAccount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setServiceAccountName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTerminationGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setSelector-setMatchExpressions": ["ref40-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"],
-		"setSpec-setTemplateGeneration": "java.lang.Long",
-		"setSpec-setUpdateStrategy-setRollingUpdate-setMaxUnavailable-setIntVal": "java.lang.Integer",
-		"setSpec-setUpdateStrategy-setRollingUpdate-setMaxUnavailable-setStrVal": "java.lang.String",
-		"setSpec-setUpdateStrategy-setType": "java.lang.String"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref5-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.Volume": {
-		"setName": "java.lang.String",
-		"setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setAzureDisk-setFsType": "java.lang.String",
-		"setAzureDisk-setCachingMode": "java.lang.String",
-		"setAzureDisk-setDiskName": "java.lang.String",
-		"setAzureDisk-setDiskURI": "java.lang.String",
-		"setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setAzureFile-setShareName": "java.lang.String",
-		"setAzureFile-setSecretName": "java.lang.String",
-		"setCephfs-setReadOnly": "java.lang.Boolean",
-		"setCephfs-setPath": "java.lang.String",
-		"setCephfs-setUser": "java.lang.String",
-		"setCephfs-setSecretRef-setName": "java.lang.String",
-		"setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setCephfs-setSecretFile": "java.lang.String",
-		"setCinder-setReadOnly": "java.lang.Boolean",
-		"setCinder-setFsType": "java.lang.String",
-		"setCinder-setVolumeID": "java.lang.String",
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setItems": ["ref7-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref7-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref8-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref9-io.fabric8.kubernetes.api.model.VolumeProjection": {
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setItems": ["ref10-io.fabric8.kubernetes.api.model.KeyToPath"]
-	},
-	"ref10-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref11-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
-	},
-	"ref12-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref13-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
-	},
-	"ref14-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPreference-setMatchExpressions": ["ref15-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref15-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref16-io.fabric8.kubernetes.api.model.NodeSelectorTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms-setMatchExpressions": ["ref17-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref17-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref18-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref19-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref19-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref20-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref21-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref21-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref22-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref23-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref23-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref24-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref25-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref25-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref26-io.fabric8.kubernetes.api.model.Container": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setArgs": ["java.lang.String0", "java.lang.String1"],
-		"setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setEnv": ["ref27-io.fabric8.kubernetes.api.model.EnvVar"]
-	},
-	"ref27-io.fabric8.kubernetes.api.model.EnvVar": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String",
-		"setValueFrom-setFieldRef-setFieldPath": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setResource": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setContainerName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setOptional": "java.lang.Boolean",
-		"setValueFrom-setSecretKeyRef-setName": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setEnvFrom": ["ref28-io.fabric8.kubernetes.api.model.EnvFromSource"]
-	},
-	"ref28-io.fabric8.kubernetes.api.model.EnvFromSource": {
-		"setSecretRef-setName": "java.lang.String",
-		"setSecretRef-setOptional": "java.lang.Boolean",
-		"setPrefix": "java.lang.String",
-		"setConfigMapRef-setName": "java.lang.String",
-		"setConfigMapRef-setOptional": "java.lang.Boolean"
-	},
-	"ref29-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref30-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref31-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref32-io.fabric8.kubernetes.api.model.ContainerPort": {
-		"setName": "java.lang.String",
-		"setContainerPort": "java.lang.Integer",
-		"setHostIP": "java.lang.String",
-		"setHostPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref33-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref34-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref35-io.fabric8.kubernetes.api.model.VolumeMount": {
-		"setReadOnly": "java.lang.Boolean",
-		"setName": "java.lang.String",
-		"setSubPath": "java.lang.String",
-		"setMountPath": "java.lang.String"
-	},
-	"ref36-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref37-io.fabric8.kubernetes.api.model.HostAlias": {
-		"setHostnames": ["java.lang.String0", "java.lang.String1"],
-		"setIp": "java.lang.String"
-	},
-	"ref38-io.fabric8.kubernetes.api.model.Toleration": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setTolerationSeconds": "java.lang.Long"
-	},
-	"ref40-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTaskId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes PersistentVolumeClaim parameterss:
+## AliyunECS CreateAutoSnapshotPolicy parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setCapacity": {
-			"java.lang.String0": "ref3-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setStatus-setPhase": "java.lang.String",
-		"setStatus-setAccessModes": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setSelector-setMatchExpressions": ["ref4-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"],
-		"setSpec-setVolumeName": "java.lang.String",
-		"setSpec-setResources-setRequests": {
-			"java.lang.String0": "ref5-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setResources-setLimits": {
-			"java.lang.String0": "ref6-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setAccessModes": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setStorageClassName": "java.lang.String"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref4-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref5-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref6-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTimePoints":"java.lang.String",
+		"setRetentionDays":"java.lang.Integer",
+		"setRepeatWeekdays":"java.lang.String",
+		"setAutoSnapshotPolicyName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes PersistentVolume parameterss:
+## AliyunECS ReActivateInstances parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setMessage": "java.lang.String",
-		"setStatus-setReason": "java.lang.String",
-		"setStatus-setPhase": "java.lang.String",
-		"setSpec-setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setAzureDisk-setFsType": "java.lang.String",
-		"setSpec-setAzureDisk-setCachingMode": "java.lang.String",
-		"setSpec-setAzureDisk-setDiskName": "java.lang.String",
-		"setSpec-setAzureDisk-setDiskURI": "java.lang.String",
-		"setSpec-setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setSpec-setAzureFile-setShareName": "java.lang.String",
-		"setSpec-setAzureFile-setSecretName": "java.lang.String",
-		"setSpec-setCephfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setCephfs-setPath": "java.lang.String",
-		"setSpec-setCephfs-setUser": "java.lang.String",
-		"setSpec-setCephfs-setSecretRef-setName": "java.lang.String",
-		"setSpec-setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setCephfs-setSecretFile": "java.lang.String",
-		"setSpec-setCinder-setReadOnly": "java.lang.Boolean",
-		"setSpec-setCinder-setFsType": "java.lang.String",
-		"setSpec-setCinder-setVolumeID": "java.lang.String",
-		"setSpec-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setFc-setFsType": "java.lang.String",
-		"setSpec-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setFc-setLun": "java.lang.Integer",
-		"setSpec-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setHostPath-setPath": "java.lang.String",
-		"setSpec-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setNfs-setPath": "java.lang.String",
-		"setSpec-setNfs-setServer": "java.lang.String",
-		"setSpec-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setRbd-setFsType": "java.lang.String",
-		"setSpec-setRbd-setUser": "java.lang.String",
-		"setSpec-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setRbd-setImage": "java.lang.String",
-		"setSpec-setRbd-setPool": "java.lang.String",
-		"setSpec-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setStorageos-setSecretRef-setNamespace": "java.lang.String",
-		"setSpec-setStorageos-setSecretRef-setFieldPath": "java.lang.String",
-		"setSpec-setStorageos-setSecretRef-setResourceVersion": "java.lang.String",
-		"setSpec-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setCapacity": {
-			"java.lang.String0": "ref3-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setClaimRef-setName": "java.lang.String",
-		"setSpec-setClaimRef-setNamespace": "java.lang.String",
-		"setSpec-setClaimRef-setFieldPath": "java.lang.String",
-		"setSpec-setClaimRef-setResourceVersion": "java.lang.String",
-		"setSpec-setLocal-setPath": "java.lang.String",
-		"setSpec-setAccessModes": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setStorageClassName": "java.lang.String",
-		"setSpec-setPersistentVolumeReclaimPolicy": "java.lang.String"
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes Componentstatus parameterss:
+## AliyunECS DescribeForwardTableEntries parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setConditions": ["ref3-io.fabric8.kubernetes.api.model.ComponentCondition"]
-	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref3-io.fabric8.kubernetes.api.model.ComponentCondition": {
-		"setError": "java.lang.String",
-		"setStatus": "java.lang.String",
-		"setType": "java.lang.String",
-		"setMessage": "java.lang.String"
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setForwardEntryId":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
-## Kubernetes StatefulSet parameterss:
+## AliyunECS DescribeInstances parameters:
 
 ```
 {
-	"main": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setMetadata-setInitializers-setPending": ["ref1-io.fabric8.kubernetes.api.model.Initializer"],
-		"setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setMetadata-setOwnerReferences": ["ref2-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setMetadata-setResourceVersion": "java.lang.String",
-		"setStatus-setObservedGeneration": "java.lang.Long",
-		"setStatus-setUpdatedReplicas": "java.lang.Integer",
-		"setStatus-setReplicas": "java.lang.Integer",
-		"setStatus-setReadyReplicas": "java.lang.Integer",
-		"setStatus-setCurrentReplicas": "java.lang.Integer",
-		"setStatus-setCurrentRevision": "java.lang.String",
-		"setStatus-setUpdateRevision": "java.lang.String",
-		"setSpec-setRevisionHistoryLimit": "java.lang.Integer",
-		"setSpec-setReplicas": "java.lang.Integer",
-		"setSpec-setTemplate-setMetadata-setName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setNamespace": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setClusterName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setMetadata-setGenerateName": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setGeneration": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setInitializers-setPending": ["ref3-io.fabric8.kubernetes.api.model.Initializer"],
-		"setSpec-setTemplate-setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setSpec-setTemplate-setMetadata-setOwnerReferences": ["ref4-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setSpec-setTemplate-setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAutomountServiceAccountToken": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setImagePullSecrets": ["ref5-io.fabric8.kubernetes.api.model.LocalObjectReference"],
-		"setSpec-setTemplate-setSpec-setVolumes": ["ref6-io.fabric8.kubernetes.api.model.Volume"],
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setItems": ["ref8-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setDownwardAPI-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setMedium": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setAmount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setEmptyDir-setSizeLimit-setFormat": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setTargetWWNs": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setFc-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setDriver": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlexVolume-setOptions": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetUUID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setFlocker-setDatasetName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRevision": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setDirectory": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGitRepo-setRepository": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGlusterfs-setEndpoints": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setHostPath-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setLun": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIqn": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setTargetPortal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setPortals": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthDiscovery": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setChapAuthSession": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setIscsi-setIscsiInterface": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setNfs-setServer": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources": ["ref9-io.fabric8.kubernetes.api.model.VolumeProjection"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setDownwardAPI-setItems": ["ref11-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setItems": ["ref12-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setRegistry": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setGroup": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setQuobyte-setVolume": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setImage": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setPool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setRbd-setKeyring": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStorageMode": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setStoragePool": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSslEnabled": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setGateway": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setSystem": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setScaleIO-setProtectionDomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setItems": ["ref13-io.fabric8.kubernetes.api.model.KeyToPath"],
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setSecretName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setDefaultMode": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setSecret-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setSecretRef-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setStorageos-setVolumeNamespace": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setVolumePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setVsphereVolume-setStoragePolicyName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setAwsElasticBlockStore-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPartition": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setVolumes-setGcePersistentDisk-setPdName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPersistentVolumeClaim-setClaimName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPhotonPersistentDisk-setPdID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setReadOnly": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setFsType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setPortworxVolume-setVolumeID": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref14-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setWeight": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms": ["ref16-io.fabric8.kubernetes.api.model.NodeSelectorTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref18-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref20-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution": ["ref22-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution": ["ref24-io.fabric8.kubernetes.api.model.PodAffinityTerm"],
-		"setSpec-setTemplate-setSpec-setContainers": ["ref26-io.fabric8.kubernetes.api.model.Container"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setHttpGet-setHttpHeaders": ["ref29-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPreStop-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setHttpGet-setHttpHeaders": ["ref30-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLifecycle-setPostStart-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setHttpGet-setHttpHeaders": ["ref31-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setLivenessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setPorts": ["ref32-io.fabric8.kubernetes.api.model.ContainerPort"],
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setRequests": {
-			"java.lang.String0": "ref33-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setResources-setLimits": {
-			"java.lang.String0": "ref34-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setTemplate-setSpec-setContainers-setStdin": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setStdinOnce": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setTty": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setVolumeMounts": ["ref35-io.fabric8.kubernetes.api.model.VolumeMount"],
-		"setSpec-setTemplate-setSpec-setContainers-setWorkingDir": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setImagePullPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setFailureThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setInitialDelaySeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setSuccessThreshold": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTimeoutSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setExec-setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setPath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setScheme": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setHttpGet-setHttpHeaders": ["ref36-io.fabric8.kubernetes.api.model.HTTPHeader"],
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setPeriodSeconds": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setIntVal": "java.lang.Integer",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setPort-setStrVal": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setReadinessProbe-setTcpSocket-setHost": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePath": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setTerminationMessagePolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setReadOnlyRootFilesystem": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setPrivileged": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setAdd": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setCapabilities-setDrop": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setContainers-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setDnsPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setHostAliases": ["ref37-io.fabric8.kubernetes.api.model.HostAlias"],
-		"setSpec-setTemplate-setSpec-setHostIPC": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostNetwork": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostPID": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setHostname": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setNodeSelector": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setRestartPolicy": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSchedulerName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSubdomain": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTolerations": ["ref38-io.fabric8.kubernetes.api.model.Toleration"],
-		"setSpec-setTemplate-setSpec-setActiveDeadlineSeconds": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setFsGroup": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsUser": "java.lang.Long",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setRunAsNonRoot": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setUser": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setType": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setRole": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSeLinuxOptions-setLevel": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setSecurityContext-setSupplementalGroups": ["ref39-java.lang.Long"],
-		"setSpec-setTemplate-setSpec-setServiceAccount": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setServiceAccountName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setTerminationGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setSelector-setMatchExpressions": ["ref40-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"],
-		"setSpec-setServiceName": "java.lang.String",
-		"setSpec-setPodManagementPolicy": "java.lang.String",
-		"setSpec-setVolumeClaimTemplates": ["ref41-io.fabric8.kubernetes.api.model.PersistentVolumeClaim"],
-		"setSpec-setVolumeClaimTemplates-setMetadata-setLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setVolumeClaimTemplates-setMetadata-setDeletionGracePeriodSeconds": "java.lang.Long",
-		"setSpec-setVolumeClaimTemplates-setMetadata-setDeletionTimestamp": "java.lang.String",
-		"setSpec-setVolumeClaimTemplates-setMetadata-setOwnerReferences": ["ref43-io.fabric8.kubernetes.api.model.OwnerReference"],
-		"setSpec-setVolumeClaimTemplates-setMetadata-setResourceVersion": "java.lang.String",
-		"setSpec-setVolumeClaimTemplates-setStatus-setCapacity": {
-			"java.lang.String0": "ref44-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setVolumeClaimTemplates-setStatus-setPhase": "java.lang.String",
-		"setSpec-setVolumeClaimTemplates-setStatus-setAccessModes": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setVolumeClaimTemplates-setSpec-setSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setVolumeClaimTemplates-setSpec-setSelector-setMatchExpressions": ["ref45-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"],
-		"setSpec-setVolumeClaimTemplates-setSpec-setVolumeName": "java.lang.String",
-		"setSpec-setVolumeClaimTemplates-setSpec-setResources-setRequests": {
-			"java.lang.String0": "ref46-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setVolumeClaimTemplates-setSpec-setResources-setLimits": {
-			"java.lang.String0": "ref47-io.fabric8.kubernetes.api.model.Quantity"
-		},
-		"setSpec-setVolumeClaimTemplates-setSpec-setAccessModes": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setVolumeClaimTemplates-setSpec-setStorageClassName": "java.lang.String",
-		"setSpec-setUpdateStrategy-setRollingUpdate-setPartition": "java.lang.Integer",
-		"setSpec-setUpdateStrategy-setType": "java.lang.String"
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setVpcId":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setFilter2Value":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setTag5Key":"java.lang.String",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setInstanceTypeFamily":"java.lang.String",
+		"setHpcClusterId":"java.lang.String",
+		"setFilter3Value":"java.lang.String",
+		"setFilter4Value":"java.lang.String",
+		"setIoOptimized":"java.lang.Boolean",
+		"setFilter4Key":"java.lang.String",
+		"setEipAddresses":"java.lang.String",
+		"setFilter3Key":"java.lang.String",
+		"setInnerIpAddresses":"java.lang.String",
+		"setPrivateIpAddresses":"java.lang.String",
+		"setResourceGroupId":"java.lang.String",
+		"setDeviceAvailable":"java.lang.Boolean",
+		"setInternetChargeType":"java.lang.String",
+		"setInstanceNetworkType":"java.lang.String",
+		"setRdmaIpAddresses":"java.lang.String",
+		"setPublicIpAddresses":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeSecurityGroupReferences parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSecurityGroupIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteRouterInterface parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DetachInstanceRamRole parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AllocatePublicIpAddress parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVlanId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AttachVolume parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeEipMonitorData parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeDisksFullStatus parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setDiskIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEventTimeStart":"java.lang.String",
+		"setHealthStatus":"java.lang.String",
+		"setEventType":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setEventIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEventTimeEnd":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CancelAutoSnapshotPolicy parameters:
+
+```
+{
+	"main":{
+		"setDiskIds":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteNetworkInterface parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyInstanceSpec parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setTemporaryInternetMaxBandwidthOut":"java.lang.Integer",
+		"setSystemDiskCategory":"java.lang.String",
+		"setAllowMigrateAcrossZone":"java.lang.Boolean",
+		"setTemporaryStartTime":"java.lang.String",
+		"setTemporaryEndTime":"java.lang.String",
+		"setAsync":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteSnapshot parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setForce":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteKeyPairs parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setKeyPairNames":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AuthorizeSecurityGroup parameters:
+
+```
+{
+	"main":{
+		"setPriority":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setSourceGroupOwnerId":"java.lang.Long",
+		"setSourceGroupOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteSecurityGroup parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeSnapshotMonitorData parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ConnectRouterInterface parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AddIpRange parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CancelTask parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTaskId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyPhysicalConnectionAttribute parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setPeerLocation":"java.lang.String",
+		"setPortType":"java.lang.String",
+		"setCircuitCode":"java.lang.String",
+		"setBandwidth":"java.lang.Integer",
+		"setClientToken":"java.lang.String",
+		"setLineOperator":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setRedundantPhysicalConnectionId":"java.lang.String",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyCommand parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandContent":"java.lang.String",
+		"setWorkingDir":"java.lang.String",
+		"setCommandId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTimeout":"java.lang.Long",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyVSwitchAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchName":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyInstanceAttribute parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setUserData":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setRecyclable":"java.lang.Boolean",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteHaVip parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setHaVipId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeSecurityGroups parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setNetworkType":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFuzzyQuery":"java.lang.Boolean",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setSecurityGroupName":"java.lang.String",
+		"setSecurityGroupIds":"java.lang.String",
+		"setIsQueryEcsCount":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ResizeDisk parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNewSize":"java.lang.Integer",
+		"setDiskId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ResizeVolume parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNewSize":"java.lang.Integer",
+		"setVolumeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateRouteEntry parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNextHopId":"java.lang.String",
+		"setNextHopLists":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateRouteEntryRequest$NextHopList"
+		],
+		"setRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"setNextHopType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref1-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateRouteEntryRequest$NextHopList":{
+		"setNextHopId":"java.lang.String",
+		"setNextHopType":"java.lang.String"
+	}
+}
+```
+## AliyunECS AttachKeyPair parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInvocations parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Long",
+		"setPageNumber":"java.lang.Long",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTimed":"java.lang.Boolean",
+		"setInvokeId":"java.lang.String",
+		"setInvokeStatus":"java.lang.String",
+		"setCommandName":"java.lang.String",
+		"setCommandType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateRouterInterface parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setAccessPointId":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setOppositeAccessPointId":"java.lang.String",
+		"setOppositeRegionId":"java.lang.String",
+		"setRouterType":"java.lang.String",
+		"setRouterId":"java.lang.String",
+		"setSpec":"java.lang.String",
+		"setRole":"java.lang.String",
+		"setPricingCycle":"java.lang.String",
+		"setOppositeRouterId":"java.lang.String",
+		"setHealthCheckTargetIp":"java.lang.String",
+		"setOppositeInterfaceOwnerId":"java.lang.String",
+		"setHealthCheckSourceIp":"java.lang.String",
+		"setOppositeRouterType":"java.lang.String",
+		"setOppositeInterfaceId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyVolumeAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setVolumeName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CheckDiskEnableAutoSnapshotValidation parameters:
+
+```
+{
+	"main":{
+		"setDiskIds":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS RunInstances parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setUserData":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setRamRoleName":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSpotPriceLimit":"java.lang.Float",
+		"setNetworkInterfaces":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$NetworkInterface"
+		],
+		"setSystemDiskDiskName":"java.lang.String",
+		"setSystemDiskSize":"java.lang.String",
+		"setSystemDiskDescription":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setTags":[
+			"ref2-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$Tag"
+		],
+		"setAmount":"java.lang.Integer",
+		"setDataDisks":[
+			"ref3-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$DataDisk"
+		],
+		"setSystemDiskCategory":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref2-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
+	"ref1-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$NetworkInterface":{
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setDescription":"java.lang.String"
 	},
-	"ref3-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
+	"ref2-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$Tag":{
+		"setValue":"java.lang.String",
+		"setKey":"java.lang.String"
 	},
-	"ref4-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
+	"ref3-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$DataDisk":{
+		"setSize":"java.lang.Integer",
+		"setDescription":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setEncrypted":"java.lang.String",
+		"setDeleteWithInstance":"java.lang.Boolean"
+	}
+}
+```
+## AliyunECS StopInvocation parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setInvokeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyInstanceNetworkSpec parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEndTime":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setNetworkChargeType":"java.lang.String",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setAllocatePublicIp":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyDiskAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setDeleteAutoSnapshot":"java.lang.Boolean",
+		"setEnableAutoSnapshot":"java.lang.Boolean",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateVSwitch parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setVSwitchName":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyEipAddressAttribute parameters:
+
+```
+{
+	"main":{
+		"setBandwidth":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setAllocationId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeBandwidthLimitation parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setOperationType":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS RemoveTags parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifySecurityGroupAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSecurityGroupName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyInstanceAutoReleaseTime parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteNatGateway parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNatGatewayId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeZones parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setVerbose":"java.lang.Boolean",
+		"setInstanceChargeType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeactivateRouterInterface parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeAvailableResource parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setDestinationResource":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setSystemDiskCategory":"java.lang.String",
+		"setDataDiskCategory":"java.lang.String",
+		"setNetworkCategory":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeAccessPoints parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setType":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeAccessPointsRequest$Filter"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref5-io.fabric8.kubernetes.api.model.LocalObjectReference": {
-		"setName": "java.lang.String"
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeAccessPointsRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		]
+	}
+}
+```
+## AliyunECS CreateCommand parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandContent":"java.lang.String",
+		"setWorkingDir":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setType":"java.lang.String",
+		"setTimeout":"java.lang.Long",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstancesFullStatus parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setHealthStatus":"java.lang.String",
+		"setEventType":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setEventIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEventPublishTimeEnd":"java.lang.String",
+		"setNotBeforeStart":"java.lang.String",
+		"setEventPublishTimeStart":"java.lang.String",
+		"setNotBeforeEnd":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ReleaseEipAddress parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setAllocationId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DetachClassicLinkVpc parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeVSwitches parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setIsDefault":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ExportImage parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setRoleName":"java.lang.String",
+		"setOSSBucket":"java.lang.String",
+		"setOSSPrefix":"java.lang.String",
+		"setImageFormat":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyRouterInterfaceSpec parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSpec":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeVpcs parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIsDefault":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeDiskMonitorData parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyDeploymentSetAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDeploymentSetId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setDeploymentSetName":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyRouterInterfaceAttribute parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOppositeRouterId":"java.lang.String",
+		"setHealthCheckTargetIp":"java.lang.String",
+		"setOppositeInterfaceOwnerId":"java.lang.Long",
+		"setHealthCheckSourceIp":"java.lang.String",
+		"setOppositeRouterType":"java.lang.String",
+		"setOppositeInterfaceId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeVirtualBorderRoutersForPhysicalConnection parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersForPhysicalConnectionRequest$Filter"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref6-io.fabric8.kubernetes.api.model.Volume": {
-		"setName": "java.lang.String",
-		"setAzureDisk-setReadOnly": "java.lang.Boolean",
-		"setAzureDisk-setFsType": "java.lang.String",
-		"setAzureDisk-setCachingMode": "java.lang.String",
-		"setAzureDisk-setDiskName": "java.lang.String",
-		"setAzureDisk-setDiskURI": "java.lang.String",
-		"setAzureFile-setReadOnly": "java.lang.Boolean",
-		"setAzureFile-setShareName": "java.lang.String",
-		"setAzureFile-setSecretName": "java.lang.String",
-		"setCephfs-setReadOnly": "java.lang.Boolean",
-		"setCephfs-setPath": "java.lang.String",
-		"setCephfs-setUser": "java.lang.String",
-		"setCephfs-setSecretRef-setName": "java.lang.String",
-		"setCephfs-setMonitors": ["java.lang.String0", "java.lang.String1"],
-		"setCephfs-setSecretFile": "java.lang.String",
-		"setCinder-setReadOnly": "java.lang.Boolean",
-		"setCinder-setFsType": "java.lang.String",
-		"setCinder-setVolumeID": "java.lang.String",
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setConfigMap-setItems": ["ref7-io.fabric8.kubernetes.api.model.KeyToPath"]
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersForPhysicalConnectionRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		]
+	}
+}
+```
+## AliyunECS StartInstance parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInitLocalDisk":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateDisk parameters:
+
+```
+{
+	"main":{
+		"setSize":"java.lang.Integer",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setDiskCategory":"java.lang.String",
+		"setResourceGroupId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceTypes parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceTypeFamily":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeSnapshotPackage parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ReInitVolume parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPassword":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS RebootInstance parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setForceStop":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS InvokeCommand parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFrequency":"java.lang.String",
+		"setTimed":"java.lang.Boolean",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS BindIpRange parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyUserBusinessBehavior parameters:
+
+```
+{
+	"main":{
+		"setStatusValue":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatusKey":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteForwardEntry parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setForwardEntryId":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeHpcClusters parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setHpcClusterIds":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CancelAgreement parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAgreementType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyInstanceChargeType parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setIncludeDataDisks":"java.lang.Boolean",
+		"setAutoPay":"java.lang.Boolean",
+		"setDryRun":"java.lang.Boolean",
+		"setInstanceChargeType":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyInstanceAutoRenewAttribute parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoRenew":"java.lang.Boolean",
+		"setPeriodUnit":"java.lang.String",
+		"setDuration":"java.lang.Integer",
+		"setRenewalStatus":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeVirtualBorderRouters parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersRequest$Filter"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref7-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		]
+	}
+}
+```
+## AliyunECS ModifyHpcClusterAttribute parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setHpcClusterId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeLimitation parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setLimitation":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribePrice parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setResourceType":"java.lang.String",
+		"setPriceUnit":"java.lang.String",
+		"setSystemDiskSize":"java.lang.Integer",
+		"setIoOptimized":"java.lang.String",
+		"setAmount":"java.lang.Integer",
+		"setSystemDiskCategory":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setInstanceNetworkType":"java.lang.String",
+		"setDataDisk3Size":"java.lang.Integer",
+		"setDataDisk4Size":"java.lang.Integer",
+		"setDataDisk1Size":"java.lang.Integer",
+		"setDataDisk2Size":"java.lang.Integer",
+		"setDataDisk3Category":"java.lang.String",
+		"setDataDisk4Category":"java.lang.String",
+		"setDataDisk2Category":"java.lang.String",
+		"setDataDisk1Category":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteDeploymentSet parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDeploymentSetId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeDeploymentSetTopology parameters:
+
+```
+{
+	"main":{
+		"setNetworkType":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDeploymentSetId":"java.lang.String",
+		"setGranularity":"java.lang.String",
+		"setDomain":"java.lang.String",
+		"setStrategy":"java.lang.String",
+		"setDeploymentSetName":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyInstanceVpcAttribute parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setPrivateIpAddress":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CancelUserEvent parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEventId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AddTags parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateHpcCluster parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeUserBusinessBehavior parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatusKey":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeCommands parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setPageSize":"java.lang.Long",
+		"setPageNumber":"java.lang.Long",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteImage parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setForce":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeDisks parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setDiskIds":"java.lang.String",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatus":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setFilter2Value":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setTag5Key":"java.lang.String",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setEnableAutomatedSnapshotPolicy":"java.lang.Boolean",
+		"setDeleteAutoSnapshot":"java.lang.Boolean",
+		"setEnableAutoSnapshot":"java.lang.Boolean",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setResourceGroupId":"java.lang.String",
+		"setPortable":"java.lang.Boolean",
+		"setDiskType":"java.lang.String",
+		"setEnableShared":"java.lang.Boolean",
+		"setDiskChargeType":"java.lang.String",
+		"setAdditionalAttributess":[
+			"ref1-java.lang.Long"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteVpc parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteCommand parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeImageSupportInstanceTypes parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImageSupportInstanceTypesRequest$Filter"
+		],
+		"setActionType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref8-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImageSupportInstanceTypesRequest$Filter":{
+		"setValue":"java.lang.String",
+		"setKey":"java.lang.String"
+	}
+}
+```
+## AliyunECS ReplaceSystemDisk parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPassword":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSystemDiskSize":"java.lang.Integer",
+		"setUseAdditionalService":"java.lang.Boolean",
+		"setArchitecture":"java.lang.String",
+		"setPlatform":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteVSwitch parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyImageShareGroupPermission parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setAddGroup1":"java.lang.String",
+		"setRemoveGroup1":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceVncUrl parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS RecoverVirtualBorderRouter parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVbrId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeResourceByTags parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeClusters parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteBandwidthPackage parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setBandwidthPackageId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeTags parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeImages parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatus":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImagesRequest$Filter"
+		],
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setUsage":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setImageName":"java.lang.String",
+		"setImageOwnerAlias":"java.lang.String",
+		"setIsSupportIoOptimized":"java.lang.Boolean",
+		"setIsSupportCloudinit":"java.lang.Boolean",
+		"setActionType":"java.lang.String",
+		"setArchitecture":"java.lang.String",
+		"setShowExpired":"java.lang.Boolean",
+		"setOSType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref9-io.fabric8.kubernetes.api.model.VolumeProjection": {
-		"setConfigMap-setName": "java.lang.String",
-		"setSpec-setTemplate-setSpec-setVolumes-setProjected-setSources-setConfigMap-setItems": ["ref10-io.fabric8.kubernetes.api.model.KeyToPath"]
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImagesRequest$Filter":{
+		"setValue":"java.lang.String",
+		"setKey":"java.lang.String"
+	}
+}
+```
+## AliyunECS AuthorizeSecurityGroupEgress parameters:
+
+```
+{
+	"main":{
+		"setPriority":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setDestGroupOwnerAccount":"java.lang.String",
+		"setDestGroupOwnerId":"java.lang.Long",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS SignAgreement parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAgreementType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ImportImage parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setImageName":"java.lang.String",
+		"setArchitecture":"java.lang.String",
+		"setOSType":"java.lang.String",
+		"setDiskDeviceMappings":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.ImportImageRequest$DiskDeviceMapping"
+		],
+		"setRoleName":"java.lang.String",
+		"setPlatform":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref10-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
+	"ref1-com.aliyuncs.ecs.model.v20140526.ImportImageRequest$DiskDeviceMapping":{
+		"setDevice":"java.lang.String",
+		"setFormat":"java.lang.String",
+		"setOSSObject":"java.lang.String",
+		"setDiskImSize":"java.lang.Integer",
+		"setDiskImageSize":"java.lang.Integer",
+		"setOSSBucket":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyForwardEntry parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setForwardEntryId":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setInternalPort":"java.lang.String",
+		"setExternalIp":"java.lang.String",
+		"setExternalPort":"java.lang.String",
+		"setInternalIp":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS RenewInstance parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CopyImage parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setDestinationImageName":"java.lang.String",
+		"setDestinationRegionId":"java.lang.String",
+		"setDestinationDescription":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateVpc parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVpcName":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceMonitorData parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS UnassociateEipAddress parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setAllocationId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateSnapshot parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setSnapshotName":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyVirtualBorderRouterAttribute parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setCircuitCode":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeeringSubnetMask":"java.lang.String",
+		"setLocalGatewayIp":"java.lang.String",
+		"setVlanId":"java.lang.Integer",
+		"setVbrId":"java.lang.String",
+		"setPeerGatewayIp":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DetachKeyPair parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeTasks parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEndTime":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTaskIds":"java.lang.String",
+		"setTaskStatus":"java.lang.String",
+		"setTaskAction":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeRenewalPrice parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setPriceUnit":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS LeaveSecurityGroup parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceVncPasswd parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceAutoRenewAttribute parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifySecurityGroupRule parameters:
+
+```
+{
+	"main":{
+		"setPriority":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setSourceGroupOwnerId":"java.lang.Long",
+		"setSourceGroupOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeResourcesModification parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setOperationType":"java.lang.String",
+		"setMigrateAcrossZone":"java.lang.Boolean",
+		"setDestinationResource":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ImportKeyPair parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setPublicKeyBody":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeNewProjectEipMonitorData parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setStartTime":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS UnbindIpRange parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteRecycleBin parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setResourceIds":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceRamRole parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateImage parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setImageName":"java.lang.String",
+		"setArchitecture":"java.lang.String",
+		"setDiskDeviceMappings":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateImageRequest$DiskDeviceMapping"
+		],
+		"setPlatform":"java.lang.String",
+		"setImageVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref11-io.fabric8.kubernetes.api.model.DownwardAPIVolumeFile": {
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer",
-		"setFieldRef-setFieldPath": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setResourceFieldRef-setResource": "java.lang.String",
-		"setResourceFieldRef-setContainerName": "java.lang.String"
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateImageRequest$DiskDeviceMapping":{
+		"setSize":"java.lang.Integer",
+		"setSnapshotId":"java.lang.String",
+		"setDiskType":"java.lang.String",
+		"setDevice":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeHaVips parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeHaVipsRequest$Filter"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref12-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeHaVipsRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		]
+	}
+}
+```
+## AliyunECS DescribeInstanceAttribute parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DetachDisk parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyImageAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setImageName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AddBandwidthPackageIps parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setBandwidthPackageId":"java.lang.String",
+		"setIpCount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceStatus parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setClusterId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeNatGateways parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNatGatewayId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteHpcCluster parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setHpcClusterId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ResetDisk parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyDiskChargeType parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setDiskIds":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeVolumes parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatus":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setVolumeIds":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setEnableAutomatedSnapshotPolicy":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyIntranetBandwidthKb parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIntranetMaxBandwidthOut":"java.lang.Integer",
+		"setIntranetMaxBandwidthIn":"java.lang.Integer",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeBandwidthPackages parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setBandwidthPackageId":"java.lang.String",
+		"setNatGatewayId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ApplyAutoSnapshotPolicy parameters:
+
+```
+{
+	"main":{
+		"setDiskIds":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeSnapshotLinks parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setDiskIds":"java.lang.String",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSnapshotLinkIds":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateSecurityGroup parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setSecurityGroupName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeEventDetail parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setEventId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInvocationResults parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Long",
+		"setPageNumber":"java.lang.Long",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInvokeRecordStatus":"java.lang.String",
+		"setInvokeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeRecommendInstanceType parameters:
+
+```
+{
+	"main":{
+		"setNetworkType":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setChannel":"java.lang.String",
+		"setOperator":"java.lang.String",
+		"setToken":"java.lang.String",
+		"setScene":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setProxyId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeTagKeys parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateVolume parameters:
+
+```
+{
+	"main":{
+		"setSize":"java.lang.Integer",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setVolumeName":"java.lang.String",
+		"setVolumeEncrypted":"java.lang.Boolean",
+		"setVolumeCategory":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteInstance parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setForce":"java.lang.Boolean",
+		"setTerminateSubscription":"java.lang.Boolean",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeIntranetAttributeKb parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyVpcAttribute parameters:
+
+```
+{
+	"main":{
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVpcName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS RemoveBandwidthPackageIps parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setBandwidthPackageId":"java.lang.String",
+		"setRemovedIpAddressess":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeSnapshotsUsage parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteAutoSnapshotPolicy parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifySecurityGroupEgressRule parameters:
+
+```
+{
+	"main":{
+		"setPriority":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setDestGroupOwnerAccount":"java.lang.String",
+		"setDestGroupOwnerId":"java.lang.Long",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateInstance parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setDeploymentSetId":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setVlanId":"java.lang.String",
+		"setUserData":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setTag4Value":"java.lang.String",
+		"setTag2Key":"java.lang.String",
+		"setTag3Key":"java.lang.String",
+		"setTag1Value":"java.lang.String",
+		"setTag3Value":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setTag5Key":"java.lang.String",
+		"setTag5Value":"java.lang.String",
+		"setTag1Key":"java.lang.String",
+		"setTag2Value":"java.lang.String",
+		"setTag4Key":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setRamRoleName":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSpotPriceLimit":"java.lang.Float",
+		"setSystemDiskDiskName":"java.lang.String",
+		"setSystemDiskSize":"java.lang.Integer",
+		"setSystemDiskDescription":"java.lang.String",
+		"setAutoRenewPeriod":"java.lang.Integer",
+		"setNodeControllerId":"java.lang.String",
+		"setPrivateIpAddress":"java.lang.String",
+		"setUseAdditionalService":"java.lang.Boolean",
+		"setInnerIpAddress":"java.lang.String",
+		"setAutoRenew":"java.lang.Boolean",
+		"setClusterId":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setHpcClusterId":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setDataDisks":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateInstanceRequest$DataDisk"
+		],
+		"setSystemDiskCategory":"java.lang.String",
+		"setResourceGroupId":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref13-io.fabric8.kubernetes.api.model.KeyToPath": {
-		"setKey": "java.lang.String",
-		"setPath": "java.lang.String",
-		"setMode": "java.lang.Integer"
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateInstanceRequest$DataDisk":{
+		"setSize":"java.lang.Integer",
+		"setDescription":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setDevice":"java.lang.String"
+	}
+}
+```
+## AliyunECS EnablePhysicalConnection parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstanceTypeFamilies parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setGeneration":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS RollbackVolume parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteVolume parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeRouterInterfaces parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeRouterInterfacesRequest$Filter"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref14-io.fabric8.kubernetes.api.model.PreferredSchedulingTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPreference-setMatchExpressions": ["ref15-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeRouterInterfacesRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		]
+	}
+}
+```
+## AliyunECS CreateForwardEntry parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setInternalPort":"java.lang.String",
+		"setExternalIp":"java.lang.String",
+		"setExternalPort":"java.lang.String",
+		"setInternalIp":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS EipNotifyPaid parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setData":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ReleasePublicIpAddress parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setPublicIpAddress":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateVirtualBorderRouter parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setCircuitCode":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeeringSubnetMask":"java.lang.String",
+		"setLocalGatewayIp":"java.lang.String",
+		"setVlanId":"java.lang.Integer",
+		"setPeerGatewayIp":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVbrOwnerId":"java.lang.Long",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS EipFillParams parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setData":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyPrepayInstanceSpec parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setMigrateAcrossZone":"java.lang.Boolean",
+		"setOperatorType":"java.lang.String",
+		"setSystemDiskCategory":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS EipFillProduct parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setData":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeRouteTables parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setRouteTableId":"java.lang.String",
+		"setVRouterId":"java.lang.String",
+		"setRouterType":"java.lang.String",
+		"setRouterId":"java.lang.String",
+		"setRouteTableName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeUserData parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS JoinResourceGroup parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setResourceGroupId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyAutoSnapshotPolicyEx parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setTimePoints":"java.lang.String",
+		"setRetentionDays":"java.lang.Integer",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setRepeatWeekdays":"java.lang.String",
+		"setAutoSnapshotPolicyName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreatePhysicalConnection parameters:
+
+```
+{
+	"main":{
+		"setName":"java.lang.String",
+		"setPeerLocation":"java.lang.String",
+		"setPortType":"java.lang.String",
+		"setCircuitCode":"java.lang.String",
+		"setBandwidth":"java.lang.Integer",
+		"setClientToken":"java.lang.String",
+		"setLineOperator":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setRedundantPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setType":"java.lang.String",
+		"setAccessPointId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyUserEventAttribute parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setNewPlanTime":"java.lang.String",
+		"setNewExpireTime":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEventId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeKeyPairs parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setKeyPairFingerPrint":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifySecurityGroupPolicy parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInnerAccessPolicy":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AssociateHaVip parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setHaVipId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ConvertNatPublicIpToEip parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteRouteEntry parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNextHopId":"java.lang.String",
+		"setNextHopLists":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DeleteRouteEntryRequest$NextHopList"
+		],
+		"setRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref15-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
+	"ref1-com.aliyuncs.ecs.model.v20140526.DeleteRouteEntryRequest$NextHopList":{
+		"setNextHopId":"java.lang.String",
+		"setNextHopType":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteVirtualBorderRouter parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVbrId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeInstancePhysicalAttribute parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS TerminatePhysicalConnection parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AttachNetworkInterface parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyImageSharePermission parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setRemoveAccount6":"java.lang.String",
+		"setRemoveAccount7":"java.lang.String",
+		"setRemoveAccount8":"java.lang.String",
+		"setRemoveAccount10":"java.lang.String",
+		"setRemoveAccount1":"java.lang.String",
+		"setRemoveAccount2":"java.lang.String",
+		"setRemoveAccount3":"java.lang.String",
+		"setRemoveAccount4":"java.lang.String",
+		"setRemoveAccount9":"java.lang.String",
+		"setRemoveAccount5":"java.lang.String",
+		"setAddAccount1":"java.lang.String",
+		"setAddAccount9":"java.lang.String",
+		"setAddAccount8":"java.lang.String",
+		"setAddAccount7":"java.lang.String",
+		"setAddAccount6":"java.lang.String",
+		"setAddAccount5":"java.lang.String",
+		"setAddAccount10":"java.lang.String",
+		"setAddAccount4":"java.lang.String",
+		"setAddAccount3":"java.lang.String",
+		"setAddAccount2":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeSecurityGroupAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setDirection":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeAutoSnapshotPolicyEx parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeImageSharePermission parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CancelCopyImage parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateDeploymentSet parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setGranularity":"java.lang.String",
+		"setDomain":"java.lang.String",
+		"setStrategy":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setDeploymentSetName":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeRegions parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeClassicLinkInstances parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.String",
+		"setPageNumber":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateUserEvent parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEventType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setPlanTime":"java.lang.String",
+		"setExpireTime":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribePhysicalConnections parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribePhysicalConnectionsRequest$Filter"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	},
-	"ref16-io.fabric8.kubernetes.api.model.NodeSelectorTerm": {
-		"setSpec-setTemplate-setSpec-setAffinity-setNodeAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setNodeSelectorTerms-setMatchExpressions": ["ref17-io.fabric8.kubernetes.api.model.NodeSelectorRequirement"]
-	},
-	"ref17-io.fabric8.kubernetes.api.model.NodeSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref18-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref19-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref19-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref20-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref21-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref21-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref22-io.fabric8.kubernetes.api.model.WeightedPodAffinityTerm": {
-		"setWeight": "java.lang.Integer",
-		"setPodAffinityTerm-setTopologyKey": "java.lang.String",
-		"setPodAffinityTerm-setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setPodAffinityTerm-setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setPreferredDuringSchedulingIgnoredDuringExecution-setPodAffinityTerm-setLabelSelector-setMatchExpressions": ["ref23-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref23-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref24-io.fabric8.kubernetes.api.model.PodAffinityTerm": {
-		"setTopologyKey": "java.lang.String",
-		"setNamespaces": ["java.lang.String0", "java.lang.String1"],
-		"setLabelSelector-setMatchLabels": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setSpec-setTemplate-setSpec-setAffinity-setPodAntiAffinity-setRequiredDuringSchedulingIgnoredDuringExecution-setLabelSelector-setMatchExpressions": ["ref25-io.fabric8.kubernetes.api.model.LabelSelectorRequirement"]
-	},
-	"ref25-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref26-io.fabric8.kubernetes.api.model.Container": {
-		"setName": "java.lang.String",
-		"setImage": "java.lang.String",
-		"setArgs": ["java.lang.String0", "java.lang.String1"],
-		"setCommand": ["java.lang.String0", "java.lang.String1"],
-		"setSpec-setTemplate-setSpec-setContainers-setEnv": ["ref27-io.fabric8.kubernetes.api.model.EnvVar"]
-	},
-	"ref27-io.fabric8.kubernetes.api.model.EnvVar": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String",
-		"setValueFrom-setFieldRef-setFieldPath": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setAmount": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setDivisor-setFormat": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setResource": "java.lang.String",
-		"setValueFrom-setResourceFieldRef-setContainerName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setName": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setConfigMapKeyRef-setOptional": "java.lang.Boolean",
-		"setValueFrom-setSecretKeyRef-setName": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setKey": "java.lang.String",
-		"setValueFrom-setSecretKeyRef-setOptional": "java.lang.Boolean",
-		"setSpec-setTemplate-setSpec-setContainers-setEnvFrom": ["ref28-io.fabric8.kubernetes.api.model.EnvFromSource"]
-	},
-	"ref28-io.fabric8.kubernetes.api.model.EnvFromSource": {
-		"setSecretRef-setName": "java.lang.String",
-		"setSecretRef-setOptional": "java.lang.Boolean",
-		"setPrefix": "java.lang.String",
-		"setConfigMapRef-setName": "java.lang.String",
-		"setConfigMapRef-setOptional": "java.lang.Boolean"
-	},
-	"ref29-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref30-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref31-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref32-io.fabric8.kubernetes.api.model.ContainerPort": {
-		"setName": "java.lang.String",
-		"setContainerPort": "java.lang.Integer",
-		"setHostIP": "java.lang.String",
-		"setHostPort": "java.lang.Integer",
-		"setProtocol": "java.lang.String"
-	},
-	"ref33-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref34-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref35-io.fabric8.kubernetes.api.model.VolumeMount": {
-		"setReadOnly": "java.lang.Boolean",
-		"setName": "java.lang.String",
-		"setSubPath": "java.lang.String",
-		"setMountPath": "java.lang.String"
-	},
-	"ref36-io.fabric8.kubernetes.api.model.HTTPHeader": {
-		"setName": "java.lang.String",
-		"setValue": "java.lang.String"
-	},
-	"ref37-io.fabric8.kubernetes.api.model.HostAlias": {
-		"setHostnames": ["java.lang.String0", "java.lang.String1"],
-		"setIp": "java.lang.String"
-	},
-	"ref38-io.fabric8.kubernetes.api.model.Toleration": {
-		"setValue": "java.lang.String",
-		"setEffect": "java.lang.String",
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setTolerationSeconds": "java.lang.Long"
-	},
-	"ref40-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref41-io.fabric8.kubernetes.api.model.PersistentVolumeClaim": {
-		"setMetadata-setName": "java.lang.String",
-		"setMetadata-setNamespace": "java.lang.String",
-		"setMetadata-setAnnotations": {
-			"java.lang.String0": "java.lang.String0",
-			"java.lang.String1": "java.lang.String1"
-		},
-		"setMetadata-setClusterName": "java.lang.String",
-		"setMetadata-setFinalizers": ["java.lang.String0", "java.lang.String1"],
-		"setMetadata-setGenerateName": "java.lang.String",
-		"setMetadata-setGeneration": "java.lang.Long",
-		"setSpec-setVolumeClaimTemplates-setMetadata-setInitializers-setPending": ["ref42-io.fabric8.kubernetes.api.model.Initializer"]
-	},
-	"ref42-io.fabric8.kubernetes.api.model.Initializer": {
-		"setName": "java.lang.String"
-	},
-	"ref43-io.fabric8.kubernetes.api.model.OwnerReference": {
-		"setName": "java.lang.String",
-		"setController": "java.lang.Boolean",
-		"setBlockOwnerDeletion": "java.lang.Boolean"
-	},
-	"ref44-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref45-io.fabric8.kubernetes.api.model.LabelSelectorRequirement": {
-		"setKey": "java.lang.String",
-		"setOperator": "java.lang.String",
-		"setValues": ["java.lang.String0", "java.lang.String1"]
-	},
-	"ref46-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
-	},
-	"ref47-io.fabric8.kubernetes.api.model.Quantity": {
-		"setAmount": "java.lang.String",
-		"setFormat": "java.lang.String"
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribePhysicalConnectionsRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		]
+	}
+}
+```
+## AliyunECS DescribeAutoSnapshotPolicy parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeRecycleBin parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatus":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateNetworkInterface parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DetachVolume parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeIpRanges parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNicType":"java.lang.String",
+		"setClusterId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CancelPhysicalConnection parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeVRouters parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVRouterId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeNetworkInterfaces parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setType":"java.lang.String",
+		"setNetworkInterfaceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DetachNetworkInterface parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyNetworkInterfaceAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setSecurityGroupIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeEvents parameters:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setOwnerId":"java.lang.Long",
+		"setEventId":"java.lang.String",
+		"setEventType":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setPlanTime":"java.lang.String",
+		"setExpireTime":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AllocateEipAddress parameters:
+
+```
+{
+	"main":{
+		"setBandwidth":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DeleteDisk parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS UnassociateHaVip parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setForce":"java.lang.String",
+		"setHaVipId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyHaVipAttribute parameters:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setHaVipId":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS CreateKeyPair parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS DescribeDeploymentSets parameters:
+
+```
+{
+	"main":{
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setNetworkType":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setGranularity":"java.lang.String",
+		"setDomain":"java.lang.String",
+		"setStrategy":"java.lang.String",
+		"setDeploymentSetName":"java.lang.String",
+		"setDeploymentSetIds":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AttachClassicLinkVpc parameters:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS AttachInstanceRamRole parameters:
+
+```
+{
+	"main":{
+		"setOwnerId":"java.lang.Long",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AliyunECS ModifyVRouterAttribute parameters:
+
+```
+{
+	"main":{
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDescription":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setVRouterId":"java.lang.String",
+		"setVRouterName":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
 	}
 }
 ```
