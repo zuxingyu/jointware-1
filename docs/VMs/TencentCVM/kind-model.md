@@ -1,47 +1,56 @@
-## Openshift features:
+## TencentCVM models:
 
 ```
-- Policy
-- Group
-- ServiceAccount
-- User
-- OAuthClient
-- ThirdPartyResource
-- ClusterRoleBinding
-- Node
-- ImageStreamTag
-- Deployment
-- ImageStream
-- Endpoint
-- ResourceQuota
-- Build
-- ReplicationController
-- BuildConfig
-- RoleBinding
-- Job
-- ReplicaSet
-- Route
-- ConfigMap
-- Pod
-- NetworkPolicy
-- CustomResourceDefinition
-- Ingress
-- Service
-- SecurityContextConstraint
-- Namespace
-- PolicyBinding
-- OAuthAuthorizeToken
-- Secret
-- Role
-- Project
-- LimitRange
-- HorizontalPodAutoscaler
-- Event
-- DaemonSet
-- PersistentVolumeClaim
-- OAuthAccessToken
-- PersistentVolume
-- Componentstatus
-- DeploymentConfig
-- StatefulSet
+- UpdateInstanceVpcConfig = com.tencentcloudapi.cvm.v20170312.models.UpdateInstanceVpcConfigRequest
+- RenewHosts = com.tencentcloudapi.cvm.v20170312.models.RenewHostsRequest
+- RenewInstances = com.tencentcloudapi.cvm.v20170312.models.RenewInstancesRequest
+- StopInstances = com.tencentcloudapi.cvm.v20170312.models.StopInstancesRequest
+- ModifyKeyPairAttribute = com.tencentcloudapi.cvm.v20170312.models.ModifyKeyPairAttributeRequest
+- DescribeZones = com.tencentcloudapi.cvm.v20170312.models.DescribeZonesRequest
+- DisassociateInstancesKeyPairs = com.tencentcloudapi.cvm.v20170312.models.DisassociateInstancesKeyPairsRequest
+- TerminateInstances = com.tencentcloudapi.cvm.v20170312.models.TerminateInstancesRequest
+- DeleteImages = com.tencentcloudapi.cvm.v20170312.models.DeleteImagesRequest
+- DescribeHosts = com.tencentcloudapi.cvm.v20170312.models.DescribeHostsRequest
+- SyncImages = com.tencentcloudapi.cvm.v20170312.models.SyncImagesRequest
+- DescribeInstanceOperationLogs = com.tencentcloudapi.cvm.v20170312.models.DescribeInstanceOperationLogsRequest
+- ResetInstancesPassword = com.tencentcloudapi.cvm.v20170312.models.ResetInstancesPasswordRequest
+- DescribeImages = com.tencentcloudapi.cvm.v20170312.models.DescribeImagesRequest
+- ImportImage = com.tencentcloudapi.cvm.v20170312.models.ImportImageRequest
+- DescribeInstanceTypeConfigs = com.tencentcloudapi.cvm.v20170312.models.DescribeInstanceTypeConfigsRequest
+- InquiryPriceResetInstance = com.tencentcloudapi.cvm.v20170312.models.InquiryPriceResetInstanceRequest
+- DescribeInstanceInternetBandwidthConfigs = com.tencentcloudapi.cvm.v20170312.models.DescribeInstanceInternetBandwidthConfigsRequest
+- RebootInstances = com.tencentcloudapi.cvm.v20170312.models.RebootInstancesRequest
+- AssociateInstancesKeyPairs = com.tencentcloudapi.cvm.v20170312.models.AssociateInstancesKeyPairsRequest
+- ResetInstancesInternetMaxBandwidth = com.tencentcloudapi.cvm.v20170312.models.ResetInstancesInternetMaxBandwidthRequest
+- DescribeInstances = com.tencentcloudapi.cvm.v20170312.models.DescribeInstancesRequest
+- DescribeKeyPairs = com.tencentcloudapi.cvm.v20170312.models.DescribeKeyPairsRequest
+- DescribeInstanceFamilyConfigs = com.tencentcloudapi.cvm.v20170312.models.DescribeInstanceFamilyConfigsRequest
+- InquiryPriceRunInstances = com.tencentcloudapi.cvm.v20170312.models.InquiryPriceRunInstancesRequest
+- InquiryPriceResetInstancesType = com.tencentcloudapi.cvm.v20170312.models.InquiryPriceResetInstancesTypeRequest
+- StartInstances = com.tencentcloudapi.cvm.v20170312.models.StartInstancesRequest
+- ModifyInstancesAttribute = com.tencentcloudapi.cvm.v20170312.models.ModifyInstancesAttributeRequest
+- DescribeInstancesStatus = com.tencentcloudapi.cvm.v20170312.models.DescribeInstancesStatusRequest
+- AllocateHosts = com.tencentcloudapi.cvm.v20170312.models.AllocateHostsRequest
+- InquiryPriceResetInstancesInternetMaxBandwidth = com.tencentcloudapi.cvm.v20170312.models.InquiryPriceResetInstancesInternetMaxBandwidthRequest
+- ModifyImageSharePermission = com.tencentcloudapi.cvm.v20170312.models.ModifyImageSharePermissionRequest
+- ModifyInstancesRenewFlag = com.tencentcloudapi.cvm.v20170312.models.ModifyInstancesRenewFlagRequest
+- DeleteKeyPairs = com.tencentcloudapi.cvm.v20170312.models.DeleteKeyPairsRequest
+- DescribeImageSharePermission = com.tencentcloudapi.cvm.v20170312.models.DescribeImageSharePermissionRequest
+- ImportKeyPair = com.tencentcloudapi.cvm.v20170312.models.ImportKeyPairRequest
+- ResetInstance = com.tencentcloudapi.cvm.v20170312.models.ResetInstanceRequest
+- QueryMigrateTask = com.tencentcloudapi.cvm.v20170312.models.QueryMigrateTaskRequest
+- DescribeImageQuota = com.tencentcloudapi.cvm.v20170312.models.DescribeImageQuotaRequest
+- DescribeRegions = com.tencentcloudapi.cvm.v20170312.models.DescribeRegionsRequest
+- CreateImage = com.tencentcloudapi.cvm.v20170312.models.CreateImageRequest
+- DescribeInternetChargeTypeConfigs = com.tencentcloudapi.cvm.v20170312.models.DescribeInternetChargeTypeConfigsRequest
+- ResizeInstanceDisks = com.tencentcloudapi.cvm.v20170312.models.ResizeInstanceDisksRequest
+- ModifyImageAttribute = com.tencentcloudapi.cvm.v20170312.models.ModifyImageAttributeRequest
+- ModifyHostsAttribute = com.tencentcloudapi.cvm.v20170312.models.ModifyHostsAttributeRequest
+- ModifyInstancesProject = com.tencentcloudapi.cvm.v20170312.models.ModifyInstancesProjectRequest
+- ResetInstancesType = com.tencentcloudapi.cvm.v20170312.models.ResetInstancesTypeRequest
+- InquiryPriceRenewInstances = com.tencentcloudapi.cvm.v20170312.models.InquiryPriceRenewInstancesRequest
+- DescribeImportImageOs = com.tencentcloudapi.cvm.v20170312.models.DescribeImportImageOsRequest
+- CreateKeyPair = com.tencentcloudapi.cvm.v20170312.models.CreateKeyPairRequest
+- InquiryPriceResizeInstanceDisks = com.tencentcloudapi.cvm.v20170312.models.InquiryPriceResizeInstanceDisksRequest
+- RunInstances = com.tencentcloudapi.cvm.v20170312.models.RunInstancesRequest
 ```
