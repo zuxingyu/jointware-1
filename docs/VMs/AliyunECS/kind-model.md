@@ -1,30 +1,241 @@
-## Kubernetes models:
+## AliyunECS features:
 
 ```
-- ServiceAccount = io.fabric8.kubernetes.api.model.ServiceAccount
-- ThirdPartyResource = io.fabric8.kubernetes.api.model.extensions.ThirdPartyResource
-- Node = io.fabric8.kubernetes.api.model.Node
-- Deployment = io.fabric8.kubernetes.api.model.extensions.Deployment
-- Endpoint = io.fabric8.kubernetes.api.model.Endpoints
-- ResourceQuota = io.fabric8.kubernetes.api.model.ResourceQuota
-- ReplicationController = io.fabric8.kubernetes.api.model.ReplicationController
-- Job = io.fabric8.kubernetes.api.model.Job
-- ReplicaSet = io.fabric8.kubernetes.api.model.extensions.ReplicaSet
-- Pod = io.fabric8.kubernetes.api.model.Pod
-- ConfigMap = io.fabric8.kubernetes.api.model.ConfigMap
-- NetworkPolicy = io.fabric8.kubernetes.api.model.extensions.NetworkPolicy
-- CustomResourceDefinition = io.fabric8.kubernetes.api.model.apiextensions.CustomResourceDefinition
-- Ingress = io.fabric8.kubernetes.api.model.extensions.Ingress
-- Service = io.fabric8.kubernetes.api.model.Service
-- SecurityContextConstraint = io.fabric8.openshift.api.model.SecurityContextConstraints
-- Namespace = io.fabric8.kubernetes.api.model.Namespace
-- Secret = io.fabric8.kubernetes.api.model.Secret
-- LimitRange = io.fabric8.kubernetes.api.model.LimitRange
-- HorizontalPodAutoscaler = io.fabric8.kubernetes.api.model.HorizontalPodAutoscaler
-- Event = io.fabric8.kubernetes.api.model.Event
-- DaemonSet = io.fabric8.kubernetes.api.model.extensions.DaemonSet
-- PersistentVolumeClaim = io.fabric8.kubernetes.api.model.PersistentVolumeClaim
-- PersistentVolume = io.fabric8.kubernetes.api.model.PersistentVolume
-- StatefulSet = io.fabric8.kubernetes.api.model.extensions.StatefulSet
-- Componentstatus = io.fabric8.kubernetes.api.model.ComponentStatus
+- ModifySnapshotAttribute
+- JoinSecurityGroup
+- DescribeSnapshots
+- ModifyBandwidthPackageSpec
+- ModifyInstanceVncPasswd
+- CreateNatGateway
+- AttachDisk
+- ReInitDisk
+- CreateHaVip
+- ModifyAutoSnapshotPolicy
+- AssociateEipAddress
+- RevokeSecurityGroupEgress
+- DescribeEipAddresses
+- ActivateRouterInterface
+- DescribeSpotPriceHistory
+- TerminateVirtualBorderRouter
+- StopInstance
+- DescribeInstanceHistoryEvents
+- DeletePhysicalConnection
+- RevokeSecurityGroup
+- CheckAutoSnapshotPolicy
+- DescribeTaskAttribute
+- CreateAutoSnapshotPolicy
+- ReActivateInstances
+- DescribeForwardTableEntries
+- DescribeInstances
+- DescribeSecurityGroupReferences
+- DeleteRouterInterface
+- DetachInstanceRamRole
+- AllocatePublicIpAddress
+- AttachVolume
+- DescribeEipMonitorData
+- DescribeDisksFullStatus
+- CancelAutoSnapshotPolicy
+- DeleteNetworkInterface
+- ModifyInstanceSpec
+- DeleteSnapshot
+- DeleteKeyPairs
+- AuthorizeSecurityGroup
+- DescribeSnapshotMonitorData
+- DeleteSecurityGroup
+- ConnectRouterInterface
+- AddIpRange
+- CancelTask
+- ModifyPhysicalConnectionAttribute
+- ModifyCommand
+- ModifyVSwitchAttribute
+- ModifyInstanceAttribute
+- DeleteHaVip
+- DescribeSecurityGroups
+- ResizeDisk
+- ResizeVolume
+- CreateRouteEntry
+- AttachKeyPair
+- DescribeInvocations
+- CreateRouterInterface
+- ModifyVolumeAttribute
+- CheckDiskEnableAutoSnapshotValidation
+- RunInstances
+- StopInvocation
+- ModifyInstanceNetworkSpec
+- ModifyDiskAttribute
+- CreateVSwitch
+- ModifyEipAddressAttribute
+- DescribeBandwidthLimitation
+- RemoveTags
+- ModifySecurityGroupAttribute
+- ModifyInstanceAutoReleaseTime
+- DeleteNatGateway
+- DescribeZones
+- DeactivateRouterInterface
+- DescribeAvailableResource
+- DescribeAccessPoints
+- CreateCommand
+- DescribeInstancesFullStatus
+- ReleaseEipAddress
+- DetachClassicLinkVpc
+- DescribeVSwitches
+- ModifyRouterInterfaceSpec
+- ExportImage
+- DescribeVpcs
+- DescribeDiskMonitorData
+- ModifyDeploymentSetAttribute
+- ModifyRouterInterfaceAttribute
+- DescribeVirtualBorderRoutersForPhysicalConnection
+- StartInstance
+- CreateDisk
+- DescribeInstanceTypes
+- DescribeSnapshotPackage
+- ReInitVolume
+- RebootInstance
+- InvokeCommand
+- BindIpRange
+- ModifyUserBusinessBehavior
+- DeleteForwardEntry
+- DescribeHpcClusters
+- CancelAgreement
+- ModifyInstanceChargeType
+- ModifyInstanceAutoRenewAttribute
+- DescribeVirtualBorderRouters
+- ModifyHpcClusterAttribute
+- DescribeLimitation
+- DescribePrice
+- DeleteDeploymentSet
+- DescribeDeploymentSetTopology
+- ModifyInstanceVpcAttribute
+- CancelUserEvent
+- AddTags
+- CreateHpcCluster
+- DescribeUserBusinessBehavior
+- DescribeCommands
+- DeleteImage
+- DescribeDisks
+- DeleteVpc
+- DeleteCommand
+- DescribeImageSupportInstanceTypes
+- ReplaceSystemDisk
+- DeleteVSwitch
+- ModifyImageShareGroupPermission
+- DescribeInstanceVncUrl
+- RecoverVirtualBorderRouter
+- DescribeResourceByTags
+- DescribeClusters
+- DeleteBandwidthPackage
+- DescribeTags
+- DescribeImages
+- AuthorizeSecurityGroupEgress
+- SignAgreement
+- ImportImage
+- ModifyForwardEntry
+- RenewInstance
+- CopyImage
+- CreateVpc
+- DescribeInstanceMonitorData
+- UnassociateEipAddress
+- CreateSnapshot
+- ModifyVirtualBorderRouterAttribute
+- DetachKeyPair
+- DescribeTasks
+- DescribeRenewalPrice
+- LeaveSecurityGroup
+- DescribeInstanceVncPasswd
+- DescribeInstanceAutoRenewAttribute
+- ModifySecurityGroupRule
+- DescribeResourcesModification
+- ImportKeyPair
+- DescribeNewProjectEipMonitorData
+- UnbindIpRange
+- DeleteRecycleBin
+- DescribeInstanceRamRole
+- CreateImage
+- DescribeHaVips
+- DescribeInstanceAttribute
+- DetachDisk
+- ModifyImageAttribute
+- AddBandwidthPackageIps
+- DescribeInstanceStatus
+- DescribeNatGateways
+- DeleteHpcCluster
+- ResetDisk
+- ModifyDiskChargeType
+- DescribeVolumes
+- ModifyIntranetBandwidthKb
+- DescribeBandwidthPackages
+- ApplyAutoSnapshotPolicy
+- DescribeSnapshotLinks
+- CreateSecurityGroup
+- DescribeEventDetail
+- DescribeInvocationResults
+- DescribeRecommendInstanceType
+- DescribeTagKeys
+- CreateVolume
+- DeleteInstance
+- DescribeIntranetAttributeKb
+- ModifyVpcAttribute
+- RemoveBandwidthPackageIps
+- DescribeSnapshotsUsage
+- DeleteAutoSnapshotPolicy
+- ModifySecurityGroupEgressRule
+- CreateInstance
+- EnablePhysicalConnection
+- DescribeInstanceTypeFamilies
+- RollbackVolume
+- DeleteVolume
+- DescribeRouterInterfaces
+- CreateForwardEntry
+- EipNotifyPaid
+- ReleasePublicIpAddress
+- CreateVirtualBorderRouter
+- EipFillParams
+- ModifyPrepayInstanceSpec
+- EipFillProduct
+- DescribeRouteTables
+- DescribeUserData
+- ModifyAutoSnapshotPolicyEx
+- JoinResourceGroup
+- CreatePhysicalConnection
+- ModifyUserEventAttribute
+- DescribeKeyPairs
+- ModifySecurityGroupPolicy
+- AssociateHaVip
+- ConvertNatPublicIpToEip
+- DeleteRouteEntry
+- DeleteVirtualBorderRouter
+- DescribeInstancePhysicalAttribute
+- TerminatePhysicalConnection
+- AttachNetworkInterface
+- ModifyImageSharePermission
+- DescribeSecurityGroupAttribute
+- DescribeAutoSnapshotPolicyEx
+- DescribeImageSharePermission
+- CancelCopyImage
+- CreateDeploymentSet
+- DescribeRegions
+- DescribeClassicLinkInstances
+- DescribePhysicalConnections
+- DescribeAutoSnapshotPolicy
+- CreateUserEvent
+- DescribeRecycleBin
+- CreateNetworkInterface
+- DetachVolume
+- DescribeIpRanges
+- CancelPhysicalConnection
+- DescribeVRouters
+- DescribeNetworkInterfaces
+- DetachNetworkInterface
+- ModifyNetworkInterfaceAttribute
+- DescribeEvents
+- AllocateEipAddress
+- DeleteDisk
+- UnassociateHaVip
+- ModifyHaVipAttribute
+- CreateKeyPair
+- DescribeDeploymentSets
+- AttachClassicLinkVpc
+- AttachInstanceRamRole
+- ModifyVRouterAttribute
 ```
