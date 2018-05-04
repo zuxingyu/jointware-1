@@ -3,11 +3,7 @@
  */
 package com.github.isdream.jointware.kubernetes;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import com.github.isdream.jointware.core.ModelParameterGenerator;
-import com.github.isdream.jointware.core.utils.StringUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -16,24 +12,6 @@ import com.github.isdream.jointware.core.utils.StringUtils;
  */
 public class KubernetesModelParameterGenerator extends ModelParameterGenerator {
 
-	protected final static Set<String> ignoreMethods = new HashSet<String>();
-	
-	protected final static String GET = "get";
-	
-	/**
-	 * 
-	 */
-	public KubernetesModelParameterGenerator() {
-		super();
-	}
-
-	/**
-	 * @param objectRef
-	 */
-	public KubernetesModelParameterGenerator(String objectRef) {
-		super(objectRef);
-	}
-	
 	static {
 		ignoreMethods.add("setApiVersion");
 		ignoreMethods.add("setKind");
@@ -61,11 +39,18 @@ public class KubernetesModelParameterGenerator extends ModelParameterGenerator {
 		ignoreMethods.add("getAdditionalProperties");
 	}
 	
-	@Override
-	public boolean ignoreMethod(String name) {
-		return StringUtils.isNull(name) || (!name.startsWith(GET)
-				|| ignoreMethods.contains(name));
+	/**
+	 * 
+	 */
+	public KubernetesModelParameterGenerator() {
+		super();
 	}
 
-
+	/**
+	 * @param objectRef
+	 */
+	public KubernetesModelParameterGenerator(String objectRef) {
+		super(objectRef);
+	}
+	
 }
