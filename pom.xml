@@ -10,14 +10,9 @@
 	<name>joinware</name>
 	<url>http://maven.apache.org</url>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.8</java.version>
-	</properties>
-
 	<modules>
-		<module>jointware-modules</module>
 		<module>jointware-core</module>
+		<module>jointware-modules</module>
 		<module>jointware-services</module>
     </modules>
 
@@ -168,12 +163,4 @@
 		</profile>
 	</profiles>
 
-	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.11</version>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
 </project>
