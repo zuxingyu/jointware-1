@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import com.github.isdream.jointware.core.utils.JavaUtils;
+import com.github.isdream.jointware.core.utils.ObjectUtils;
 import com.github.isdream.jointware.core.utils.StringUtils;
 
 
@@ -19,6 +21,10 @@ import com.github.isdream.jointware.core.utils.StringUtils;
  */
 public abstract class ModelParameterAnalyzer {
 
+	protected final static String MODEL_METHOD_SET = "set";
+	
+	protected final static String MODEL_METHOD_ADD = "add";
+	
 	/************************************************************************************
 	 * 
 	 *                                    Cores
@@ -176,6 +182,23 @@ public abstract class ModelParameterAnalyzer {
 				? new HashMap<String, String>() : parameters.get(kind);
 	}
 	
+	/**
+	 * （1）不是基础类型，如int, String等
+	 * （2）也不是Map类型，因为在fabric8中，Map中只会存储String类型的key, value对
+	 * 
+	 * 如果不满足上述两个条件，则说明需要进一步进行分析
+	 * 
+	 * @param typename 类型名
+	 * @return 是否可以循环
+	 */
+	protected boolean canNested(String typename) {
+		return !JavaUtils.isPrimitive(typename) // 不是基础类型
+				&& !JavaUtils.isStringList(typename) //不是List<String>
+				&& !JavaUtils.isStringSet(typename) //不是Set<String>
+				&& !JavaUtils.isStringStringMap(typename) //不是Map<String, String>
+				&& typename.split(",").length < 2; // 不是Map，在fabric8中，Map会通过泛型表示，如Map<String, String>，则通过,划分，长度小于2的不是Map
+	}
+	
 	/************************************************************************************
 	 * 
 	 *                   You should implement it by yourself
@@ -194,16 +217,12 @@ public abstract class ModelParameterAnalyzer {
 	 * @param method 方法名
 	 * @return 是否可以反射
 	 */
-	protected abstract boolean canReflect(Method method);
+	protected boolean canReflect(Method method) {
+		return !ObjectUtils.isNull(method) && 
+				(method.getName().startsWith(MODEL_METHOD_SET) // set开头的方法
+				   && method.getParameterCount() == 1 // 该方法只有一个参数
+				   && !JavaUtils.ignoreMethod(method.getName())
+				); // 可以人工指定过滤哪些方法
+	}
 	
-	/**
-	 * （1）不是基础类型，如int, String等
-	 * （2）也不是Map类型，因为在fabric8中，Map中只会存储String类型的key, value对
-	 * 
-	 * 如果不满足上述两个条件，则说明需要进一步进行分析
-	 * 
-	 * @param typename 类型名
-	 * @return 是否可以循环
-	 */
-	protected abstract boolean canNested(String typename);
 }

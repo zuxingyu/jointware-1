@@ -7,13 +7,16 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import com.alibaba.fastjson.JSON;
 import com.github.isdream.jointware.core.utils.JavaUtils;
 import com.github.isdream.jointware.core.utils.ObjectUtils;
+import com.github.isdream.jointware.core.utils.StringUtils;
 
 /**
  * @author wuheng@(otcaix.iscas.ac.cn)
@@ -30,6 +33,10 @@ import com.github.isdream.jointware.core.utils.ObjectUtils;
  */
 public abstract class ModelParameterGenerator {
 
+	protected final static String GET = "get";
+	
+	protected final static Set<String> ignoreMethods = new HashSet<String>();
+	
 	/************************************************************************************
 	 * 
 	 *                             Cores
@@ -257,6 +264,9 @@ public abstract class ModelParameterGenerator {
 	 * @param name 名字
 	 * @return 是否过滤
 	 */
-	public abstract boolean ignoreMethod(String name);
+	public boolean ignoreMethod(String name) {
+		return StringUtils.isNull(name) || (!name.startsWith(GET)
+                || ignoreMethods.contains(name));
+	}
 
 }

@@ -10,12 +10,11 @@ package com.github.isdream.jointware.kubernetes;
  */
 public class OpenshiftModelParameterGenerator extends KubernetesModelParameterGenerator {
 
-	protected final static OpenshiftKindModelAnalyzer analyzer = new OpenshiftKindModelAnalyzer();
+	protected final static OpenshiftKindModelAnalyzer 
+					analyzer = new OpenshiftKindModelAnalyzer();
 
 	
 	public OpenshiftModelParameterGenerator() {
 		super();
 	}
-
-
 }

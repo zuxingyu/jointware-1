@@ -16,6 +16,7 @@ import junit.framework.TestCase;
  *
  * 2018年3月2日
  */
+@SuppressWarnings("deprecation")
 public class KubernetesKindAnalyzerTest extends TestCase {
 
 	Set<String> kinds = null;
