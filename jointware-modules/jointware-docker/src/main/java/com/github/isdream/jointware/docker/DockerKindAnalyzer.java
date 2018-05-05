@@ -5,9 +5,9 @@ package com.github.isdream.jointware.docker;
 
 import java.lang.reflect.Method;
 
-import com.github.dockerjava.core.DockerClientImpl;
 import com.github.isdream.jointware.core.KindAnalyzer;
 import com.github.isdream.jointware.core.utils.ObjectUtils;
+import com.github.isdream.jointware.docker.adapter.DockerClientImpl;
 
 /**
  * The {@code KubernetesKindAnalyzer} class represents the relationship between kind name and kind description.
@@ -39,8 +39,8 @@ public class DockerKindAnalyzer extends KindAnalyzer {
 	 */
 	@Override
 	protected boolean isKind(Method method) {
-		return ObjectUtils.isNull(method) ? false :  
-				method.getReturnType().getSimpleName().endsWith(SUFFIX) ? true : false;
+		return ObjectUtils.isNull(method) ? false :  (method.getParameterCount() == 0
+				&& method.getReturnType().getSimpleName().endsWith(SUFFIX)) ? true : false;
 	}
 
 	/**

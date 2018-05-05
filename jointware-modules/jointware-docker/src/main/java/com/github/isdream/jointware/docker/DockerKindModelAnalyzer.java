@@ -15,9 +15,13 @@ import com.github.isdream.jointware.core.KindModelAnalyzer;
  */
 public class DockerKindModelAnalyzer extends KindModelAnalyzer {
 
-	private static final DockerKindAnalyzer analyzer = new DockerKindAnalyzer();
+	protected static final DockerKindAnalyzer analyzer = new DockerKindAnalyzer();
 
-	/**a
+	protected static final String OLD_PACKAGENEM = "com.github.dockerjava.core.command"; 
+	
+	protected static final String NEW_PACKAGENEM = "com.github.isdream.jointware.docker.adapter.command"; 
+	
+	/**
 	 * 
 	 */
 	public DockerKindModelAnalyzer() {
@@ -29,7 +33,12 @@ public class DockerKindModelAnalyzer extends KindModelAnalyzer {
 		Class<?> clazz = Class.forName(getKindAnalyzer().getClient());
 		for (Method method : clazz.getMethods()) {
 			if (method.getName().toLowerCase().startsWith(kind.toLowerCase())) {
-				return method.getReturnType();
+				String name = method.getReturnType().getSimpleName() + "Impl";
+				try {
+					return Class.forName(NEW_PACKAGENEM + "." + name);
+				} catch (Exception e) {
+					return Class.forName(OLD_PACKAGENEM + "." + name);
+				}
 			}
 		}
 		throw new Exception("Unsupported kind");
