@@ -17,6 +17,8 @@
 		<module>jointware-docker</module>
 		<module>jointware-kubernetes</module>
 		<module>jointware-openshift</module>
+		
+		<module>jointware-amzon-ec2</module>
 		<module>jointware-aliyun-ecs</module>
 		<module>jointware-tencent-cvm</module>
 	</modules>
