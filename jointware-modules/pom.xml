@@ -19,6 +19,7 @@
 		<module>jointware-openshift</module>
 		
 		<module>jointware-amzon-ec2</module>
+		<module>jointware-openstack</module>
 		<module>jointware-aliyun-ecs</module>
 		<module>jointware-tencent-cvm</module>
 	</modules>

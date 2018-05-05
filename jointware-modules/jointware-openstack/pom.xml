@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>com.github.isdream</groupId>
+		<artifactId>jointware-modules</artifactId>
+		<version>2.0.0</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>jointware-openstack</artifactId>
+	<packaging>jar</packaging>
+
+	<name>jointware-openstack</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<jointware.version>2.0.0</jointware.version>
+		<junit.version>4.12</junit.version>
+		<nova.version>3.1.0</nova.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.github.isdream</groupId>
+			<artifactId>jointware-core</artifactId>
+			<version>${jointware.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.pacesys/openstack4j -->
+		<dependency>
+			<groupId>org.pacesys</groupId>
+			<artifactId>openstack4j</artifactId>
+			<version>${nova.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

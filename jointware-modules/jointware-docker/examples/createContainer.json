@@ -1,0 +1,21 @@
+{
+	"authConfig": {
+		"auth": "auth",
+		"email": "email@email.com",
+		"password": "password",
+		"registryAddress": "https://index.docker.io/v1/",
+		"username": "username"
+	},
+	"binds": [],
+	"exposedPorts": [],
+	"hostConfig": {
+		"binds": [],
+		"links": [],
+		"logConfig": {},
+		"userDefinedNetwork": false
+	},
+	"links": [],
+	"logConfig": {},
+	"name": "henry",
+	"volumes": []
+}
