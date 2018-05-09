@@ -150,7 +150,7 @@ public abstract class ModelParameterAnalyzer {
 		results.put(key, typeName);
 		// log is important, do not remove it.
 		// Otherwise, it may drop some data
-		m_logger.info(results);
+		m_logger.debug(results);
 	}
 
 	/**
