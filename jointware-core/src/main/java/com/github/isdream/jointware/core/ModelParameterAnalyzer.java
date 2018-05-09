@@ -10,6 +10,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
+
 import com.github.isdream.jointware.core.utils.JavaUtils;
 import com.github.isdream.jointware.core.utils.ObjectUtils;
 import com.github.isdream.jointware.core.utils.StringUtils;
@@ -23,6 +25,8 @@ import com.github.isdream.jointware.core.utils.StringUtils;
  */
 public abstract class ModelParameterAnalyzer {
 
+	protected final static Logger m_logger = Logger.getLogger(ModelParameterAnalyzer.class);
+	
 	protected final static String MODEL_METHOD_SET = "set";
 	
 	protected final static String MODEL_METHOD_ADD = "add";
@@ -139,9 +143,14 @@ public abstract class ModelParameterAnalyzer {
 	 * setMetadata-setName=java.lang.String
 	 * 
 	 */
-	protected void addParametersToModel(String kind, String parent, Method method) {
+	protected  void addParametersToModel(String kind, String parent, Method method) {
+		String key = getParent(parent, method);
+		String typeName = method.getGenericParameterTypes()[0].getTypeName();
 		Map<String, String> results = parameters.get(kind);
-		results.put(getParent(parent, method), method.getGenericParameterTypes()[0].getTypeName());
+		results.put(key, typeName);
+		// log is important, do not remove it.
+		// Otherwise, it may drop some data
+		m_logger.info(results);
 	}
 
 	/**
