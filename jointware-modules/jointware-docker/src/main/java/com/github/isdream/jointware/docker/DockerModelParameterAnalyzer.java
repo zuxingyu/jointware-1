@@ -20,4 +20,6 @@ public class DockerModelParameterAnalyzer extends ModelParameterAnalyzer {
 	public KindModelAnalyzer getKindModelAnalyzer() {
 		return analyzer;
 	}
+	
+	
 }

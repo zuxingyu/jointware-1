@@ -114,7 +114,6 @@ public abstract class ModelParameterAnalyzer {
 					analyseParameters(Class.forName(getParamType(method)), kind, getParent(parent, method));
 				}
 			}
-			
 		}
 	}
 
@@ -140,7 +139,7 @@ public abstract class ModelParameterAnalyzer {
 	 * setMetadata-setName=java.lang.String
 	 * 
 	 */
-	private void addParametersToModel(String kind, String parent, Method method) {
+	protected void addParametersToModel(String kind, String parent, Method method) {
 		Map<String, String> results = parameters.get(kind);
 		results.put(getParent(parent, method), method.getGenericParameterTypes()[0].getTypeName());
 	}

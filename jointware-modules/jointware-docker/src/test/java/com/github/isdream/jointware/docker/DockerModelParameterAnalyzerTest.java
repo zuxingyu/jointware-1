@@ -18,12 +18,14 @@ public class DockerModelParameterAnalyzerTest extends TestCase {
 
 	/**
 	 * @param args
+	 * @throws Exception 
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		DockerModelParameterAnalyzer analyzer = new DockerModelParameterAnalyzer();
 //		showModelParametersWithKeyValueStyle(analyzer);
 //		showModelParametersWithNetstedStyle(analyzer);
-		showModelParametersWithJsonStyle(analyzer);
+//		showModelParametersWithJsonStyle(analyzer);
+		System.out.println(analyzer.getModelParameters("CreateContainer"));
 	}
 
 	protected static void showModelParametersWithJsonStyle(DockerModelParameterAnalyzer analyzer) {

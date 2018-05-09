@@ -20,6 +20,7 @@
 		<docker.version>3.1.0-rc-3</docker.version>
 		<junit.version>4.12</junit.version>
 		<annotations.version>3.0.1</annotations.version>
+		<docker.java.version>3.1.0-SNAPSHOT</docker.java.version>
 	</properties>
 
 	<dependencies>
@@ -42,6 +43,12 @@
 			<version>${annotations.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.github.docker-java</groupId>
+			<artifactId>docker-java</artifactId>
+			<version>${docker.java.version}</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -50,4 +57,30 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
+				<version>2.5.2</version>
+				<executions>
+					<execution>
+						<id>install-docker-java</id>
+						<phase>initialize</phase>
+						<goals>
+							<goal>install-file</goal>
+						</goals>
+						<configuration>
+							<packaging>jar</packaging>
+							<groupId>com.github.docker-java</groupId>
+							<artifactId>docker-java</artifactId>
+							<version>${docker.java.version}</version>
+							<file>./libs/docker-java-${docker.java.version}.jar</file>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 </project>

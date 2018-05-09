@@ -32,6 +32,7 @@ public class TencentCVMAPIExample {
 		CvmClient client = new CvmClient(cred, "ap-guangzhou");
 
 		DescribeZonesRequest request = new DescribeZonesRequest();
+		
 		DescribeZonesResponse response = client.DescribeZones(request);
 		for (ZoneInfo zi : response.getZoneSet()) {
 			System.out.println(zi.getZone());
