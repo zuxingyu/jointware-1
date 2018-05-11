@@ -29,8 +29,6 @@ public abstract class ModelParameterAnalyzer {
 	
 	protected final static String MODEL_METHOD_SET = "set";
 	
-	protected final static String MODEL_METHOD_ADD = "add";
-	
 	protected final static String MODEL_METHOD_WITH = "with";
 	
 	public final static Set<String> ignoreMethods = new HashSet<String>();
@@ -97,6 +95,8 @@ public abstract class ModelParameterAnalyzer {
 				analyseParameters(modelClass, kind,  DEFAULT_PARENT);
 			} catch (Exception e) {
 				// ignore here
+				e.printStackTrace();
+				m_logger.error(e);
 			}
 		}
 	}
@@ -108,7 +108,7 @@ public abstract class ModelParameterAnalyzer {
 	 * @param parent parent
 	 * @throws Exception fail reason
 	 */
-	protected void analyseParameters(Class<?> clazz,  
+	protected synchronized void analyseParameters(Class<?> clazz,  
 							String kind, 
 							String parent) throws Exception {
 		for (Method method : clazz.getMethods()) {
@@ -143,14 +143,11 @@ public abstract class ModelParameterAnalyzer {
 	 * setMetadata-setName=java.lang.String
 	 * 
 	 */
-	protected  void addParametersToModel(String kind, String parent, Method method) {
+	protected synchronized void addParametersToModel(String kind, String parent, Method method) {
 		String key = getParent(parent, method);
 		String typeName = method.getGenericParameterTypes()[0].getTypeName();
 		Map<String, String> results = parameters.get(kind);
 		results.put(key, typeName);
-		// log is important, do not remove it.
-		// Otherwise, it may drop some data
-		m_logger.debug(results);
 	}
 
 	/**
@@ -205,11 +202,12 @@ public abstract class ModelParameterAnalyzer {
 	 * @param typename 类型名
 	 * @return 是否可以循环
 	 */
-	protected boolean canNested(String typename) {
+	protected synchronized boolean canNested(String typename) {
 		return !JavaUtils.isPrimitive(typename) // 不是基础类型
 				&& !JavaUtils.isStringList(typename) //不是List<String>
 				&& !JavaUtils.isStringSet(typename) //不是Set<String>
 				&& !JavaUtils.isStringStringMap(typename) //不是Map<String, String>
+				&& !typename.endsWith("[]") //不是Array
 				&& typename.split(",").length < 2; // 不是Map，在fabric8中，Map会通过泛型表示，如Map<String, String>，则通过,划分，长度小于2的不是Map
 	}
 	
@@ -231,10 +229,9 @@ public abstract class ModelParameterAnalyzer {
 	 * @param method 方法名
 	 * @return 是否可以反射
 	 */
-	protected boolean canReflect(Method method) {
+	protected synchronized boolean canReflect(Method method) {
 		return !ObjectUtils.isNull(method) &&        
 				((method.getName().startsWith(MODEL_METHOD_SET)             // set开头的方法
-						|| method.getName().startsWith(MODEL_METHOD_ADD)    // add开头的方法
 						|| method.getName().startsWith(MODEL_METHOD_WITH))  // with开头的方法
 				   && method.getParameterCount() == 1 // 该方法只有一个参数
 				   && !JavaUtils.ignoreMethod(method.getName())
