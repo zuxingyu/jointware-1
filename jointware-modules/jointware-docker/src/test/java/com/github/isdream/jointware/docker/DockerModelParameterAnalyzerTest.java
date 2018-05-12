@@ -11,7 +11,7 @@ import junit.framework.TestCase;
 /**
  * @author wuheng@otcaix.iscas.ac.cn
  *
- * 2018年3月3日
+ * 2018骞�3鏈�3鏃�
  */
 @SuppressWarnings("deprecation")
 public class DockerModelParameterAnalyzerTest extends TestCase {
@@ -23,8 +23,8 @@ public class DockerModelParameterAnalyzerTest extends TestCase {
 	public static void main(String[] args) throws Exception {
 		DockerModelParameterAnalyzer analyzer = new DockerModelParameterAnalyzer();
 //		showModelParametersWithKeyValueStyle(analyzer);
-		showModelParametersWithNetstedStyle(analyzer);
-//		showModelParametersWithJsonStyle(analyzer);
+//		showModelParametersWithNetstedStyle(analyzer);
+		showModelParametersWithJsonStyle(analyzer);
 	}
 
 	protected static void showModelParametersWithJsonStyle(DockerModelParameterAnalyzer analyzer) {

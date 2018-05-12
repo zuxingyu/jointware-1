@@ -25,10 +25,6 @@ import com.github.isdream.jointware.core.utils.StringUtils;
  * @author Henry
  *
  */
-/**
- * @author Henry
- *
- */
 public abstract class ModelParameterGenerator {
 
 	protected final static String GET = "get";
@@ -48,6 +44,11 @@ public abstract class ModelParameterGenerator {
 	 * 
 	 */
 	protected final static String SET = "set";
+	
+	/**
+	 * 
+	 */
+	protected final static String WITH = "with";
 
 	/**
 	 * 
@@ -71,12 +72,19 @@ public abstract class ModelParameterGenerator {
 		this(JOINTWARE);
 	}
 	
+	protected final String prefix;
+	
 	/**
 	 * @param objectRef ref
 	 */
 	public ModelParameterGenerator(String objectRef) {
+		this(objectRef, SET);
+	}
+	
+	public ModelParameterGenerator(String objectRef, String prefix) {
 		super();
 		this.objectRef = objectRef;
+		this.prefix = prefix;
 	}
 
 	/**
@@ -231,7 +239,7 @@ public abstract class ModelParameterGenerator {
 	 * @return real name
 	 */
 	private String getRealName(String name) {
-		return SET + name.substring(SET.length());
+		return prefix + name.substring(prefix.length());
 	}
 
 	/**

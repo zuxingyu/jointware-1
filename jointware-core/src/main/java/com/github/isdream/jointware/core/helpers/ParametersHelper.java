@@ -122,7 +122,6 @@ public class ParametersHelper {
 		String prefix = null;
 		Set<String> blackList = new HashSet<String>();
 		
-		
 		for (String key : models.keySet()) {
 			if (prefix != null && !key.contains(prefix)) {
 				type = "main";
@@ -168,7 +167,7 @@ public class ParametersHelper {
 				kv.put(getRealKey(key, prefix), map);
 				blackList.add(key);
 			} else {
-				continue;
+				kv.put(getRealKey(key, prefix), value);
 			}
 		}
 		return json;

@@ -3,6 +3,7 @@
  */
 package com.github.isdream.jointware.core.utils;
 
+import java.io.InputStream;
 import java.security.InvalidParameterException;
 import java.util.HashSet;
 import java.util.List;
@@ -140,6 +141,11 @@ public class JavaUtils {
 	public static boolean isList(String typename) {
 		return StringUtils.isNull(typename) ? false : typename.startsWith(List.class.getName());
 	}
+	
+	/**************************************************
+	 * 
+	 * 
+	 **************************************************/
 
 	/**
 	 * @param typename typename
@@ -216,14 +222,6 @@ public class JavaUtils {
 				: typename.substring(start + 1, end).trim();
 	}
 	
-	/*********************************************************************
-	 * 
-	 * 
-	 *                         
-	 * 
-	 * 
-	 *********************************************************************/
-	
 	protected final static Set<String> ignoreMethods = new HashSet<String>();
 	
 	static {
@@ -275,5 +273,29 @@ public class JavaUtils {
 	public static boolean ignoreMethod(String name) {
 		return StringUtils.isNull(name) || ignoreMethods.contains(name);
 	}
+	
+	
+	/******************************************************
+	 * 
+	 * 
+	 ******************************************************/
+	/**
+	 * primitive type in Java
+	 */
+	protected final static Set<String> stream = new HashSet<String>();
+	
+	
+	static {
+		stream.add(InputStream.class.getName());
+	}
+	
+	/**
+	 * @param typename typename
+	 * @return return true if the classname is primitive, otherwise return false
+	 */
+	public static boolean isStream(String typename) {
+		return StringUtils.isNull(typename) ? false : stream.contains(typename);
+	}
+	
 	
 }
