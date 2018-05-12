@@ -22,8 +22,8 @@ public class DockerModelParameterAnalyzerTest extends TestCase {
 	 */
 	public static void main(String[] args) throws Exception {
 		DockerModelParameterAnalyzer analyzer = new DockerModelParameterAnalyzer();
-		showModelParametersWithKeyValueStyle(analyzer);
-//		showModelParametersWithNetstedStyle(analyzer);
+//		showModelParametersWithKeyValueStyle(analyzer);
+		showModelParametersWithNetstedStyle(analyzer);
 //		showModelParametersWithJsonStyle(analyzer);
 	}
 
